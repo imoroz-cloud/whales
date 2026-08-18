@@ -1,1 +1,59 @@
-{}
+{
+  "TURBO": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "TOSHI": {
+    "initialized": true,
+    "seenHashes": [
+      "0xd5df16c89435a69db6e3b9c5fa8e20b7570ef529376db3c24c7e6a207df3b4f4"
+    ]
+  },
+  "PONKE": {
+    "initialized": true,
+    "seenHashes": [
+      "Jei2ao6sDDnZG7sLwZqKTPjGShwx4Srxu8CyoksKXn9EPNs2xhi9aFNRP2YoffnLx2voMYZBupvXnB5x5FVs7LC",
+      "3ZWJScZquX3JtUbjuqfMKX52Je9z1tV9jgLZkWRQ5zqBhFfYmn6HrPqe8Z1dnAuYiWq5rkLJXj9y1qYJKhX4Mki"
+    ]
+  },
+  "SHIB": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "BONK": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "VITA INU": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "PENGU": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "APU": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "BABYDOGE": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "ZBCN": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "FLOKI": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "BRETT": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "PEPE": {
+    "initialized": true,
+    "seenHashes": []
+  }
+}
