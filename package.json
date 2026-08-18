@@ -1,0 +1,13 @@
+{
+  "name": "whale-alerts-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Polls GeckoTerminal for large trades on configured coins and posts alerts to Telegram.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node whale-check.mjs"
+  }
+}

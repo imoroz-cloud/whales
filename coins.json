@@ -1,0 +1,15 @@
+[
+  { "symbol": "TURBO", "network": "eth", "pool": "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810", "thresholdUsd": 1000 },
+  { "symbol": "TOSHI", "network": "base", "pool": "0x74e4c08bb50619b70550733d32b7e60424e9628e", "thresholdUsd": 3000 },
+  { "symbol": "PONKE", "network": "solana", "pool": "5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE", "thresholdUsd": 3000 },
+  { "symbol": "SHIB", "network": "eth", "pool": "0xcf6daab95c476106eca715d48de4b13287ffdeaa", "thresholdUsd": 5000 },
+  { "symbol": "BONK", "network": "solana", "pool": "6oFWm7KPLfxnwMb3z5xwBoXNSPP3JJyirAPqPSiVcnsp", "thresholdUsd": 10000 },
+  { "symbol": "VITA INU", "network": "bsc", "pool": "0x660b571d34b91bc4c2fffbf8957ad50b5fac56f4", "thresholdUsd": 500 },
+  { "symbol": "PENGU", "network": "solana", "pool": "2866MvCKPGz9LdnPcmPueoV3mA2Ac1ceEQ8Xqb9VNefu", "thresholdUsd": 20000 },
+  { "symbol": "APU", "network": "eth", "pool": "0x5ced44f03ff443bbe14d8ea23bc24425fb89e3ed", "thresholdUsd": 2000 },
+  { "symbol": "BABYDOGE", "network": "bsc", "pool": "0xc736ca3d9b1e90af4230bd8f9626528b3d4e0ee0", "thresholdUsd": 15000 },
+  { "symbol": "ZBCN", "network": "solana", "pool": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M", "thresholdUsd": 15000 },
+  { "symbol": "FLOKI", "network": "bsc", "pool": "0x231d9e7181e8479a8b40930961e93e7ed798542c", "thresholdUsd": 8000 },
+  { "symbol": "BRETT", "network": "base", "pool": "0x4e829f8a5213c42535ab84aa40bd4adcce9cba02", "thresholdUsd": 15000 },
+  { "symbol": "PEPE", "network": "eth", "pool": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f", "thresholdUsd": 30000 }
+]
