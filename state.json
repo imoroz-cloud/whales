@@ -34,7 +34,9 @@
   },
   "APU": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0xc22d4216f18e83313f0de877a4eaef5d76baca98aba28411c1f90ff87c5d565c"
+    ]
   },
   "BABYDOGE": {
     "initialized": true,
