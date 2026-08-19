@@ -13,12 +13,15 @@
     "initialized": true,
     "seenHashes": [
       "Jei2ao6sDDnZG7sLwZqKTPjGShwx4Srxu8CyoksKXn9EPNs2xhi9aFNRP2YoffnLx2voMYZBupvXnB5x5FVs7LC",
-      "3ZWJScZquX3JtUbjuqfMKX52Je9z1tV9jgLZkWRQ5zqBhFfYmn6HrPqe8Z1dnAuYiWq5rkLJXj9y1qYJKhX4Mki"
+      "3ZWJScZquX3JtUbjuqfMKX52Je9z1tV9jgLZkWRQ5zqBhFfYmn6HrPqe8Z1dnAuYiWq5rkLJXj9y1qYJKhX4Mki",
+      "4EsM4N6PVVifLK85m2GLHtbfWgD15AiCXp7UEMmwXdvQRYo8CS2JC2Y1ZwbUxZVMVWjRGh2nQv2yQuQm7oaJMEDt"
     ]
   },
   "SHIB": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0x6f403524725f9d54b29aa0f3dd3e4b42d3fa6a005773bf49f10d5bac5e9a4d58"
+    ]
   },
   "BONK": {
     "initialized": true,
@@ -51,7 +54,9 @@
   },
   "FLOKI": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0x89e8cec5e7a9b3dc3e222231d821f2e71538144c83115a94b35aac0924ee1cfa"
+    ]
   },
   "BRETT": {
     "initialized": true,
@@ -59,6 +64,8 @@
   },
   "PEPE": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0xe225f2a1a9c3b17484bc0ecf67750e9f7cc32534f71b3188b7181283070f713c"
+    ]
   }
 }
