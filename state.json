@@ -56,7 +56,9 @@
   },
   "BABYDOGE": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0x0fdcc6f236fccddd074da9545eff2694be2ae53b85c36f9b3b716fbda32017dd"
+    ]
   },
   "ZBCN": {
     "initialized": true,
