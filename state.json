@@ -64,12 +64,15 @@
   "FLOKI": {
     "initialized": true,
     "seenHashes": [
-      "0x89e8cec5e7a9b3dc3e222231d821f2e71538144c83115a94b35aac0924ee1cfa"
+      "0x89e8cec5e7a9b3dc3e222231d821f2e71538144c83115a94b35aac0924ee1cfa",
+      "0x244376ec29f9f5145e1236cc1cbf3fd6056190ba84543e693f4ff2d0f795d206"
     ]
   },
   "BRETT": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0xf54ecc71c21a45e06b6429737ea53fdf18a985e7c9d48bd60356f6f3dbda767a"
+    ]
   },
   "PEPE": {
     "initialized": true,
@@ -77,7 +80,9 @@
       "0xe225f2a1a9c3b17484bc0ecf67750e9f7cc32534f71b3188b7181283070f713c",
       "0x748d0e9c1448853e68396c5a988d7c1ee4f6f28d6453562ede89ed92f5b38b08",
       "0x393c9b50f59d3b2d4f3327202e036d358b07a2ae1c8c94650aa514faec2595dc",
-      "0xed4b231de389643ddd4cca5bb631b08809f1f334d369310529ce5f14369d0679"
+      "0xed4b231de389643ddd4cca5bb631b08809f1f334d369310529ce5f14369d0679",
+      "0x2c2c12d3f864a08f05d50b8f2bd5a8d7510ff90b577a695e263f0ed03555b6cd",
+      "0xc0f7ef13174b5b828ca6db09e8d289ff0b159f110a056472a890d5ec26b7ff5f"
     ]
   }
 }
