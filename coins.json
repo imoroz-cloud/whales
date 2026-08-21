@@ -11,5 +11,16 @@
   { "symbol": "ZBCN", "network": "solana", "pool": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M", "thresholdUsd": 15000 },
   { "symbol": "FLOKI", "network": "bsc", "pool": "0x231d9e7181e8479a8b40930961e93e7ed798542c", "thresholdUsd": 8000 },
   { "symbol": "BRETT", "network": "base", "pool": "0x4e829f8a5213c42535ab84aa40bd4adcce9cba02", "thresholdUsd": 15000 },
-  { "symbol": "PEPE", "network": "eth", "pool": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f", "thresholdUsd": 30000 }
+  { "symbol": "PEPE", "network": "eth", "pool": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f", "thresholdUsd": 30000 },
+  { "symbol": "ELON", "network": "eth", "pool": "0x7b73644935b8e68019ac6356c40661e1bc315860", "thresholdUsd": 15000 },
+  { "symbol": "WIF", "network": "solana", "pool": "EP2ib6dYdEeqD8MfE2ezHCxX3kP3K2eLKkirfPm5eyMx", "thresholdUsd": 100000 },
+  { "symbol": "MOG", "network": "eth", "pool": "0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d", "thresholdUsd": 40000 },
+  { "symbol": "ADI", "network": "eth", "pool": "0x41a561b972039a9ccb975a4c17b84c9f95099e15", "thresholdUsd": 50000 },
+  { "symbol": "TON", "network": "ton", "pool": "EQCGScrZe1xbyWqWDvdI6mzP-GAcAWFv6ZXuaJOuSqemxku4", "thresholdUsd": 150000 },
+  { "symbol": "MON", "network": "monad", "pool": "0x18a9fc874581f3ba12b7898f80a683c66fd5877fd74b26a85ba9a3a79c549954", "thresholdUsd": 500000 },
+  { "symbol": "GEOD", "network": "solana", "pool": "BkX9RSHoDJGkU7pbHiksv3DprdLM3KWGoDSfGN9cGJ5d", "thresholdUsd": 200000 },
+  { "symbol": "COTI", "network": "eth", "pool": "0xa2b04f8133fc25887a436812eae384e32a8a84f2", "thresholdUsd": 5000 },
+  { "symbol": "AURORA", "network": "eth", "pool": "0x629d22e6eeac46a11dbc96be93b90aee9309be4c", "thresholdUsd": 1500 },
+  { "symbol": "JASMY", "network": "eth", "pool": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d", "thresholdUsd": 800 },
+  { "symbol": "LUMIA", "network": "eth", "pool": "0x9193dbf798d755afb3798a72e2bb23a4d1b6920bd2d53184bfb646987c4cf98b", "thresholdUsd": 150 }
 ]

@@ -140,5 +140,53 @@
       "0x9652f2c3e6e85ce9849f1d0c719d136faac777f17e45dc0bec0c16f9bd0b7b51",
       "0xc97d74f38a681f30c229f2e1873f3120ebdc69b7b9f5c675f5e1b16fe911cd7a"
     ]
+  },
+  "ELON": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "WIF": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "MOG": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "ADI": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "TON": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "MON": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "GEOD": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "COTI": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "AURORA": {
+    "initialized": true,
+    "seenHashes": [
+      "0xe3a76b3f250c98281233ecea5b2584fdc02fda35e30054aed9e8b7b30e32c5c1"
+    ]
+  },
+  "JASMY": {
+    "initialized": true,
+    "seenHashes": []
+  },
+  "LUMIA": {
+    "initialized": true,
+    "seenHashes": [
+      "0x58c8d58759e08f70d414b1f059d90ac8526877afe86379ef4743332b485a3836"
+    ]
   }
 }

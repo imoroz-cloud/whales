@@ -137,6 +137,11 @@ async function processCoin(coin, state) {
   const newTrades = trades.filter((t) => !seen.has(t.attributes.tx_hash)).reverse();
 
   for (const trade of newTrades) {
+    if (trade.attributes.kind !== "buy") {
+      // Sells are tracked (so they're never re-alerted later) but not posted.
+      seen.add(trade.attributes.tx_hash);
+      continue;
+    }
     try {
       await sendTelegramMessage(formatAlert(coin, trade));
       console.log(`[${key}] alerted ${trade.attributes.tx_hash}`);

@@ -10,15 +10,22 @@ schedule for free using GitHub Actions.
 
 ## How it works, in plain terms
 
-Every 5 minutes, a script wakes up, checks each coin's trading pool for any
-trade bigger than that coin's threshold since the last check, and posts a
-message to the Telegram channel for each one it finds. It remembers what
-it already posted (in `state.json`) so it never posts the same trade twice.
+Every 5 minutes (in practice more like every 1–2 hours — see the note on
+GitHub's schedule below), a script wakes up, checks each coin's trading pool
+for any **buy** bigger than that coin's threshold since the last check, and
+posts a message to the Telegram channel for each one it finds. It remembers
+what it already posted (in `state.json`) so it never posts the same trade
+twice.
+
+**Only buys are posted.** Sells are still detected and recorded internally
+(so they're never mistakenly alerted later), but nothing gets sent to
+Telegram for them — this was a deliberate choice after finding sell alerts
+were more noise than signal for this use case.
 
 ## What's covered right now
 
-These 13 coins trade on public decentralized exchanges (Uniswap, PancakeSwap,
-Raydium, etc.), so GeckoTerminal can see individual trades for them:
+These 24 coins trade on public decentralized exchanges (Uniswap, PancakeSwap,
+Raydium, STON.fi, etc.), so GeckoTerminal can see individual trades for them:
 
 | Coin | Chain | Alert threshold |
 |---|---|---|
@@ -35,10 +42,31 @@ Raydium, etc.), so GeckoTerminal can see individual trades for them:
 | FLOKI | BNB Chain | $8,000 |
 | BRETT | Base | $15,000 |
 | PEPE | Ethereum | $30,000 |
+| ELON (Dogelon Mars) | Ethereum | $15,000 |
+| WIF (dogwifhat) | Solana | $100,000 |
+| MOG (Mog Coin) | Ethereum | $40,000 |
+| ADI | Ethereum | $50,000 |
+| TON (Toncoin) | TON | $150,000 |
+| MON (Monad) | Monad | $500,000 |
+| GEOD (Geodnet) | Solana | $200,000 |
+| COTI | Ethereum | $5,000 |
+| AURORA | Ethereum | $1,500 |
+| JASMY (JasmyCoin) | Ethereum | $800 |
+| LUMIA | Ethereum | $150 |
 
 Thresholds were picked from each coin's actual recent trading volume on its
 pool (so alerts fire at a meaningful "big trade for this coin" size, not
 never and not constantly). Edit `coins.json` any time to change them.
+
+**LUMIA is a special case:** its on-chain trading is nearly dead right now
+(only a few hundred dollars a day across its pools). The $150 threshold means
+it'll alert on almost any trade at all, not really "whale" activity — kept in
+at your call, but don't expect much signal from it unless its liquidity picks
+up.
+
+Transaction links (the "View transaction" line) aren't available yet for TON
+or MON — those two chains use a different explorer setup that isn't wired up.
+Alerts for them still fire, just without the clickable link.
 
 **Important limitation:** this only sees trades that happen directly on a
 decentralized exchange. It does **not** see trades on centralized exchanges
@@ -49,14 +77,18 @@ not "every whale move."
 
 ### Not covered yet
 
-**KAS, DASH, DIGIBYTE, FLUX, QUAI, VET, ICP, FIRO** — these mostly trade on
-centralized exchanges / their own native chains, not on the DEXs GeckoTerminal
-tracks. There's no single free API that covers all of them; each would need
-its own blockchain explorer hooked up individually (e.g. a Kaspa explorer for
-KAS, a VeChain explorer for VET). Doable later, coin by coin, if you want it.
+**KAS, DASH, DIGIBYTE, FLUX, QUAI, VET, ICP, FIRO, PIVX, XEC, DOGE, ZANO,
+CSPR** — these mostly trade on centralized exchanges / their own native
+chains, not on the DEXs GeckoTerminal tracks. There's no single free API that
+covers all of them; each would need its own blockchain explorer hooked up
+individually. Note: GeckoTerminal has recently added network support for
+Cardano, Internet Computer, Quai Network, and a Kaspa-linked chain (Kasplex)
+— meaning SNEK, ICP, QUAI, and possibly KAS may be addable now after all;
+worth revisiting.
 
-**SNEK** — trades on Cardano, which GeckoTerminal's free API doesn't support
-at all.
+**IOTA** — GeckoTerminal has an IOTA network slug now, but zero trading pools
+are indexed on it yet, so there's nothing to watch even though the door is
+technically open.
 
 **VOLT INU, SHIRO, MOMO** — these tickers are used by multiple unrelated
 tokens and I couldn't confidently identify which specific contract you mean
