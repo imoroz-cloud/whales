@@ -34,7 +34,8 @@
       "3pfezvgXFLqpdXvpReVg4jkHWTuV1uao4KssAzEzM9hdLnJme6ozMTKM5PCAKyJsL9rhPnU5HMCXsmxqELM9q962",
       "2seKbeRLaPmnhrCdb8ySVkHx4jQtttRMqg18DjjhvvX3CBebNRKybdJ9nz3KwU6Coyk2vMu3muVLc3Pf6HgbQhyT",
       "2UPFfECDQs2GBkzhKY8WfGh2DZoWFneu984HdGSqPn1RuRMAqws736gPSsVvchWLBY38aw6BDb9VpkuvXgPKV6i4",
-      "4qX3nS8uUokrPsCuKKHyGTmTsLrydefbYXUBxp213VjhtmdLNR2rBGvygZ2KvaVL2LKBQXSe8mVWziwbsFxVf3vj"
+      "4qX3nS8uUokrPsCuKKHyGTmTsLrydefbYXUBxp213VjhtmdLNR2rBGvygZ2KvaVL2LKBQXSe8mVWziwbsFxVf3vj",
+      "4sE6UnUYjDBN92Mqhj93GfsDo85f1tmos6mz3YHaDh3iqBvboTHhZqV7MhBWXiZFzqGhKbANcxGmMgmi7qf4yzFc"
     ]
   },
   "SHIB": {
@@ -59,7 +60,8 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "3HZttzo8uiFd9ktM8iJMWaUnUhjogRcJ69NArWcTNB2GBKzcjFxx8dSdDbR5nH6FuWuiAzqXQHP9iUdfyFFCMkf"
+      "3HZttzo8uiFd9ktM8iJMWaUnUhjogRcJ69NArWcTNB2GBKzcjFxx8dSdDbR5nH6FuWuiAzqXQHP9iUdfyFFCMkf",
+      "3wvqVto4htpUPkiG56A7hxy6Fhc7TQJxAbPjo9oVuhYWs9M8dkb1iYMquBDAv9DHJaxCsc94eqKmHw6fnoaSAMWD"
     ]
   },
   "APU": {
@@ -83,7 +85,9 @@
       "0x4a51403bac9303eebe734fd4bf19e32dac76a28c275e0db43cc42f17d5b5d983",
       "0x1171d5564237ff82a3e28e5344c3ef78799a28f488b71512c476657a64093d90",
       "0xacc53eeb9cba2879ca8f5bf8d77d58a1b002d6604c3af9c5aebf090cbebe7932",
-      "0x4aa4b44c5003cb84668e20eaac96bb7ac3bea503a92199b604f2556f6e79a0ce"
+      "0x4aa4b44c5003cb84668e20eaac96bb7ac3bea503a92199b604f2556f6e79a0ce",
+      "0xa077f9694d6ba224b2db113c2ec75ff97377b117646cac56b8c6802ebe3c2eca",
+      "0xfa55141c92a69b542572d7e1fce686d358c6d0c0f372f8c5671be2cbe77c080e"
     ]
   },
   "BABYDOGE": {
@@ -138,7 +142,16 @@
       "0x7ea1222f653e1df4e76e3d6087d759ccfa393d1e770038c59ef09c2a73f5c097",
       "0x4f03cb017edf2d47b09da2d5429ed19f1d263e3c64bdecdd02a7b68aa1819e8c",
       "0x9652f2c3e6e85ce9849f1d0c719d136faac777f17e45dc0bec0c16f9bd0b7b51",
-      "0xc97d74f38a681f30c229f2e1873f3120ebdc69b7b9f5c675f5e1b16fe911cd7a"
+      "0xc97d74f38a681f30c229f2e1873f3120ebdc69b7b9f5c675f5e1b16fe911cd7a",
+      "0xdaa7b8678db963f37bc8802a67b16df4c0b7c6922cc60fb9a693286375da8d46",
+      "0xb550ab092860bd6ffffa254a309e7b084a9810ea5f106ba2be867bae13f8004e",
+      "0xdbe187642a046d9ba556201a762333f4700c5d533d66e47ff7b32b9e6dc839fe",
+      "0x21a85de9ddfaca517b84e65d5193bcc8eb8c2dee15f42fabbf9eae6f48cbf406",
+      "0x4c529b72e9aaae33c4cc444457070c8100ab8d0a37daa2fb77912a9838fb7d8d",
+      "0xe67207a5577cddafe4c67bbfdb09de3901009148f5972934fa1f783a6600560a",
+      "0xa9d8890c5a71170a54b898bbdf3b57454dabde84ce666973574a023370cb5d06",
+      "0xf06e20bb493e4f3f94ac3fb659fe1f92cdf79c67451465851014de30548e53f3",
+      "0x0f8f2a3b31b0dcc9ecfd89a91ef7f8878a88d9cc0185b1cd4715e739b6d1e3e5"
     ]
   },
   "ELON": {
