@@ -7,7 +7,8 @@
     "initialized": true,
     "seenHashes": [
       "0xd5df16c89435a69db6e3b9c5fa8e20b7570ef529376db3c24c7e6a207df3b4f4",
-      "0x296fb68338e19e1a2efea3211464d22328fd24a40fc0fb1a46f3c812be1f2c22"
+      "0x296fb68338e19e1a2efea3211464d22328fd24a40fc0fb1a46f3c812be1f2c22",
+      "0xcc0bf8e3e00f62a268602be976e1236343d62c215f99c5344897d945ef58709a"
     ]
   },
   "PONKE": {
@@ -55,7 +56,9 @@
   },
   "PENGU": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "3HZttzo8uiFd9ktM8iJMWaUnUhjogRcJ69NArWcTNB2GBKzcjFxx8dSdDbR5nH6FuWuiAzqXQHP9iUdfyFFCMkf"
+    ]
   },
   "APU": {
     "initialized": true,
@@ -121,7 +124,9 @@
       "0x33be0b2d2a4839cb4dc1b3323b5c289976d0095a0e7ec450937dcf958969fc0d",
       "0xf9712d17c430756bd150ef2fa26fa4beb381b627ab5774dd508b8bae34bf4280",
       "0x7868d754cfb5f86a59da9a8485143eee843c6f196002c8b39f8f75c59aa78558",
-      "0xa6cd69abfafb1dee4b8c6a3e7fcc1047fb6f78e2ce4378bb0f022fc1bb58a9a9"
+      "0xa6cd69abfafb1dee4b8c6a3e7fcc1047fb6f78e2ce4378bb0f022fc1bb58a9a9",
+      "0x5bfee0f9289a98de2aab2018ca72f12b841ebc240897a213e3360c3a11c60acf",
+      "0x5f698060780bac8b73398a8a7fa3dc03f57a082d3d7d078a1cef26d4ace3cb8e"
     ]
   }
 }
