@@ -1,7 +1,10 @@
 {
   "TURBO": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0x0b05c310a43e5396970539952c65ec37f4742a719160353415a121660fac7011",
+      "0xe238a4652750688436fcaf05795735478d9e8cbf7cff9265c85839a9d92b1edd"
+    ]
   },
   "TOSHI": {
     "initialized": true,
@@ -39,7 +42,8 @@
       "2UPFfECDQs2GBkzhKY8WfGh2DZoWFneu984HdGSqPn1RuRMAqws736gPSsVvchWLBY38aw6BDb9VpkuvXgPKV6i4",
       "4qX3nS8uUokrPsCuKKHyGTmTsLrydefbYXUBxp213VjhtmdLNR2rBGvygZ2KvaVL2LKBQXSe8mVWziwbsFxVf3vj",
       "4sE6UnUYjDBN92Mqhj93GfsDo85f1tmos6mz3YHaDh3iqBvboTHhZqV7MhBWXiZFzqGhKbANcxGmMgmi7qf4yzFc",
-      "MatVGhodG12hQGZaLa8oUxErNabrT4Sg2tFqbLUadwnLAHgqTJzuPouvMb17pqwYX62z1Xf8g1doUqnoccXdmD3"
+      "MatVGhodG12hQGZaLa8oUxErNabrT4Sg2tFqbLUadwnLAHgqTJzuPouvMb17pqwYX62z1Xf8g1doUqnoccXdmD3",
+      "5AgpbRKYYxQMPPjFNAa11Ta5MeexsCkk58bTACRvRseTAsNrSjFpGN44yYepMbTiE8hSQsoghH51CjWwkWTWJwuv"
     ]
   },
   "SHIB": {
@@ -100,7 +104,8 @@
       "0xfa55141c92a69b542572d7e1fce686d358c6d0c0f372f8c5671be2cbe77c080e",
       "0xfc803443db14d5d32de86c2ac4f1804410d3b3c180163f4ac8289a67483e6861",
       "0xd624d78edc4587ac2ec5e236c30a4bd049978777a1e327eeeb04323c0556ea95",
-      "0xfaa81dc91c442f66ef8a3c975d680124d23b9f8d94690a7e61b2c988cec7e159"
+      "0xfaa81dc91c442f66ef8a3c975d680124d23b9f8d94690a7e61b2c988cec7e159",
+      "0x575c796effe6b95435db857090a0ce17a666a68c110d8d8605ec3af7ea993516"
     ]
   },
   "BABYDOGE": {
@@ -178,7 +183,11 @@
       "0xe628b7c2e7c886bfc4c253880c47beeb07509a71e1f4a50f84b4a01de91962e9",
       "0x6c1e97a1f4fd506deb199bd14378dfa9faa9f0b468c0f7055e328b6cff850d30",
       "0x7e77d5199b5c8329e7dbadc19462dd23830e47640d70fab2d55fdc2d09b0fbef",
-      "0x5e8048b2da1512f67d31a3b3abfa8dd7e5edf20311e0786fde7e6be98256da5b"
+      "0x5e8048b2da1512f67d31a3b3abfa8dd7e5edf20311e0786fde7e6be98256da5b",
+      "0xd807e8c2644ae6e8768766c0a17faec7b684e5667e30d9616fac05cf5d59e810",
+      "0xf386759ab5931bbe71228a1d7b453594452bd4e56712b177792c2ca86a1a5129",
+      "0xab1b77b1b07476d84e2c6f80f245a8f26f33d20279aac3500b1dd8667310378c",
+      "0x622744e16245cfc860032c958f0ccc86664089873612fc2c7152e38a0fe8952e"
     ]
   },
   "ELON": {
