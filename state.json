@@ -238,7 +238,9 @@
       "0x1b7cfd0de0d91e31c9ded86e5cd5595eac7a269080a9974bfcb050d5b3277c5b",
       "0xd5b953ada856b36e89913691e990fcf17152770e0d87f7f825fd599218f8c721",
       "0x4ac7582acfbc60ba740c924792bde68d86882c93e3c1a75e65587d1d45bd7199",
-      "0xd106b9c55416fd86ec7499f636fc533a3c8f35b218500f493f6fc62affd80073"
+      "0xd106b9c55416fd86ec7499f636fc533a3c8f35b218500f493f6fc62affd80073",
+      "0x5134d3c095ddc047295f1e8576326df15b0a6bd14ea015bb481de4ff4bfdfbab",
+      "0x07af2523827030e2462200e875e627dd8548af99eaccc6199a10c7702e23ec12"
     ]
   },
   "ELON": {
@@ -249,7 +251,9 @@
   },
   "WIF": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "ZCYmK3PjYqC9B7noa2aeiJ9EjWJJZfGXMnMuRa4RRNJtvw3tGwibFW3zrgfJNbzJZoqFkK61NeRghFtC14tUqRB"
+    ]
   },
   "MOG": {
     "initialized": true,
