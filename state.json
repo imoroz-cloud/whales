@@ -55,7 +55,8 @@
       "62FVTfS3je6J7UeEXhHWhhjkjgDRr9UTZU31JZ3HCme5P89GrkTvCY7ovkaXoYCiDy4FKbRPydFWbHCJhapnkxrH",
       "2TmB6q391TsLUxVWxTM8tBUwnHnaSFhrswh94KMAhpW9DU8Qyz7N3mNLraSb1C2nvWzGZ9kREhaZELwyuiowmZKz",
       "63TiAUXqi1ndEoXd4J3r8GHREXnhnK2zXSHvXW6nvzuVFNvz5G4PVrLi1veFrm6bZATFxNwNnVbq9cFHGnEEhHJ4",
-      "DoVX1VtLsmLsBaHbkopoR7YS4az4mY9PXazXn5Sf1seqxs7cLsNZXZdoTNQQ7E6judEGaxdXR5a6Azap612Cv5j"
+      "DoVX1VtLsmLsBaHbkopoR7YS4az4mY9PXazXn5Sf1seqxs7cLsNZXZdoTNQQ7E6judEGaxdXR5a6Azap612Cv5j",
+      "4bHyMDymMDvTx2GgXzMxXoA6o5Q5H9rftyRyxMihnMCbLeddr3ifjuN8FKGcM3BkLcJscaiaNN5LMeuE1Ak6fAQr"
     ]
   },
   "SHIB": {
@@ -346,7 +347,9 @@
   },
   "COTI": {
     "initialized": true,
-    "seenHashes": []
+    "seenHashes": [
+      "0xd90247d6320b637225f53a8464d5814ad55719aa948c8bfc16af4363b915e422"
+    ]
   },
   "AURORA": {
     "initialized": true,
