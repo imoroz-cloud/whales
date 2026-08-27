@@ -1,0 +1,43 @@
+name: Newsjack Alerts
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsjack-alerts
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run newsjack check
+        env:
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_NEWSJACK_BOT_TOKEN: ${{ secrets.TELEGRAM_NEWSJACK_BOT_TOKEN }}
+          TELEGRAM_NEWSJACK_CHAT_ID: ${{ secrets.TELEGRAM_NEWSJACK_CHAT_ID }}
+        run: node newsjack-check.mjs
+
+      - name: Persist state
+        run: |
+          if ! git diff --quiet -- newsjack-state.json; then
+            git config user.name "newsjack-alerts-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add newsjack-state.json
+            git commit -m "chore: update newsjack-alert state [skip ci]"
+            git push
+          else
+            echo "No state changes to commit"
+          fi

@@ -197,3 +197,138 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=@changeherowhalealerts node whale-check.
 Add `DRY_RUN=1` before that to print what it *would* send instead of actually
 posting to Telegram — useful for checking formatting without spamming the
 channel.
+
+---
+
+## Newsjack Alerts Bot
+
+A second, separate bot (`newsjack-check.mjs`) watches a curated list of ~50
+high-reach crypto X (Twitter) accounts — see `twitter-watchlist.json` — for
+posts that are outperforming that account's own normal engagement. The idea
+isn't to scan all of X, it's to catch the moment a big-reach account's post
+is popping off harder than usual, so we can be one of the first genuinely
+useful comments on it instead of getting lost in a wall of replies later.
+When one pops, Claude scores the opportunity and drafts a suggested comment
+*and* a standalone post idea in ChangeHero's voice, then both get sent to a
+Telegram chat for a human to review.
+
+**It never posts to X itself.** Someone on the team reads the Telegram
+message and decides whether/how to reply manually. This is by design:
+automated mass-replying gets flagged as spam behavior by X and risks getting
+the account shadow-limited, and a human is better placed to judge tone and
+timing anyway.
+
+### How "trending" is detected
+
+This is a two-stage filter, so most posts never reach Telegram at all.
+
+**Stage 1 — cheap pre-filter (no Claude call).** Each account has a rolling
+average engagement score (likes + 2×retweets + 3×replies + 2×quotes),
+updated on every new post seen. A post only becomes a *candidate* when it's:
+- posted within the last `NEWSJACK_LOOKBACK_HOURS` (default 12h — no point
+  suggesting a comment on a two-day-old tweet),
+- above `NEWSJACK_MIN_ENGAGEMENT` (default 20 — a floor so a 3x pop on an
+  account that normally gets nothing doesn't alert), and
+- at least `NEWSJACK_MULTIPLIER`× (default 3x) that account's own rolling
+  average — i.e. it's a genuine outlier for *them*, not just a popular
+  account posting as usual.
+
+**Stage 2 — opportunity score (one Claude call per candidate).** For each
+candidate, Claude scores it 0–10 on: relevance to a crypto-exchange audience,
+how crowded the replies already are (a wall of replies means we'd get
+buried), and whether there's room to say something non-generic — and drafts
+the angle + comment in the same call. Only scores ≥ `NEWSJACK_MIN_SCORE`
+(default 7) actually get sent to Telegram; lower-scoring candidates are
+logged to the workflow run's console output only, so you can see what got
+filtered out without it becoming noise in the chat.
+
+Tune any of those via env vars (set them as repo variables, or edit the
+workflow file), or per-account by adding `"minEngagement": N` to an entry in
+`twitter-watchlist.json`.
+
+### Data source: twitterapi.io, not the official X API
+
+This bot reads tweets via [twitterapi.io](https://twitterapi.io), a
+third-party pay-per-use API (~$0.15 per 1,000 tweets read, no subscription,
+no minimum spend) — roughly 30x cheaper than X's own official API
+($0.005/read, and X killed its cheap legacy tiers for new developers in
+Feb 2026). It's a real, apparently well-regarded service, but it's still an
+*unofficial* way to access X's data (not a partnership with X), so two
+things follow: it can theoretically get cut off if X clamps down on this
+kind of access, and since we only ever *read* through it (never post), the
+worst case is the feed going quiet until we switch providers — no risk to
+ChangeHero's own X account either way.
+
+### About cost — read this before turning it on
+
+Unlike the official API, twitterapi.io's timeline endpoint doesn't support
+"give me only what's new since X" — every check re-fetches that account's
+latest tweets (up to ~20), and we're billed for however many come back, new
+or not. So cost scales with **watchlist size × how often the workflow
+runs**, not with how much actually happened. Rough math at $0.15/1,000
+tweets, assuming ~20 tweets per check:
+
+| Schedule | Watchlist | ~Tweets read/month | ~Cost/month |
+|---|---|---|---|
+| hourly (current default) | 50 accounts | ~360,000 | ~$54 |
+| every 30 min | 50 accounts | ~720,000 | ~$108 |
+| every 3 hours | 50 accounts | ~120,000 | ~$18 |
+
+Treat this as a rough estimate, not a quote — the real number depends on how
+many tweets twitterapi.io actually returns per call. **Check the
+twitterapi.io dashboard after the first day** and adjust the cron schedule
+in `.github/workflows/newsjack-alerts.yml` or trim the watchlist if it's
+running hotter (or cheaper) than expected. Claude API calls only happen for
+candidates that clear the engagement pre-filter, so that cost stays small
+and roughly proportional to actual activity, unlike the read cost above.
+
+### Editing the watchlist
+
+`twitter-watchlist.json` is a starting list — mix of general crypto-Twitter
+voices and the official accounts for coins already tracked by the whale
+bot (so a whale buy and a newsjack opportunity for the same coin can line
+up). Add or remove entries any time:
+
+```json
+{ "handle": "someaccount", "note": "why they're on the list", "minEngagement": 50 }
+```
+
+`minEngagement` is optional (falls back to `NEWSJACK_MIN_ENGAGEMENT`).
+Handles are best-effort picks — sanity-check a new one still exists and is
+active before relying on it.
+
+### One-time setup
+
+1. **twitterapi.io account**: sign up at [twitterapi.io](https://twitterapi.io),
+   load some credits, and grab your API key from the dashboard.
+2. **Anthropic API key**: get one at
+   [console.anthropic.com](https://console.anthropic.com) — used to score
+   candidates and draft the comment/post ideas.
+3. **Telegram chat**: reuse an existing bot/channel, or create a new one the
+   same way as the whale bot (see above), so newsjack drafts land somewhere
+   separate from whale alerts.
+4. Add these repo secrets (**Settings → Secrets and variables → Actions**):
+   - `TWITTERAPI_IO_KEY`
+   - `ANTHROPIC_API_KEY`
+   - `TELEGRAM_NEWSJACK_BOT_TOKEN` — deliberately a **separate bot** from the
+     whale bot's `TELEGRAM_BOT_TOKEN`, so the two workflows never fight over
+     the same secret
+   - `TELEGRAM_NEWSJACK_CHAT_ID` — the channel/chat this bot posts to (e.g.
+     `@yourchannelname`); the bot must be an admin there, same as the whale
+     bot setup above
+5. The **Newsjack Alerts** workflow runs automatically once it's on `main`
+   (hourly by default). Trigger it manually first via **Actions → Newsjack
+   Alerts → Run workflow** to confirm it works.
+
+Like the whale bot, the very first run per account only baselines that
+account's average engagement — no alerts fire until the second run sees a
+genuinely new, outperforming post.
+
+### Running it locally (optional, for testing)
+
+```bash
+TWITTERAPI_IO_KEY=xxx ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELEGRAM_NEWSJACK_CHAT_ID=xxx node newsjack-check.mjs
+```
+
+Add `DRY_RUN=1` to print what it *would* send instead of posting to
+Telegram.

@@ -8,6 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "check": "node whale-check.mjs"
+    "check": "node whale-check.mjs",
+    "newsjack": "node newsjack-check.mjs"
   }
 }
