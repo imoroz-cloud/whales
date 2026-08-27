@@ -179,6 +179,12 @@ async function processAccount(account, state) {
     const newTweets = tweets.filter((t) => BigInt(t.id) > lastSeen);
     if (tweets.length) acctState.lastSeenId = tweets[0].id;
 
+    if (!newTweets.length) {
+      console.log(`[${key}] no new tweets since last check`);
+      return;
+    }
+
+    let anyTrending = false;
     // Process oldest to newest.
     for (const tweet of [...newTweets].reverse()) {
       const engagement = engagementScore(tweet);
@@ -190,6 +196,7 @@ async function processAccount(account, state) {
         engagement >= acctState.avgEngagement * ENGAGEMENT_MULTIPLIER;
 
       if (isTrending) {
+        anyTrending = true;
         try {
           const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
           if (ideas.score >= MIN_SCORE) {
@@ -208,6 +215,10 @@ async function processAccount(account, state) {
       acctState.avgEngagement = acctState.avgEngagement
         ? acctState.avgEngagement * (1 - EMA_ALPHA) + engagement * EMA_ALPHA
         : engagement;
+    }
+
+    if (!anyTrending) {
+      console.log(`[${key}] checked ${newTweets.length} new tweet(s), none above the trending bar (avg now ~${Math.round(acctState.avgEngagement)})`);
     }
   } catch (err) {
     console.error(`[${key}] error:`, err.message);
