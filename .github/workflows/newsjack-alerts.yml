@@ -1,5 +1,6 @@
 name: Newsjack Alerts
 
+# Re-saved to nudge GitHub's scheduler after scheduled runs never fired.
 on:
   schedule:
     - cron: "0 * * * *"

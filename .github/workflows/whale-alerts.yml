@@ -1,5 +1,6 @@
 name: Whale Alerts
 
+# Re-saved to nudge GitHub's scheduler after a long gap in scheduled runs.
 on:
   schedule:
     - cron: "*/5 * * * *"
