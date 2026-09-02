@@ -1,9 +1,9 @@
 name: Whale Alerts
 
-# Re-saved to nudge GitHub's scheduler after a long gap in scheduled runs.
+# GitHub's own `schedule:` trigger was unreliable (long silent gaps, see
+# repo history) -- an external cron-job.org job now calls workflow_dispatch
+# every 5 minutes instead. Keeping both double-runs this for no benefit.
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:

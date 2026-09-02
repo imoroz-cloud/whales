@@ -1,9 +1,10 @@
 name: Newsjack Alerts
 
-# Re-saved to nudge GitHub's scheduler after scheduled runs never fired.
+# GitHub's own `schedule:` trigger was unreliable (long silent gaps, see
+# repo history) -- an external cron-job.org job now calls workflow_dispatch
+# hourly instead. Keeping both would double-run this and double the
+# twitterapi.io/Anthropic API spend for no benefit.
 on:
-  schedule:
-    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
