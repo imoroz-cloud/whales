@@ -28,5 +28,15 @@
   { "handle": "Pentosh1", "note": "Large crypto trader account" },
   { "handle": "solana", "note": "Solana Foundation" },
   { "handle": "dogecoin", "note": "Dogecoin official account, huge reach" },
-  { "handle": "ton_blockchain", "note": "TON project account — coin tracked by our whale bot" }
+  { "handle": "ton_blockchain", "note": "TON project account — coin tracked by our whale bot" },
+  { "handle": "BitcoinArchive", "note": "Requested by user" },
+  { "handle": "zelcore_io", "note": "Requested by user — also a partner (Zelcore)" },
+  { "handle": "CoinDesk", "note": "Requested by user — major crypto news outlet" },
+  { "handle": "litecoin", "note": "Requested by user — Litecoin official account" },
+  { "handle": "BabyDoge", "note": "Requested by user" },
+  { "handle": "AshCrypto", "note": "Requested by user" },
+  { "handle": "CryptoWendyO", "note": "Requested by user" },
+  { "handle": "Cryptotea", "note": "Requested by user" },
+  { "handle": "cryptorover", "note": "Requested by user" },
+  { "handle": "BSCGemsAlert", "note": "Requested by user" }
 ]

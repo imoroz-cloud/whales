@@ -26,11 +26,11 @@ const DRY_RUN = process.env.DRY_RUN === "1";
 // How fresh a tweet has to be to still be worth newsjacking.
 const LOOKBACK_HOURS = Number(process.env.NEWSJACK_LOOKBACK_HOURS || 12);
 // How far above an account's own rolling-average engagement a tweet must be.
-const ENGAGEMENT_MULTIPLIER = Number(process.env.NEWSJACK_MULTIPLIER || 3);
-// Floor so a 3x pop on an account that normally gets ~nothing doesn't alert.
-const DEFAULT_MIN_ENGAGEMENT = Number(process.env.NEWSJACK_MIN_ENGAGEMENT || 20);
+const ENGAGEMENT_MULTIPLIER = Number(process.env.NEWSJACK_MULTIPLIER || 2);
+// Floor so a pop on an account that normally gets ~nothing doesn't alert.
+const DEFAULT_MIN_ENGAGEMENT = Number(process.env.NEWSJACK_MIN_ENGAGEMENT || 15);
 // Claude-judged opportunity score (0-10) a candidate must clear to reach Telegram.
-const MIN_SCORE = Number(process.env.NEWSJACK_MIN_SCORE || 7);
+const MIN_SCORE = Number(process.env.NEWSJACK_MIN_SCORE || 6);
 const SLEEP_BETWEEN_ACCOUNTS_MS = 1500;
 const EMA_ALPHA = 0.3;
 
@@ -75,6 +75,21 @@ async function fetchRecentTweets(handle, retrying = false) {
   }
   // Newest first. Drop replies — we only care about the account's own posts.
   return (body.data?.tweets ?? []).filter((t) => !t.isReply);
+}
+
+// twitterapi.io's documented shape and its actual raw responses disagree on
+// where media lives (tweet.media[] per their docs vs tweet.extendedEntities
+// per what we've observed live) -- check both rather than trust either alone.
+function extractPhotoUrls(tweet) {
+  const fromFlat = Array.isArray(tweet.media) ? tweet.media : [];
+  const fromExtended = Array.isArray(tweet.extendedEntities?.media) ? tweet.extendedEntities.media : [];
+  const fromEntities = Array.isArray(tweet.entities?.media) ? tweet.entities.media : [];
+  const all = [...fromFlat, ...fromExtended, ...fromEntities];
+  const urls = all
+    .filter((m) => (m.type ?? "photo") === "photo")
+    .map((m) => m.media_url_https || m.mediaUrl || m.url || m.preview_image_url)
+    .filter(Boolean);
+  return [...new Set(urls)];
 }
 
 function engagementScore(tweet) {
@@ -140,6 +155,20 @@ async function sendTelegramMessage(text) {
   if (!res.ok) throw new Error(`Telegram send failed: ${res.status} ${await res.text()}`);
 }
 
+async function sendTelegramPhoto(photoUrl) {
+  if (DRY_RUN) {
+    console.log(`--- DRY RUN, would send photo --- ${photoUrl}`);
+    return;
+  }
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendPhoto`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, photo: photoUrl }),
+  });
+  if (!res.ok) throw new Error(`Telegram photo send failed: ${res.status} ${await res.text()}`);
+}
+
 function formatAlert(account, tweet, ideas, engagement, avgEngagement) {
   const link = tweet.url || `https://x.com/${account.handle}/status/${tweet.id}`;
   let text = `🔥 *Newsjack opportunity (${ideas.score}/10): @${account.handle}*\n\n`;
@@ -201,6 +230,13 @@ async function processAccount(account, state) {
           const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
           if (ideas.score >= MIN_SCORE) {
             await sendTelegramMessage(formatAlert(account, tweet, ideas, engagement, acctState.avgEngagement));
+            for (const photoUrl of extractPhotoUrls(tweet)) {
+              try {
+                await sendTelegramPhoto(photoUrl);
+              } catch (err) {
+                console.error(`[${key}] failed to send photo for ${tweet.id}:`, err.message);
+              }
+            }
             console.log(`[${key}] sent ${tweet.id} (score ${ideas.score}, engagement ${engagement} vs avg ${Math.round(acctState.avgEngagement)})`);
           } else {
             console.log(`[${key}] skipped ${tweet.id}, score ${ideas.score} below ${MIN_SCORE} (${ideas.reasoning ?? "no reasoning"})`);
@@ -220,8 +256,10 @@ async function processAccount(account, state) {
     if (!anyTrending) {
       console.log(`[${key}] checked ${newTweets.length} new tweet(s), none above the trending bar (avg now ~${Math.round(acctState.avgEngagement)})`);
     }
+    return true;
   } catch (err) {
     console.error(`[${key}] error:`, err.message);
+    return false;
   }
 }
 
@@ -229,12 +267,31 @@ async function main() {
   const watchlist = await loadJson(WATCHLIST_FILE, []);
   const state = await loadJson(STATE_FILE, {});
 
+  let failures = 0;
   for (const account of watchlist) {
-    await processAccount(account, state);
+    const ok = await processAccount(account, state);
+    if (!ok) failures++;
     await sleep(SLEEP_BETWEEN_ACCOUNTS_MS);
   }
 
   await writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+
+  // Every account failing usually means something systemic (API key dead,
+  // credits exhausted, provider outage) rather than 30 coincidental
+  // one-offs. Per-account errors are swallowed above so a single flaky
+  // account never blocks the run -- but total failure should NOT be
+  // swallowed, or it silently stops producing alerts forever with no signal
+  // (this happened: twitterapi.io ran out of credits and nothing surfaced
+  // it until someone noticed zero alerts days later).
+  if (watchlist.length > 0 && failures === watchlist.length) {
+    console.error(`All ${failures} accounts failed this run -- likely a systemic issue (dead API key, exhausted credits, provider outage), not per-account noise.`);
+    try {
+      await sendTelegramMessage(`⚠️ *Newsjack bot: every account failed this run.*\nLikely cause: twitterapi.io credits exhausted, an API key is dead, or a provider outage. Check the Actions log.`);
+    } catch (err) {
+      console.error("Also failed to send the Telegram warning:", err.message);
+    }
+    process.exitCode = 1;
+  }
 }
 
 main().catch((err) => {
