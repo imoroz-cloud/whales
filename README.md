@@ -261,26 +261,32 @@ ChangeHero's own X account either way.
 
 ### About cost — read this before turning it on
 
-Unlike the official API, twitterapi.io's timeline endpoint doesn't support
-"give me only what's new since X" — every check re-fetches that account's
-latest tweets (up to ~20), and we're billed for however many come back, new
-or not. So cost scales with **watchlist size × how often the workflow
-runs**, not with how much actually happened. Rough math at $0.15/1,000
-tweets, assuming ~20 tweets per check:
+**First version of this bot used the per-account timeline endpoint**
+(`user/last_tweets`), checked on a schedule. That endpoint has no "give me
+only what's new since X" option — every check re-fetches an account's latest
+~20 tweets and bills for all of them, whether or not anything actually
+changed. With 40 watched accounts checked hourly (briefly 2x/hour, from an
+unrelated scheduling bug), that burned through a $20 credit balance in about
+two weeks for roughly ten real alerts — bad value, and the root cause was
+architectural, not the watchlist or the scoring thresholds.
 
-| Schedule | Watchlist | ~Tweets read/month | ~Cost/month |
-|---|---|---|---|
-| hourly (current default) | 50 accounts | ~360,000 | ~$54 |
-| every 30 min | 50 accounts | ~720,000 | ~$108 |
-| every 3 hours | 50 accounts | ~120,000 | ~$18 |
+**Current version uses the search endpoint instead**
+(`tweet/advanced_search`), which supports combining many accounts into one
+query (`from:a OR from:b OR ...`) filtered by `since_time`. So a single
+request per ~15 accounts returns *only* tweets actually posted since the
+last check — cost now tracks real posting activity instead of watchlist
+size × check frequency. Expect this to be very roughly **20-50x cheaper**
+than the old approach for the same watchlist and schedule, though the exact
+number depends on how active the watched accounts actually are. New accounts
+still cost one one-time `user/last_tweets` call each to establish a
+baseline — cheap and a one-off, not recurring.
 
-Treat this as a rough estimate, not a quote — the real number depends on how
-many tweets twitterapi.io actually returns per call. **Check the
-twitterapi.io dashboard after the first day** and adjust the cron schedule
-in `.github/workflows/newsjack-alerts.yml` or trim the watchlist if it's
-running hotter (or cheaper) than expected. Claude API calls only happen for
-candidates that clear the engagement pre-filter, so that cost stays small
-and roughly proportional to actual activity, unlike the read cost above.
+**Check the twitterapi.io dashboard after a day or two** regardless, to see
+the real number rather than trust this estimate blindly, and adjust the
+cron schedule in `.github/workflows/newsjack-alerts.yml` or the watchlist
+size if needed. Claude API calls only happen for candidates that clear the
+engagement pre-filter, so that cost stays small and roughly proportional to
+actual activity either way.
 
 ### Editing the watchlist
 

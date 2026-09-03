@@ -6,9 +6,19 @@
 // Telegram for a human to act on manually — this never posts or comments on
 // X itself, to stay clear of anti-spam/ban risk.
 //
-// Designed to run on a schedule where each run is a fresh process, so
-// per-account state (last seen tweet id, rolling average engagement) is
-// tracked in newsjack-state.json.
+// New/never-checked accounts get a one-time per-account baseline fetch.
+// After that, all accounts are checked together via ONE batched search
+// query (from:a OR from:b OR ... since_time:<last check>) instead of one
+// per-account timeline call each — the timeline endpoint has no "give me
+// only what's new" option and always bills for ~20 tweets whether or not
+// anything actually changed, which is what burned through a $20 credit
+// balance for a handful of real alerts. Search only returns tweets that
+// exist in the time window, so cost tracks actual posting activity instead
+// of watchlist size x check frequency.
+//
+// Designed to run on a schedule where each run is a fresh process, so state
+// (last seen tweet id + rolling average engagement per account, plus the
+// timestamp of the last successful check) is tracked in newsjack-state.json.
 
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -31,7 +41,12 @@ const ENGAGEMENT_MULTIPLIER = Number(process.env.NEWSJACK_MULTIPLIER || 2);
 const DEFAULT_MIN_ENGAGEMENT = Number(process.env.NEWSJACK_MIN_ENGAGEMENT || 15);
 // Claude-judged opportunity score (0-10) a candidate must clear to reach Telegram.
 const MIN_SCORE = Number(process.env.NEWSJACK_MIN_SCORE || 6);
-const SLEEP_BETWEEN_ACCOUNTS_MS = 1500;
+// X's classic search query has a length limit; keep from: clauses per query well under it.
+const SEARCH_BATCH_SIZE = 15;
+// Safety margin so a tweet posted right at the boundary of the last check isn't missed;
+// exact duplicate-processing is still prevented per-account via lastSeenId.
+const SEARCH_SINCE_BUFFER_SECONDS = 120;
+const SLEEP_BETWEEN_CALLS_MS = 1500;
 const EMA_ALPHA = 0.3;
 
 const BRAND_VOICE = `ChangeHero is a non-custodial crypto exchange/swap platform. Voice: helpful, concise, no hype, no price predictions or financial advice, friendly but professional, occasional light humor. Never shill, never sound spammy or salesy.`;
@@ -50,6 +65,12 @@ if (!DRY_RUN) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
 async function loadJson(url, fallback) {
   try {
     return JSON.parse(await readFile(url, "utf8"));
@@ -59,6 +80,9 @@ async function loadJson(url, fallback) {
   }
 }
 
+// One-time per-account baseline (last ~20 tweets) -- only used the first time
+// an account is ever seen, to seed its rolling-average engagement without
+// blasting out alerts for tweet history that predates the bot.
 async function fetchRecentTweets(handle, retrying = false) {
   const url = `https://api.twitterapi.io/twitter/user/last_tweets?userName=${encodeURIComponent(handle)}`;
   const res = await fetch(url, { headers: { "X-API-Key": TWITTERAPI_IO_KEY } });
@@ -75,6 +99,39 @@ async function fetchRecentTweets(handle, retrying = false) {
   }
   // Newest first. Drop replies — we only care about the account's own posts.
   return (body.data?.tweets ?? []).filter((t) => !t.isReply);
+}
+
+// Steady-state fetch: one search call covers up to SEARCH_BATCH_SIZE accounts
+// at once, returning only tweets posted since the given timestamp.
+async function fetchSearchPage(query, cursor, retrying = false) {
+  const params = new URLSearchParams({ query, queryType: "Latest", cursor });
+  const url = `https://api.twitterapi.io/twitter/tweet/advanced_search?${params}`;
+  const res = await fetch(url, { headers: { "X-API-Key": TWITTERAPI_IO_KEY } });
+  if (res.status === 429 && !retrying) {
+    await sleep(15000);
+    return fetchSearchPage(query, cursor, true);
+  }
+  if (!res.ok) {
+    throw new Error(`twitterapi.io search ${res.status}: ${await res.text()}`);
+  }
+  const body = await res.json();
+  if (body.status && body.status !== "success") {
+    throw new Error(`twitterapi.io search error: ${body.msg || body.status}`);
+  }
+  return body; // { tweets, has_next_page, next_cursor }
+}
+
+async function searchNewTweets(handles, sinceUnix) {
+  const query = `(${handles.map((h) => `from:${h}`).join(" OR ")}) since_time:${sinceUnix}`;
+  const tweets = [];
+  let cursor = "";
+  for (let page = 0; page < 5; page++) {
+    const body = await fetchSearchPage(query, cursor);
+    tweets.push(...(body.tweets ?? []).filter((t) => !t.isReply));
+    if (!body.has_next_page || !body.next_cursor) break;
+    cursor = body.next_cursor;
+  }
+  return tweets;
 }
 
 // twitterapi.io's documented shape and its actual raw responses disagree on
@@ -181,112 +238,145 @@ function formatAlert(account, tweet, ideas, engagement, avgEngagement) {
   return text;
 }
 
-async function processAccount(account, state) {
+async function initializeAccount(account, state) {
   const key = account.handle.toLowerCase();
-  let acctState = state[key];
-  if (!acctState) {
-    acctState = { initialized: false, lastSeenId: null, avgEngagement: 0 };
-    state[key] = acctState;
-  }
-
   try {
-    const tweets = await fetchRecentTweets(account.handle); // newest first
-
-    if (!acctState.initialized) {
-      // First run for this account: baseline its rolling average engagement,
-      // don't blast out alerts for tweet history that predates the bot.
-      if (tweets.length) {
-        acctState.avgEngagement = tweets.reduce((sum, t) => sum + engagementScore(t), 0) / tweets.length;
-        acctState.lastSeenId = tweets[0].id;
-      }
-      acctState.initialized = true;
-      console.log(`[${key}] initialized, baseline avg engagement ${Math.round(acctState.avgEngagement)}`);
-      return;
+    const tweets = await fetchRecentTweets(account.handle);
+    const acctState = { initialized: true, lastSeenId: null, avgEngagement: 0 };
+    if (tweets.length) {
+      acctState.avgEngagement = tweets.reduce((sum, t) => sum + engagementScore(t), 0) / tweets.length;
+      acctState.lastSeenId = tweets[0].id;
     }
-
-    const lastSeen = acctState.lastSeenId ? BigInt(acctState.lastSeenId) : 0n;
-    const newTweets = tweets.filter((t) => BigInt(t.id) > lastSeen);
-    if (tweets.length) acctState.lastSeenId = tweets[0].id;
-
-    if (!newTweets.length) {
-      console.log(`[${key}] no new tweets since last check`);
-      return;
-    }
-
-    let anyTrending = false;
-    // Process oldest to newest.
-    for (const tweet of [...newTweets].reverse()) {
-      const engagement = engagementScore(tweet);
-      const ageHours = (Date.now() - new Date(tweet.createdAt).getTime()) / 36e5;
-      const minEngagement = account.minEngagement ?? DEFAULT_MIN_ENGAGEMENT;
-      const isTrending =
-        ageHours <= LOOKBACK_HOURS &&
-        engagement >= minEngagement &&
-        engagement >= acctState.avgEngagement * ENGAGEMENT_MULTIPLIER;
-
-      if (isTrending) {
-        anyTrending = true;
-        try {
-          const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
-          if (ideas.score >= MIN_SCORE) {
-            await sendTelegramMessage(formatAlert(account, tweet, ideas, engagement, acctState.avgEngagement));
-            for (const photoUrl of extractPhotoUrls(tweet)) {
-              try {
-                await sendTelegramPhoto(photoUrl);
-              } catch (err) {
-                console.error(`[${key}] failed to send photo for ${tweet.id}:`, err.message);
-              }
-            }
-            console.log(`[${key}] sent ${tweet.id} (score ${ideas.score}, engagement ${engagement} vs avg ${Math.round(acctState.avgEngagement)})`);
-          } else {
-            console.log(`[${key}] skipped ${tweet.id}, score ${ideas.score} below ${MIN_SCORE} (${ideas.reasoning ?? "no reasoning"})`);
-          }
-        } catch (err) {
-          console.error(`[${key}] failed to draft/send for ${tweet.id}:`, err.message);
-        }
-      }
-
-      // Update the rolling baseline with every tweet seen, flagged or not,
-      // so the "normal" bar keeps up with the account's actual activity.
-      acctState.avgEngagement = acctState.avgEngagement
-        ? acctState.avgEngagement * (1 - EMA_ALPHA) + engagement * EMA_ALPHA
-        : engagement;
-    }
-
-    if (!anyTrending) {
-      console.log(`[${key}] checked ${newTweets.length} new tweet(s), none above the trending bar (avg now ~${Math.round(acctState.avgEngagement)})`);
-    }
+    state[key] = acctState;
+    console.log(`[${key}] initialized, baseline avg engagement ${Math.round(acctState.avgEngagement)}`);
     return true;
   } catch (err) {
-    console.error(`[${key}] error:`, err.message);
+    console.error(`[${key}] init error:`, err.message);
     return false;
   }
+}
+
+// Scores one new tweet for one account, alerts if it clears both bars.
+// Returns true if it was a trending candidate (regardless of final score).
+async function evaluateTweet(account, acctState, tweet) {
+  const key = account.handle.toLowerCase();
+  const engagement = engagementScore(tweet);
+  const ageHours = (Date.now() - new Date(tweet.createdAt).getTime()) / 36e5;
+  const minEngagement = account.minEngagement ?? DEFAULT_MIN_ENGAGEMENT;
+  const isTrending =
+    ageHours <= LOOKBACK_HOURS &&
+    engagement >= minEngagement &&
+    engagement >= acctState.avgEngagement * ENGAGEMENT_MULTIPLIER;
+
+  if (isTrending) {
+    try {
+      const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
+      if (ideas.score >= MIN_SCORE) {
+        await sendTelegramMessage(formatAlert(account, tweet, ideas, engagement, acctState.avgEngagement));
+        for (const photoUrl of extractPhotoUrls(tweet)) {
+          try {
+            await sendTelegramPhoto(photoUrl);
+          } catch (err) {
+            console.error(`[${key}] failed to send photo for ${tweet.id}:`, err.message);
+          }
+        }
+        console.log(`[${key}] sent ${tweet.id} (score ${ideas.score}, engagement ${engagement} vs avg ${Math.round(acctState.avgEngagement)})`);
+      } else {
+        console.log(`[${key}] skipped ${tweet.id}, score ${ideas.score} below ${MIN_SCORE} (${ideas.reasoning ?? "no reasoning"})`);
+      }
+    } catch (err) {
+      console.error(`[${key}] failed to draft/send for ${tweet.id}:`, err.message);
+    }
+  }
+
+  // Update the rolling baseline with every tweet seen, flagged or not, so
+  // the "normal" bar keeps up with the account's actual activity.
+  acctState.avgEngagement = acctState.avgEngagement
+    ? acctState.avgEngagement * (1 - EMA_ALPHA) + engagement * EMA_ALPHA
+    : engagement;
+
+  return isTrending;
 }
 
 async function main() {
   const watchlist = await loadJson(WATCHLIST_FILE, []);
   const state = await loadJson(STATE_FILE, {});
+  if (!state.__meta) state.__meta = {};
 
+  let attempts = 0;
   let failures = 0;
-  for (const account of watchlist) {
-    const ok = await processAccount(account, state);
-    if (!ok) failures++;
-    await sleep(SLEEP_BETWEEN_ACCOUNTS_MS);
+
+  const toInit = watchlist.filter((a) => !state[a.handle.toLowerCase()]?.initialized);
+  for (const account of toInit) {
+    attempts++;
+    if (!(await initializeAccount(account, state))) failures++;
+    await sleep(SLEEP_BETWEEN_CALLS_MS);
   }
+
+  const ready = watchlist.filter((a) => state[a.handle.toLowerCase()]?.initialized);
+  const sinceUnix = state.__meta.lastCheckUnix;
+
+  if (ready.length && sinceUnix) {
+    const searchSince = sinceUnix - SEARCH_SINCE_BUFFER_SECONDS;
+    const byHandle = new Map(ready.map((a) => [a.handle.toLowerCase(), a]));
+    let accountsWithNewTweets = 0;
+    let alertsSent = 0;
+
+    for (const batch of chunk(ready.map((a) => a.handle), SEARCH_BATCH_SIZE)) {
+      attempts++;
+      try {
+        const tweets = await searchNewTweets(batch, searchSince);
+        const byAuthor = new Map();
+        for (const t of tweets) {
+          const author = t.author?.userName?.toLowerCase();
+          if (!author) continue;
+          if (!byAuthor.has(author)) byAuthor.set(author, []);
+          byAuthor.get(author).push(t);
+        }
+
+        for (const [authorKey, authorTweets] of byAuthor) {
+          const account = byHandle.get(authorKey);
+          if (!account) continue; // defensive: shouldn't happen, ignore anything unmatched
+          const acctState = state[authorKey];
+          const lastSeen = acctState.lastSeenId ? BigInt(acctState.lastSeenId) : 0n;
+          const newOnes = authorTweets
+            .filter((t) => BigInt(t.id) > lastSeen)
+            .sort((a, b) => (BigInt(a.id) < BigInt(b.id) ? -1 : 1)); // oldest first
+          if (!newOnes.length) continue;
+
+          accountsWithNewTweets++;
+          for (const tweet of newOnes) {
+            const wasTrending = await evaluateTweet(account, acctState, tweet);
+            if (wasTrending) alertsSent++;
+            if (BigInt(tweet.id) > BigInt(acctState.lastSeenId || 0)) acctState.lastSeenId = tweet.id;
+          }
+        }
+      } catch (err) {
+        console.error(`search batch error (${batch.length} accounts):`, err.message);
+        failures++;
+      }
+      await sleep(SLEEP_BETWEEN_CALLS_MS);
+    }
+
+    console.log(`Checked ${ready.length} accounts via search: ${accountsWithNewTweets} had new tweets, ${alertsSent} cleared the trending bar.`);
+  } else if (ready.length) {
+    console.log("No previous check timestamp yet -- skipping search this run, incremental checks start next run.");
+  }
+
+  state.__meta.lastCheckUnix = Math.floor(Date.now() / 1000);
 
   await writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
 
-  // Every account failing usually means something systemic (API key dead,
-  // credits exhausted, provider outage) rather than 30 coincidental
-  // one-offs. Per-account errors are swallowed above so a single flaky
-  // account never blocks the run -- but total failure should NOT be
-  // swallowed, or it silently stops producing alerts forever with no signal
-  // (this happened: twitterapi.io ran out of credits and nothing surfaced
-  // it until someone noticed zero alerts days later).
-  if (watchlist.length > 0 && failures === watchlist.length) {
-    console.error(`All ${failures} accounts failed this run -- likely a systemic issue (dead API key, exhausted credits, provider outage), not per-account noise.`);
+  // Every call failing usually means something systemic (dead key, exhausted
+  // credits, provider outage) rather than coincidental one-offs. Per-batch
+  // errors are swallowed above so one bad batch never blocks the rest of the
+  // run -- but total failure should NOT be swallowed, or it silently stops
+  // producing alerts forever with no signal (this already happened once:
+  // twitterapi.io ran out of credits and nothing surfaced it for days).
+  if (attempts > 0 && failures === attempts) {
+    console.error(`All ${failures} API call(s) failed this run -- likely a systemic issue (dead API key, exhausted credits, provider outage), not per-account noise.`);
     try {
-      await sendTelegramMessage(`⚠️ *Newsjack bot: every account failed this run.*\nLikely cause: twitterapi.io credits exhausted, an API key is dead, or a provider outage. Check the Actions log.`);
+      await sendTelegramMessage(`⚠️ *Newsjack bot: every API call failed this run.*\nLikely cause: twitterapi.io credits exhausted, an API key is dead, or a provider outage. Check the Actions log.`);
     } catch (err) {
       console.error("Also failed to send the Telegram warning:", err.message);
     }
