@@ -10,8 +10,7 @@ schedule for free using GitHub Actions.
 
 ## How it works, in plain terms
 
-Every 5 minutes (in practice more like every 1–2 hours — see the note on
-GitHub's schedule below), a script wakes up, checks each coin's trading pool
+Every 5 minutes, a script wakes up, checks each coin's trading pool
 for any **buy** bigger than that coin's threshold since the last check, and
 posts a message to the Telegram channel for each one it finds. It remembers
 what it already posted (in `state.json`) so it never posts the same trade
@@ -24,7 +23,7 @@ were more noise than signal for this use case.
 
 ## What's covered right now
 
-These 24 coins trade on public decentralized exchanges (Uniswap, PancakeSwap,
+These 25 coins trade on public decentralized exchanges (Uniswap, PancakeSwap,
 Raydium, STON.fi, etc.), so GeckoTerminal can see individual trades for them:
 
 | Coin | Chain | Alert threshold |
@@ -53,6 +52,7 @@ Raydium, STON.fi, etc.), so GeckoTerminal can see individual trades for them:
 | AURORA | Ethereum | $1,500 |
 | JASMY (JasmyCoin) | Ethereum | $800 |
 | LUMIA | Ethereum | $150 |
+| KAS (Kaspa) | Kasplex | $15,000 |
 
 Thresholds were picked from each coin's actual recent trading volume on its
 pool (so alerts fire at a meaningful "big trade for this coin" size, not
@@ -64,8 +64,16 @@ it'll alert on almost any trade at all, not really "whale" activity — kept in
 at your call, but don't expect much signal from it unless its liquidity picks
 up.
 
-Transaction links (the "View transaction" line) aren't available yet for TON
-or MON — those two chains use a different explorer setup that isn't wired up.
+**KAS is tracked indirectly.** Kaspa's own layer-1 has no smart contracts, so
+there's no direct DEX to watch. What's tracked instead is **WKAS** (Wrapped
+Kaspa) trading on **Kasplex**, a newer Kaspa-linked EVM chain — specifically
+its one actively-traded pool (~$107K/day). This is a reasonable proxy for
+real KAS whale activity but isn't literally native KAS moving; other
+wrapped-KAS pools on Ethereum/BSC/Polygon exist but see only a few dollars of
+volume a day, so weren't worth using.
+
+Transaction links (the "View transaction" line) aren't available yet for TON,
+MON, or KAS — those chains use explorer setups that aren't wired up yet.
 Alerts for them still fire, just without the clickable link.
 
 **Important limitation:** this only sees trades that happen directly on a
@@ -77,14 +85,13 @@ not "every whale move."
 
 ### Not covered yet
 
-**KAS, DASH, DIGIBYTE, FLUX, QUAI, VET, ICP, FIRO, PIVX, XEC, DOGE, ZANO,
-CSPR** — these mostly trade on centralized exchanges / their own native
-chains, not on the DEXs GeckoTerminal tracks. There's no single free API that
-covers all of them; each would need its own blockchain explorer hooked up
-individually. Note: GeckoTerminal has recently added network support for
-Cardano, Internet Computer, Quai Network, and a Kaspa-linked chain (Kasplex)
-— meaning SNEK, ICP, QUAI, and possibly KAS may be addable now after all;
-worth revisiting.
+**DASH, DIGIBYTE, FLUX, VET, FIRO, PIVX, XEC, DOGE, ZANO, CSPR** — these
+mostly trade on centralized exchanges / their own native chains, not on the
+DEXs GeckoTerminal tracks. There's no single free API that covers all of
+them; each would need its own blockchain explorer hooked up individually.
+Note: GeckoTerminal has recently added network support for Cardano and
+Internet Computer and Quai Network — meaning SNEK, ICP, and QUAI may be
+addable now after all (KAS already added above); worth revisiting.
 
 **IOTA** — GeckoTerminal has an IOTA network slug now, but zero trading pools
 are indexed on it yet, so there's nothing to watch even though the door is
@@ -178,15 +185,15 @@ of old trades on you — think of it as it taking attendance before it starts
 watching for new arrivals. From the second run onward, genuinely new whale
 trades will get posted.
 
-### A note on GitHub's schedule
+### A note on the schedule
 
-GitHub Actions' `cron` schedules are "best effort" — under load, a run every
-5 minutes might actually happen every 10–15 minutes. That's normal and out of
-our control on the free tier; there's no paid tier that fixes it either
-(it's a GitHub platform-wide behavior). Also, GitHub auto-disables scheduled
-workflows on repos with no activity for 60 days — but this bot commits
-`state.json` on nearly every run, which counts as activity, so that shouldn't
-happen here.
+GitHub Actions' own `cron` schedule turned out to be unreliable in practice
+(runs every 1–2 hours instead of every 5 minutes, regardless of what the cron
+expression said — a platform-wide free-tier behavior, not something fixable
+from this repo). So the workflow now only listens for `workflow_dispatch`,
+and an external free service, [cron-job.org](https://cron-job.org), calls it
+every 5 minutes instead. If alerts seem to stop arriving, check that the
+cron-job.org job is still active before assuming the bot itself broke.
 
 ## Running it locally (optional, for testing)
 

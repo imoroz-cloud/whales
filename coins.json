@@ -22,5 +22,6 @@
   { "symbol": "COTI", "network": "eth", "pool": "0xa2b04f8133fc25887a436812eae384e32a8a84f2", "thresholdUsd": 5000 },
   { "symbol": "AURORA", "network": "eth", "pool": "0x629d22e6eeac46a11dbc96be93b90aee9309be4c", "thresholdUsd": 1500 },
   { "symbol": "JASMY", "network": "eth", "pool": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d", "thresholdUsd": 800 },
-  { "symbol": "LUMIA", "network": "eth", "pool": "0x9193dbf798d755afb3798a72e2bb23a4d1b6920bd2d53184bfb646987c4cf98b", "thresholdUsd": 150 }
+  { "symbol": "LUMIA", "network": "eth", "pool": "0x9193dbf798d755afb3798a72e2bb23a4d1b6920bd2d53184bfb646987c4cf98b", "thresholdUsd": 150 },
+  { "symbol": "KAS", "network": "kasplex", "pool": "0xd662bf33bc4b790f1454b43cb76fa37670745a95", "thresholdUsd": 15000 }
 ]
