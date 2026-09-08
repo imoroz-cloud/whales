@@ -6,13 +6,13 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2097150647720353999",
-    "avgEngagement": 33.56746210606058
+    "lastSeenId": "2097173080707592620",
+    "avgEngagement": 24.397223474242406
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2097158061538390343",
-    "avgEngagement": 81.17168264641802
+    "lastSeenId": "2097173169656267256",
+    "avgEngagement": 66.74412449674483
   },
   "theblockco": {
     "initialized": true,
@@ -21,8 +21,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2097147957845840353",
-    "avgEngagement": 93.5883688103124
+    "lastSeenId": "2097169349953949877",
+    "avgEngagement": 86.21185816721868
   },
   "coingecko": {
     "initialized": true,
@@ -111,8 +111,8 @@
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2097148463997943990",
-    "avgEngagement": 217.5082144262006
+    "lastSeenId": "2097172596538425436",
+    "avgEngagement": 166.0557500983404
   },
   "cryptokaleo": {
     "initialized": true,
@@ -131,8 +131,8 @@
   },
   "pentosh1": {
     "initialized": true,
-    "lastSeenId": "2097150154654822776",
-    "avgEngagement": 186.4198422794441
+    "lastSeenId": "2097166377878794366",
+    "avgEngagement": 221.69388959561087
   },
   "solana": {
     "initialized": true,
@@ -150,7 +150,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1788836868
+    "lastCheckUnix": 1788840449
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -164,8 +164,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2097130345078342101",
-    "avgEngagement": 101.49342509606028
+    "lastSeenId": "2097160495841091894",
+    "avgEngagement": 102.2453975672422
   },
   "litecoin": {
     "initialized": true,
@@ -184,8 +184,8 @@
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2097134730940735807",
-    "avgEngagement": 120.83713524751053
+    "lastSeenId": "2097171728153907451",
+    "avgEngagement": 119.08599467325736
   },
   "cryptotea": {
     "initialized": true,
@@ -194,8 +194,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2097155939954532531",
-    "avgEngagement": 278.80312597564074
+    "lastSeenId": "2097174048367419902",
+    "avgEngagement": 215.2621881829485
   },
   "bscgemsalert": {
     "initialized": true,
