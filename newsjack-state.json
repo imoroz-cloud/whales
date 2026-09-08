@@ -6,13 +6,13 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2096987606927962435",
-    "avgEngagement": 53.660239376269935
+    "lastSeenId": "2097112686995853554",
+    "avgEngagement": 35.95351729437226
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2097094763820327119",
-    "avgEngagement": 99.69343903800328
+    "lastSeenId": "2097112779882647912",
+    "avgEngagement": 138.35784959003513
   },
   "theblockco": {
     "initialized": true,
@@ -21,8 +21,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2097095865114468758",
-    "avgEngagement": 120.71998671517039
+    "lastSeenId": "2097103917922316290",
+    "avgEngagement": 128.00399070061928
   },
   "coingecko": {
     "initialized": true,
@@ -36,8 +36,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2097073493644882395",
-    "avgEngagement": 87.41000464784098
+    "lastSeenId": "2097107384694903089",
+    "avgEngagement": 77.98700325348868
   },
   "lookonchain": {
     "initialized": true,
@@ -71,8 +71,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2097087518273368460",
-    "avgEngagement": 88.32397342768985
+    "lastSeenId": "2097107039096824110",
+    "avgEngagement": 122.42678139938289
   },
   "saylor": {
     "initialized": true,
@@ -150,7 +150,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1788822453
+    "lastCheckUnix": 1788826067
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -189,8 +189,8 @@
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2097092626252218611",
-    "avgEngagement": 127.41170423459997
+    "lastSeenId": "2097109668434944196",
+    "avgEngagement": 105.38819296421997
   },
   "cryptorover": {
     "initialized": true,
@@ -199,7 +199,7 @@
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2097098632990282227",
-    "avgEngagement": 30.653206745432353
+    "lastSeenId": "2097102582871171266",
+    "avgEngagement": 23.857244721802644
   }
 }
