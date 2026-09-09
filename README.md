@@ -360,8 +360,11 @@ the day's scheduled content slots instead of guessing.
 1. Fetches [CoinGecko's free trending-search endpoint](https://api.coingecko.com/api/v3/search/trending)
    (no API key, no cost) — the ~15 coins with the most search interest on
    CoinGecko in the last 24h.
-2. Fetches ChangeHero's own supported-currency list via the ChangeHero API
-   (`getCurrenciesFull`).
+2. Checks that list against `changehero-currencies.json` — a **static
+   snapshot** of ChangeHero's supported tickers, not a live API call. The
+   supported-coin list barely changes day to day, so hitting ChangeHero's
+   live API on every run would just be extra moving parts (and a secret to
+   manage) for no real benefit.
 3. Intersects the two lists and takes the top 3 matches (in CoinGecko's
    trending order). If fewer than 3 of today's trending coins are actually
    on ChangeHero, it reports honestly fewer than 3 rather than padding the
@@ -372,17 +375,25 @@ the day's scheduled content slots instead of guessing.
 5. Sends the result to Telegram.
 
 Deliberately cheap: no twitterapi.io involved at all, one free API call,
-one already-paid ChangeHero API call, and a single small Claude call per
-day. No state file — this bot is stateless by design.
+zero ChangeHero API calls, and a single small Claude call per day. No
+state file — this bot is stateless by design.
+
+**Keeping the currency snapshot fresh:** when ChangeHero lists or delists
+coins, `changehero-currencies.json` will drift out of date. Refresh it by
+hand occasionally (not on a schedule — this doesn't need to be automatic):
+
+```bash
+CHANGEHERO_API_KEY=xxx node scripts/refresh-changehero-currencies.mjs
+```
+
+Then commit the updated file.
 
 ### One-time setup
 
-1. Add one more repo secret (**Settings → Secrets and variables → Actions**):
-   - `CHANGEHERO_API_KEY` — a ChangeHero partner API key
-2. Reuses the existing `ANTHROPIC_API_KEY`, `TELEGRAM_NEWSJACK_BOT_TOKEN`,
-   and `TELEGRAM_NEWSJACK_CHAT_ID` secrets — no new Telegram setup needed,
-   it posts to the same chat as the newsjack bot.
-3. Like the other two bots, this workflow only listens for
+1. Reuses the existing `ANTHROPIC_API_KEY`, `TELEGRAM_NEWSJACK_BOT_TOKEN`,
+   and `TELEGRAM_NEWSJACK_CHAT_ID` secrets — no new secrets, no new
+   Telegram setup, it posts to the same chat as the newsjack bot.
+2. Like the other two bots, this workflow only listens for
    `workflow_dispatch` — an external cron-job.org job calls it once a day
    (see the note on GitHub's own `schedule:` trigger being unreliable,
    above). Trigger it manually first via **Actions → Daily Trends → Run
@@ -391,7 +402,7 @@ day. No state file — this bot is stateless by design.
 ### Running it locally (optional, for testing)
 
 ```bash
-CHANGEHERO_API_KEY=xxx ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELEGRAM_NEWSJACK_CHAT_ID=xxx node daily-trends.mjs
+ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELEGRAM_NEWSJACK_CHAT_ID=xxx node daily-trends.mjs
 ```
 
 Add `DRY_RUN=1` to print what it *would* send instead of posting to

@@ -15,7 +15,6 @@ jobs:
 
       - name: Run daily trends check
         env:
-          CHANGEHERO_API_KEY: ${{ secrets.CHANGEHERO_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_NEWSJACK_BOT_TOKEN: ${{ secrets.TELEGRAM_NEWSJACK_BOT_TOKEN }}
           TELEGRAM_NEWSJACK_CHAT_ID: ${{ secrets.TELEGRAM_NEWSJACK_CHAT_ID }}

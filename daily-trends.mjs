@@ -1,16 +1,22 @@
 // Once a day: cross-references CoinGecko's free "trending search" list
 // (top ~15 coins by search interest in the last 24h, no API key needed)
-// against the coins actually supported on ChangeHero (via ChangeHero's own
-// API), and sends the top 3 matches to Telegram with a one-line "why it's
-// trending" explanation each -- meant to help the content team pick which
-// coin to cover today instead of guessing.
+// against the coins supported on ChangeHero (a static snapshot in
+// changehero-currencies.json -- this list changes rarely, so there's no
+// need to hit ChangeHero's live API on every run; re-generate it by hand
+// occasionally with `node scripts/refresh-changehero-currencies.mjs` when
+// new coins get listed), and sends the top 3 matches to Telegram with a
+// one-line "why it's trending" explanation each -- meant to help the
+// content team pick which coin to cover today instead of guessing.
 //
-// Deliberately cheap: one free CoinGecko call, one ChangeHero API call
-// (already-paid infrastructure), and ONE small Claude call per day covering
-// all 3 coins at once (not one call per coin). No state file, no per-coin
-// API calls, no twitterapi.io involved at all.
+// Deliberately cheap: one free CoinGecko call, zero ChangeHero API calls,
+// and ONE small Claude call per day covering all 3 coins at once (not one
+// call per coin). No state file, no per-coin API calls, no twitterapi.io
+// involved at all.
 
-const CHANGEHERO_API_KEY = process.env.CHANGEHERO_API_KEY;
+import { readFile } from "node:fs/promises";
+
+const CURRENCIES_FILE = new URL("./changehero-currencies.json", import.meta.url);
+
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_NEWSJACK_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_NEWSJACK_CHAT_ID;
@@ -18,7 +24,6 @@ const DRY_RUN = process.env.DRY_RUN === "1";
 
 if (!DRY_RUN) {
   const missing = [];
-  if (!CHANGEHERO_API_KEY) missing.push("CHANGEHERO_API_KEY");
   if (!ANTHROPIC_API_KEY) missing.push("ANTHROPIC_API_KEY");
   if (!TELEGRAM_BOT_TOKEN) missing.push("TELEGRAM_NEWSJACK_BOT_TOKEN");
   if (!TELEGRAM_CHAT_ID) missing.push("TELEGRAM_NEWSJACK_CHAT_ID");
@@ -29,15 +34,8 @@ if (!DRY_RUN) {
 }
 
 async function getChangeHeroTickers() {
-  const res = await fetch("https://api.changehero.io/v2", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", "api-key": CHANGEHERO_API_KEY },
-    body: JSON.stringify({ jsonrpc: "2.0", id: "list", method: "getCurrenciesFull", params: {} }),
-  });
-  if (!res.ok) throw new Error(`ChangeHero API ${res.status}: ${await res.text()}`);
-  const body = await res.json();
-  if (body.error) throw new Error(`ChangeHero API error: ${JSON.stringify(body.error)}`);
-  return new Set(body.result.filter((c) => c.enabled).map((c) => c.publicTicker.toUpperCase()));
+  const tickers = JSON.parse(await readFile(CURRENCIES_FILE, "utf8"));
+  return new Set(tickers.map((t) => t.toUpperCase()));
 }
 
 async function getTrendingCoins() {
