@@ -1,0 +1,22 @@
+name: Daily Trends
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run daily trends check
+        env:
+          CHANGEHERO_API_KEY: ${{ secrets.CHANGEHERO_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_NEWSJACK_BOT_TOKEN: ${{ secrets.TELEGRAM_NEWSJACK_BOT_TOKEN }}
+          TELEGRAM_NEWSJACK_CHAT_ID: ${{ secrets.TELEGRAM_NEWSJACK_CHAT_ID }}
+        run: node daily-trends.mjs

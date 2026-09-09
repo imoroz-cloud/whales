@@ -345,3 +345,54 @@ TWITTERAPI_IO_KEY=xxx ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELE
 
 Add `DRY_RUN=1` to print what it *would* send instead of posting to
 Telegram.
+
+---
+
+## Daily Trends Bot
+
+A third, much simpler bot (`daily-trends.mjs`) runs once a day and answers
+one question: **of the coins actually supported on ChangeHero, which ones
+are trending right now?** Meant to help the content team pick a coin for
+the day's scheduled content slots instead of guessing.
+
+### How it works
+
+1. Fetches [CoinGecko's free trending-search endpoint](https://api.coingecko.com/api/v3/search/trending)
+   (no API key, no cost) — the ~15 coins with the most search interest on
+   CoinGecko in the last 24h.
+2. Fetches ChangeHero's own supported-currency list via the ChangeHero API
+   (`getCurrenciesFull`).
+3. Intersects the two lists and takes the top 3 matches (in CoinGecko's
+   trending order). If fewer than 3 of today's trending coins are actually
+   on ChangeHero, it reports honestly fewer than 3 rather than padding the
+   list.
+4. One Claude call covering all 3 coins at once (not one call per coin)
+   writes a short, factual "why it's trending" line for each, based only on
+   the price/volume numbers already in hand — no invented news.
+5. Sends the result to Telegram.
+
+Deliberately cheap: no twitterapi.io involved at all, one free API call,
+one already-paid ChangeHero API call, and a single small Claude call per
+day. No state file — this bot is stateless by design.
+
+### One-time setup
+
+1. Add one more repo secret (**Settings → Secrets and variables → Actions**):
+   - `CHANGEHERO_API_KEY` — a ChangeHero partner API key
+2. Reuses the existing `ANTHROPIC_API_KEY`, `TELEGRAM_NEWSJACK_BOT_TOKEN`,
+   and `TELEGRAM_NEWSJACK_CHAT_ID` secrets — no new Telegram setup needed,
+   it posts to the same chat as the newsjack bot.
+3. Like the other two bots, this workflow only listens for
+   `workflow_dispatch` — an external cron-job.org job calls it once a day
+   (see the note on GitHub's own `schedule:` trigger being unreliable,
+   above). Trigger it manually first via **Actions → Daily Trends → Run
+   workflow** to confirm it works.
+
+### Running it locally (optional, for testing)
+
+```bash
+CHANGEHERO_API_KEY=xxx ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELEGRAM_NEWSJACK_CHAT_ID=xxx node daily-trends.mjs
+```
+
+Add `DRY_RUN=1` to print what it *would* send instead of posting to
+Telegram.

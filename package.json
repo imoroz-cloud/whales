@@ -9,6 +9,7 @@
   },
   "scripts": {
     "check": "node whale-check.mjs",
-    "newsjack": "node newsjack-check.mjs"
+    "newsjack": "node newsjack-check.mjs",
+    "daily-trends": "node daily-trends.mjs"
   }
 }
