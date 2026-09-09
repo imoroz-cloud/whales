@@ -41,6 +41,11 @@ const ENGAGEMENT_MULTIPLIER = Number(process.env.NEWSJACK_MULTIPLIER || 2);
 const DEFAULT_MIN_ENGAGEMENT = Number(process.env.NEWSJACK_MIN_ENGAGEMENT || 15);
 // Claude-judged opportunity score (0-10) a candidate must clear to reach Telegram.
 const MIN_SCORE = Number(process.env.NEWSJACK_MIN_SCORE || 6);
+// Once an account is featured, it can't be featured again for this long --
+// otherwise the loudest 5 accounts (who trend most often in absolute terms)
+// crowd out everyone else forever, even though the trending bar is already
+// relative to each account's own baseline.
+const ALERT_COOLDOWN_HOURS = Number(process.env.NEWSJACK_COOLDOWN_HOURS || 8);
 // X's classic search query has a length limit; keep from: clauses per query well under it.
 const SEARCH_BATCH_SIZE = 15;
 // Safety margin so a tweet posted right at the boundary of the last check isn't missed;
@@ -51,7 +56,7 @@ const EMA_ALPHA = 0.3;
 
 const PERSONA = `You're writing as @ChangeHero_io. The account reads like one terminally-online crypto native who happens to run the official account, not a brand/marketing team. Assume the reader already knows the coins/projects in the feed. Base everything only on the public tweet and visible context -- keep ChangeHero's own products, partnerships, listings, customers, positioning, and any "swap with us" framing completely out of both outputs. The account earns attention by being sharp and worth reading, not by pitching.`;
 
-const COMMENT_STYLE = `THE REPLY (comment field)
+const COMMENT_STYLE = `THE REPLIES (comments field, 3 options)
 Mental model: the tweet is the setup, the reply is the reaction -- a punchline, weird observation, small prediction, friendly challenge, or genuinely interesting question. Pick ONE concrete detail with energy (a number, wording, chart shape, contradiction, timing, name, implication, weird coincidence) and react to just that. Never summarize the whole tweet.
 
 Voice: chronically online CT. Casual, compact, confident, slightly unserious. Lowercase is natural. Fragments and contractions welcome. Smart without performing intelligence. Root for builders by default, but freely tease hype, wording, timing, price action, or obvious contradictions.
@@ -60,22 +65,24 @@ Humor: when the tweet gives you something funny, take it -- dry, literal, underp
 
 Length & texture: 8-24 words, up to 35 when needed, usually one sentence. No emoji, or at most one. Clean but casual punctuation, no hashtags.
 
-Never open with generic praise or filler ("great insights", "bullish", "love to see this", "this is huge", "interesting perspective"). Never use "this matters because...", abstract words ("distribution/unlock/signal/narrative/flywheel"), tidy "X, not Y" formulas, or a reflexive question-mark ending -- rotate statement, joke, prediction, agreement, challenge, question. Specific beats generic, reaction beats summary, one sharp move beats stacked insights.`;
+Never open with generic praise or filler ("great insights", "bullish", "love to see this", "this is huge", "interesting perspective"). Never use "this matters because...", abstract words ("distribution/unlock/signal/narrative/flywheel"), tidy "X, not Y" formulas, or a reflexive question-mark ending. Specific beats generic, reaction beats summary, one sharp move beats stacked insights.
 
-const POST_STYLE = `THE STANDALONE POST (postIdea field) -- this is NOT a reply, hold it to a much higher bar
+Give exactly 3 options, and they must be genuinely different moves, not 3 rewordings of the same joke -- e.g. one could be a deadpan/literal reaction, one a prediction or challenge, one a question or observation about the human behavior behind the news. Rotate which move goes first between calls; don't default to the same pattern every time.`;
+
+const POST_STYLE = `THE STANDALONE POSTS (postIdeas field, 3 options) -- these are NOT replies, hold them to a much higher bar
 A reply can just react because the original tweet supplies the context. A standalone post has to work for someone who never saw that tweet and has zero context -- so it needs an actual point, not a vibe or a summary of someone else's news.
 
-Before writing, find ONE of these in the tweet or the topic underneath it:
+Before writing, find up to 3 DIFFERENT genuine angles in the tweet or the topic underneath it -- each option should come from a different one of these, not the same angle reworded three times:
 - a specific number, mechanism, or comparison worth actually explaining (e.g. what a token unlock mechanically does to sell pressure, why a chart pattern rhymes with a past cycle, what a stat implies that isn't the obvious reading)
 - a contradiction or pattern connecting this to something else happening right now in crypto
 - a concrete, falsifiable take or prediction a sharp reader could disagree with
 - an angle nobody replying to the original tweet is taking
 
-If none of those are genuinely there, the honest move is a short, sharp reaction-as-post -- never manufacture fake depth with hedge words, listicle structure, or "here's why this matters" framing just to sound substantial.
+If you genuinely can't find 3 distinct real angles, give fewer rather than padding -- a short list of 1-2 strong options beats 3 where the last one is filler. Never manufacture fake depth with hedge words, listicle structure, or "here's why this matters" framing just to hit a count.
 
 Banned outright: "the future of X is Y", "make sure to keep an eye on", numbered/bulleted lists, hashtags, a question-mark crutch ending, restating the news without adding anything, any ChangeHero product/service mention, generic AI-newsletter cadence.
-Required: reads like one specific person's arguable take -- something that could plausibly get quote-tweeted for being right OR wrong, not just liked for being agreeable. Same chronically-online CT voice as the reply, not a press release.
-Length: up to ~280 characters -- more room than the reply to develop one real thought, but every sentence has to earn its place. Shorter and sharp beats long and padded.`;
+Required: each option reads like one specific person's arguable take -- something that could plausibly get quote-tweeted for being right OR wrong, not just liked for being agreeable. Same chronically-online CT voice as the replies, not a press release.
+Length: up to ~280 characters each -- more room than a reply to develop one real thought, but every sentence has to earn its place. Shorter and sharp beats long and padded.`;
 
 if (!DRY_RUN) {
   const missing = [];
@@ -193,13 +200,13 @@ FIRST, score this as a newsjack opportunity, 0-10. This tweet already cleared an
 
 Calibrate like this: a relevant, on-topic tweet with room for a genuinely specific reply is a 7-9, even if it's not a perfect fit — don't reserve high scores only for perfect scenarios. Score low (0-4) mainly when the topic is off-brand/irrelevant, or replies are already in the thousands.
 
-THEN write both a reply and a standalone post idea, following these two different style guides exactly:
+THEN write 3 reply options and up to 3 standalone post options, following these two different style guides exactly:
 
 ${COMMENT_STYLE}
 
 ${POST_STYLE}
 
-Respond with ONLY a JSON object, no other text: {"score": 0-10, "reasoning": "one short clause on what drove the score", "angle": "one sentence on why this is worth engaging with", "comment": "the reply, following COMMENT_STYLE exactly, literal post-ready text", "postIdea": "the standalone post, following POST_STYLE exactly, literal post-ready text"}`;
+Respond with ONLY a JSON object, no other text: {"score": 0-10, "reasoning": "one short clause on what drove the score", "angle": "one sentence on why this is worth engaging with", "comments": [{"style": "2-4 word label for the rhetorical move, e.g. deadpan reaction", "text": "the reply, following COMMENT_STYLE exactly, literal post-ready text"}, ... exactly 3 of these, each a genuinely different move], "postIdeas": [{"style": "2-4 word label for the angle, e.g. contrarian take", "text": "the standalone post, following POST_STYLE exactly, literal post-ready text"}, ... up to 3 of these, fewer if you can't find that many genuine angles]}`;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -210,7 +217,7 @@ Respond with ONLY a JSON object, no other text: {"score": 0-10, "reasoning": "on
     },
     body: JSON.stringify({
       model: "claude-sonnet-5",
-      max_tokens: 500,
+      max_tokens: 900,
       // Without this, the model sometimes burns the whole max_tokens budget
       // on an extended-thinking block and returns no actual text at all.
       thinking: { type: "disabled" },
@@ -222,9 +229,12 @@ Respond with ONLY a JSON object, no other text: {"score": 0-10, "reasoning": "on
   const text = body.content?.[0]?.text ?? "{}";
   const jsonMatch = text.match(/\{[\s\S]*\}/);
   try {
-    return JSON.parse(jsonMatch ? jsonMatch[0] : text);
+    const parsed = JSON.parse(jsonMatch ? jsonMatch[0] : text);
+    parsed.comments ??= [];
+    parsed.postIdeas ??= [];
+    return parsed;
   } catch {
-    return { score: 0, angle: "(model reply wasn't valid JSON)", comment: text.slice(0, 200), postIdea: "" };
+    return { score: 0, angle: "(model reply wasn't valid JSON)", comments: [], postIdeas: [] };
   }
 }
 
@@ -267,8 +277,23 @@ function formatAlert(account, tweet, ideas, engagement, avgEngagement) {
   text += `"${tweet.text}"\n\n`;
   text += `Engagement: ${engagement} (avg for this account: ~${Math.round(avgEngagement)})\n`;
   text += `Why: ${ideas.angle}\n\n`;
-  text += `💬 *Suggested comment:*\n${ideas.comment}\n\n`;
-  if (ideas.postIdea) text += `📝 *Or a standalone post:*\n${ideas.postIdea}\n\n`;
+
+  if (ideas.comments?.length) {
+    text += `💬 *Reply options:*\n`;
+    ideas.comments.forEach((c, i) => {
+      text += `${i + 1}. _${c.style}_ — ${c.text}\n`;
+    });
+    text += `\n`;
+  }
+
+  if (ideas.postIdeas?.length) {
+    text += `📝 *Standalone post options:*\n`;
+    ideas.postIdeas.forEach((p, i) => {
+      text += `${i + 1}. _${p.style}_ — ${p.text}\n`;
+    });
+    text += `\n`;
+  }
+
   text += `[Open tweet](${link})`;
   return text;
 }
@@ -304,23 +329,36 @@ async function evaluateTweet(account, acctState, tweet) {
     engagement >= acctState.avgEngagement * ENGAGEMENT_MULTIPLIER;
 
   if (isTrending) {
-    try {
-      const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
-      if (ideas.score >= MIN_SCORE) {
-        await sendTelegramMessage(formatAlert(account, tweet, ideas, engagement, acctState.avgEngagement));
-        for (const photoUrl of extractPhotoUrls(tweet)) {
-          try {
-            await sendTelegramPhoto(photoUrl);
-          } catch (err) {
-            console.error(`[${key}] failed to send photo for ${tweet.id}:`, err.message);
+    const nowUnix = Math.floor(Date.now() / 1000);
+    const cooldownRemaining = acctState.lastAlertUnix
+      ? ALERT_COOLDOWN_HOURS * 3600 - (nowUnix - acctState.lastAlertUnix)
+      : 0;
+
+    if (cooldownRemaining > 0) {
+      // Deliberately skip drafting/scoring at all here, not just sending --
+      // this is what keeps the loudest handful of accounts from crowding
+      // out everything else and burning Claude calls on alerts we'd bin anyway.
+      console.log(`[${key}] trending but on cooldown for ${tweet.id} -- ${Math.round(cooldownRemaining / 60)}m left before this account can alert again`);
+    } else {
+      try {
+        const ideas = await draftIdeas(account, tweet, engagement, acctState.avgEngagement);
+        if (ideas.score >= MIN_SCORE) {
+          await sendTelegramMessage(formatAlert(account, tweet, ideas, engagement, acctState.avgEngagement));
+          for (const photoUrl of extractPhotoUrls(tweet)) {
+            try {
+              await sendTelegramPhoto(photoUrl);
+            } catch (err) {
+              console.error(`[${key}] failed to send photo for ${tweet.id}:`, err.message);
+            }
           }
+          acctState.lastAlertUnix = nowUnix;
+          console.log(`[${key}] sent ${tweet.id} (score ${ideas.score}, engagement ${engagement} vs avg ${Math.round(acctState.avgEngagement)})`);
+        } else {
+          console.log(`[${key}] skipped ${tweet.id}, score ${ideas.score} below ${MIN_SCORE} (${ideas.reasoning ?? "no reasoning"})`);
         }
-        console.log(`[${key}] sent ${tweet.id} (score ${ideas.score}, engagement ${engagement} vs avg ${Math.round(acctState.avgEngagement)})`);
-      } else {
-        console.log(`[${key}] skipped ${tweet.id}, score ${ideas.score} below ${MIN_SCORE} (${ideas.reasoning ?? "no reasoning"})`);
+      } catch (err) {
+        console.error(`[${key}] failed to draft/send for ${tweet.id}:`, err.message);
       }
-    } catch (err) {
-      console.error(`[${key}] failed to draft/send for ${tweet.id}:`, err.message);
     }
   }
 
