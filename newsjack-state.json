@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2098666600110973269",
-    "avgEngagement": 118.0588871602323,
+    "lastSeenId": "2098683153313386612",
+    "avgEngagement": 99.1412210121626,
     "lastAlertUnix": 1789132051
   },
   "theblockco": {
@@ -25,9 +25,9 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2098662688209465539",
-    "avgEngagement": 69.80927994638289,
-    "lastAlertUnix": 1789164443
+    "lastSeenId": "2098684331271053762",
+    "avgEngagement": 78.2165471737276,
+    "lastAlertUnix": 1789200442
   },
   "coingecko": {
     "initialized": true,
@@ -60,8 +60,8 @@
   },
   "arkham": {
     "initialized": true,
-    "lastSeenId": "2098402273344753798",
-    "avgEngagement": 61.79320201438645,
+    "lastSeenId": "2098672683873636503",
+    "avgEngagement": 70.55524141007051,
     "lastAlertUnix": 1789070852
   },
   "defillama": {
@@ -120,8 +120,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2098577273813106690",
-    "avgEngagement": 173.87385654453195
+    "lastSeenId": "2098682026224185708",
+    "avgEngagement": 152.01169958117237
   },
   "altcoindaily": {
     "initialized": true,
@@ -170,7 +170,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789196864
+    "lastCheckUnix": 1789200480
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -219,9 +219,9 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2098664153837687140",
-    "avgEngagement": 209.76193419085106,
-    "lastAlertUnix": 1789114054
+    "lastSeenId": "2098684035216101881",
+    "avgEngagement": 280.20334775351705,
+    "lastAlertUnix": 1789200462
   },
   "bscgemsalert": {
     "initialized": true,
@@ -326,8 +326,8 @@
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2098574513759715505",
-    "avgEngagement": 3.7252830974849984
+    "lastSeenId": "2098682207602708795",
+    "avgEngagement": 4.407698168239499
   },
   "onekeyhq": {
     "initialized": true,
