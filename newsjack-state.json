@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2098643827028550080",
-    "avgEngagement": 34.85345775213034,
+    "lastSeenId": "2098667984386691288",
+    "avgEngagement": 29.49742042649124,
     "lastAlertUnix": 1789103257
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2098645320892596624",
-    "avgEngagement": 135.2269816574747,
+    "lastSeenId": "2098666600110973269",
+    "avgEngagement": 118.0588871602323,
     "lastAlertUnix": 1789132051
   },
   "theblockco": {
@@ -25,14 +25,14 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2098650860544835771",
-    "avgEngagement": 59.441828494832706,
+    "lastSeenId": "2098662688209465539",
+    "avgEngagement": 69.80927994638289,
     "lastAlertUnix": 1789164443
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2098614764603633751",
-    "avgEngagement": 191.55575223749625,
+    "lastSeenId": "2098669157873062243",
+    "avgEngagement": 139.78902656624734,
     "lastAlertUnix": 1788998841
   },
   "bitcoinmagazine": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2098595821088628814",
-    "avgEngagement": 268.63153354340693,
+    "lastSeenId": "2098662371510350052",
+    "avgEngagement": 232.44207348038483,
     "lastAlertUnix": 1789124865
   },
   "hupzy_agent": {
@@ -170,7 +170,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789193282
+    "lastCheckUnix": 1789196864
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -219,8 +219,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2098653332789428318",
-    "avgEngagement": 203.02435549153284,
+    "lastSeenId": "2098664153837687140",
+    "avgEngagement": 209.76193419085106,
     "lastAlertUnix": 1789114054
   },
   "bscgemsalert": {
@@ -456,8 +456,8 @@
   },
   "floki": {
     "initialized": true,
-    "lastSeenId": "2098384561537438139",
-    "avgEngagement": 176.30438047499996
+    "lastSeenId": "2098667987246981535",
+    "avgEngagement": 135.71306633249998
   },
   "runonflux": {
     "initialized": true,
