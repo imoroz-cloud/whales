@@ -25,9 +25,9 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2098806393230725240",
-    "avgEngagement": 115.87062636363652,
-    "lastAlertUnix": 1789200442
+    "lastSeenId": "2098840361158250689",
+    "avgEngagement": 180.10943845454557,
+    "lastAlertUnix": 1789240041
   },
   "coingecko": {
     "initialized": true,
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2098792074149871829",
-    "avgEngagement": 3.252736664409716
+    "lastSeenId": "2098838480415805535",
+    "avgEngagement": 4.076915665086801
   },
   "arkham": {
     "initialized": true,
@@ -82,8 +82,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2098811162737439186",
-    "avgEngagement": 109.59366266381387,
+    "lastSeenId": "2098838338312483039",
+    "avgEngagement": 107.0155638646697,
     "lastAlertUnix": 1789042045
   },
   "saylor": {
@@ -125,8 +125,8 @@
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2098795771042959737",
-    "avgEngagement": 222.95077781178844,
+    "lastSeenId": "2098841322824093955",
+    "avgEngagement": 222.66554446825188,
     "lastAlertUnix": 1789193249
   },
   "cryptokaleo": {
@@ -155,8 +155,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2098750994205356070",
-    "avgEngagement": 347.2193941040383,
+    "lastSeenId": "2098840973367500837",
+    "avgEngagement": 328.5535758728268,
     "lastAlertUnix": 1789117648
   },
   "dogecoin": {
@@ -170,7 +170,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789236471
+    "lastCheckUnix": 1789240070
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -202,8 +202,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2098820110873981107",
-    "avgEngagement": 519.6280856285266,
+    "lastSeenId": "2098840982653477301",
+    "avgEngagement": 633.1396599399686,
     "lastAlertUnix": 1789128463
   },
   "cryptowendyo": {
@@ -416,8 +416,8 @@
   },
   "ponkehq": {
     "initialized": true,
-    "lastSeenId": "2098758535614001621",
-    "avgEngagement": 50.71994409999999
+    "lastSeenId": "2098849125387354481",
+    "avgEngagement": 49.30396086999999
   },
   "zebec_hq": {
     "initialized": true,
