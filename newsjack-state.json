@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2100688762032243120",
-    "avgEngagement": 124.11156856557622,
+    "lastSeenId": "2100703853687578702",
+    "avgEngagement": 77.66126801799263,
     "lastAlertUnix": 1789661244
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2100686527130960239",
-    "avgEngagement": 85.09846193819101,
+    "lastSeenId": "2100704644531917302",
+    "avgEngagement": 81.47824634971359,
     "lastAlertUnix": 1789657646
   },
   "coingecko": {
@@ -37,8 +37,8 @@
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2100649198702014877",
-    "avgEngagement": 308.43779529448807,
+    "lastSeenId": "2100695062036222170",
+    "avgEngagement": 335.9064567061416,
     "lastAlertUnix": 1789672042
   },
   "whale_alert": {
@@ -174,12 +174,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789679279
+    "lastCheckUnix": 1789682862
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2100691590771613807",
-    "avgEngagement": 95.15142755968763,
+    "lastSeenId": "2100695035717337530",
+    "avgEngagement": 92.10599929178134,
     "lastAlertUnix": 1789657692
   },
   "zelcore_io": {
@@ -220,8 +220,8 @@
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2100688939787210908",
-    "avgEngagement": 33.429088936946435,
+    "lastSeenId": "2100703311376867837",
+    "avgEngagement": 32.7003622558625,
     "lastAlertUnix": 1789502850
   },
   "cryptorover": {
@@ -232,8 +232,8 @@
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2100686080550821956",
-    "avgEngagement": 69.67190564006836,
+    "lastSeenId": "2100694491136934051",
+    "avgEngagement": 64.67033394804784,
     "lastAlertUnix": 1789668453
   },
   "coinify": {
@@ -334,8 +334,8 @@
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2100558616575025581",
-    "avgEngagement": 4.374395281795207
+    "lastSeenId": "2100697133670076724",
+    "avgEngagement": 6.062076697256645
   },
   "onekeyhq": {
     "initialized": true,
