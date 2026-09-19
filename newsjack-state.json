@@ -13,14 +13,14 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2101393424473554956",
-    "avgEngagement": 183.8226479839479,
+    "lastSeenId": "2101408529026285773",
+    "avgEngagement": 178.17585358876352,
     "lastAlertUnix": 1789816043
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2101371450011930995",
-    "avgEngagement": 28.68138688093975,
+    "lastSeenId": "2101404165922857322",
+    "avgEngagement": 33.876970816657824,
     "lastAlertUnix": 1789740445
   },
   "coinmarketcap": {
@@ -79,13 +79,13 @@
   },
   "vitalikbuterin": {
     "initialized": true,
-    "lastSeenId": "2101231336807899338",
-    "avgEngagement": 633.9229182454683
+    "lastSeenId": "2101414022839218479",
+    "avgEngagement": 609.6622299402794
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2101354569657684278",
-    "avgEngagement": 111.68159295077848,
+    "lastSeenId": "2101408625734365395",
+    "avgEngagement": 126.17711506554492,
     "lastAlertUnix": 1789679246
   },
   "saylor": {
@@ -174,7 +174,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789848473
+    "lastCheckUnix": 1789852063
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -208,20 +208,20 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2101382505605525855",
-    "avgEngagement": 590.4370049386064,
+    "lastSeenId": "2101405660185268424",
+    "avgEngagement": 693.5059034570245,
     "lastAlertUnix": 1789816058
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2101361426883592385",
-    "avgEngagement": 127.57472603285122,
+    "lastSeenId": "2101416045097427447",
+    "avgEngagement": 107.30230822299585,
     "lastAlertUnix": 1789657702
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2101366466973163918",
-    "avgEngagement": 41.874656977632576,
+    "lastSeenId": "2101416807689310281",
+    "avgEngagement": 29.912259884342802,
     "lastAlertUnix": 1789502850
   },
   "cryptorover": {
@@ -483,8 +483,8 @@
   },
   "nearprotocol": {
     "initialized": true,
-    "lastSeenId": "2101382062708273166",
-    "avgEngagement": 262.35178225219056,
+    "lastSeenId": "2101407939571367955",
+    "avgEngagement": 262.2462475765334,
     "lastAlertUnix": 1789740494
   },
   "vladtenev": {
