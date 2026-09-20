@@ -174,7 +174,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789898860
+    "lastCheckUnix": 1789902462
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -226,8 +226,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2101613840320405707",
-    "avgEngagement": 264.20750715441034,
+    "lastSeenId": "2101623151268385127",
+    "avgEngagement": 317.84525500808724,
     "lastAlertUnix": 1789888051
   },
   "bscgemsalert": {
@@ -495,8 +495,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2101604775640891760",
-    "avgEngagement": 294.8587656990032,
+    "lastSeenId": "2101627360281792670",
+    "avgEngagement": 247.2011359893022,
     "lastAlertUnix": 1789805272
   }
 }
