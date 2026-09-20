@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2101522359991906608",
-    "avgEngagement": 23.435402322559355,
+    "lastSeenId": "2101593835201781950",
+    "avgEngagement": 27.80478162579155,
     "lastAlertUnix": 1789711655
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2101574603084607922",
-    "avgEngagement": 170.59136923242036,
+    "lastSeenId": "2101589706559348799",
+    "avgEngagement": 159.01395846269423,
     "lastAlertUnix": 1789816043
   },
   "theblockco": {
@@ -25,14 +25,14 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2101579663340446195",
-    "avgEngagement": 210.8866893090393,
+    "lastSeenId": "2101597242146578443",
+    "avgEngagement": 168.0206825163275,
     "lastAlertUnix": 1789844845
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2101530996067737649",
-    "avgEngagement": 215.75546089584535,
+    "lastSeenId": "2101588472985223447",
+    "avgEngagement": 256.6288226270917,
     "lastAlertUnix": 1789747651
   },
   "bitcoinmagazine": {
@@ -159,8 +159,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2101567033200771523",
-    "avgEngagement": 358.0325543314728,
+    "lastSeenId": "2101597245137387806",
+    "avgEngagement": 301.0227880320309,
     "lastAlertUnix": 1789837647
   },
   "dogecoin": {
@@ -174,7 +174,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1789891660
+    "lastCheckUnix": 1789895259
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -226,14 +226,14 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2101581879371538561",
-    "avgEngagement": 295.42713456096317,
+    "lastSeenId": "2101592952355053792",
+    "avgEngagement": 326.1989941926742,
     "lastAlertUnix": 1789888051
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2101425811345555936",
-    "avgEngagement": 42.967633400508504,
+    "lastSeenId": "2101596886238969975",
+    "avgEngagement": 36.077343380355956,
     "lastAlertUnix": 1789668453
   },
   "coinify": {
