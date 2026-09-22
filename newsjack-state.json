@@ -1,26 +1,26 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2102150104001954101",
-    "avgEngagement": 2838.394228036757,
+    "lastSeenId": "2102206649188458932",
+    "avgEngagement": 2523.8759596257296,
     "lastAlertUnix": 1789981645
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2102067681264558530",
-    "avgEngagement": 39.52295209288812,
+    "lastSeenId": "2102211370796368041",
+    "avgEngagement": 50.76606646502168,
     "lastAlertUnix": 1789996060
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2102201378382753952",
-    "avgEngagement": 120.72823298379478,
+    "lastSeenId": "2102216424357757085",
+    "avgEngagement": 131.24683416205943,
     "lastAlertUnix": 1790017645
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2102202084708040989",
-    "avgEngagement": 19.871449651434467,
+    "lastSeenId": "2102212291416686852",
+    "avgEngagement": 16.217335061309413,
     "lastAlertUnix": 1789740445
   },
   "coinmarketcap": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2102182600475627795",
-    "avgEngagement": 128.23819297862966,
+    "lastSeenId": "2102216451558093247",
+    "avgEngagement": 110.46673508504075,
     "lastAlertUnix": 1789992444
   },
   "hupzy_agent": {
@@ -136,14 +136,14 @@
   },
   "cryptokaleo": {
     "initialized": true,
-    "lastSeenId": "2102200120590614632",
-    "avgEngagement": 128.98472417210485,
+    "lastSeenId": "2102216706815127989",
+    "avgEngagement": 107.38930692047339,
     "lastAlertUnix": 1789855647
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2102200486413889863",
-    "avgEngagement": 34.31220750929885,
+    "lastSeenId": "2102211933428740312",
+    "avgEngagement": 33.318545256509196,
     "lastAlertUnix": 1789974463
   },
   "thecryptodog": {
@@ -175,12 +175,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790039261
+    "lastCheckUnix": 1790042865
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2102134469020807231",
-    "avgEngagement": 164.9384125934999,
+    "lastSeenId": "2102208939328786676",
+    "avgEngagement": 158.95688881544993,
     "lastAlertUnix": 1789985275
   },
   "zelcore_io": {
