@@ -862,7 +862,6 @@
   "AURORA": {
     "initialized": true,
     "seenHashes": [
-      "0xeeccba7d1610f53beadbbaff1b21ec6c42a4fd27eea1d111625b69d36b5f6310",
       "0x9b4c83a6f8684ecce2d427ab4bbf141a0df49377bc9916f8f25d2621cf23cfc4",
       "0xc27b79865e59185117f1696baac30b5ad0854ca522e975a3958ab9874af84234",
       "0x1f6a2ba8b90963a6d8096d2b33ce052af181cf381fb4383b908832614ac59e94",
@@ -1161,7 +1160,8 @@
       "0x3ad81fa0fca6dad92d6bfb2a17c89355ca480b1705c7921ffa8b6560bfa73db7",
       "0xf8a3543edee352c4a2e34dc08bca75c163ee9e1b08bb8e09f5fbc0d712e6a819",
       "0x053efa625029f49c0f9442c03567f9a19b1dcec2250a8166d3894c16e778585d",
-      "0xdafdb0e0018ac548ce29459002de60bcc40ac5f1bacee637e979aea2fef490e8"
+      "0xdafdb0e0018ac548ce29459002de60bcc40ac5f1bacee637e979aea2fef490e8",
+      "0xec9062901db6b09f20e7ddbb4bee0aa19a225591bb4fdfc4fc5f2105908de341"
     ]
   },
   "JASMY": {
