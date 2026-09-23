@@ -1,32 +1,32 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2102562839143534802",
-    "avgEngagement": 1339.825550003235,
-    "lastAlertUnix": 1790093247
+    "lastSeenId": "2102575239679148102",
+    "avgEngagement": 1699.4345195015849,
+    "lastAlertUnix": 1790129242
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2102548500709826600",
-    "avgEngagement": 54.78135950237741,
+    "lastSeenId": "2102570006680879442",
+    "avgEngagement": 52.14695165166418,
     "lastAlertUnix": 1790060849
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2102563605858161093",
-    "avgEngagement": 100.08333756809124,
+    "lastSeenId": "2102578910944719188",
+    "avgEngagement": 96.08083540836468,
     "lastAlertUnix": 1790100443
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2102525893105045785",
-    "avgEngagement": 20.438488268394526,
+    "lastSeenId": "2102567406208258159",
+    "avgEngagement": 25.106941787876167,
     "lastAlertUnix": 1790057254
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2102558360830677034",
-    "avgEngagement": 111.75030086610037,
+    "lastSeenId": "2102580001178562862",
+    "avgEngagement": 88.56764742438916,
     "lastAlertUnix": 1790096853
   },
   "coingecko": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2102405530757251198",
-    "avgEngagement": 162.24089674121396,
+    "lastSeenId": "2102572296066228599",
+    "avgEngagement": 160.81062758223638,
     "lastAlertUnix": 1790050055
   },
   "hupzy_agent": {
@@ -175,7 +175,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790125686
+    "lastCheckUnix": 1790129271
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -422,8 +422,8 @@
   },
   "kaspaunchained": {
     "initialized": true,
-    "lastSeenId": "2102373048339087740",
-    "avgEngagement": 229.9397260085553,
+    "lastSeenId": "2102574864234401987",
+    "avgEngagement": 187.0578082059887,
     "lastAlertUnix": 1789996122
   },
   "pudgypenguins": {
