@@ -7,26 +7,26 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2102584909684674952",
-    "avgEngagement": 53.302866156164924,
+    "lastSeenId": "2102608763203342796",
+    "avgEngagement": 43.31200630931544,
     "lastAlertUnix": 1790060849
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2102594004160250296",
-    "avgEngagement": 97.08960935009868,
+    "lastSeenId": "2102609115948204289",
+    "avgEngagement": 80.07173600708384,
     "lastAlertUnix": 1790100443
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2102567406208258159",
-    "avgEngagement": 25.106941787876167,
+    "lastSeenId": "2102602232370024758",
+    "avgEngagement": 26.22240147605932,
     "lastAlertUnix": 1790057254
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2102588808705237109",
-    "avgEngagement": 72.9781472379507,
+    "lastSeenId": "2102602649950433400",
+    "avgEngagement": 75.38470306656548,
     "lastAlertUnix": 1790096853
   },
   "coingecko": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2102580936349274332",
-    "avgEngagement": 153.06743930756545,
+    "lastSeenId": "2102609066610802847",
+    "avgEngagement": 117.60304526070706,
     "lastAlertUnix": 1790050055
   },
   "hupzy_agent": {
@@ -61,8 +61,8 @@
   },
   "arkham": {
     "initialized": true,
-    "lastSeenId": "2102562790393475213",
-    "avgEngagement": 62.72892403882903,
+    "lastSeenId": "2102603206010478977",
+    "avgEngagement": 70.61024682718032,
     "lastAlertUnix": 1790071652
   },
   "defillama": {
@@ -175,7 +175,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790132861
+    "lastCheckUnix": 1790136467
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -386,8 +386,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2102563600137388142",
-    "avgEngagement": 5.4010016859247045
+    "lastSeenId": "2102608897412337761",
+    "avgEngagement": 4.9807011801472925
   },
   "bitexly": {
     "initialized": true,
