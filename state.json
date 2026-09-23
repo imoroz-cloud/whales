@@ -204,7 +204,8 @@
       "2Sd3KVGZzbqSsXqfh6mZxVe5oe81jXh4dWkEsy8qb5oTLmTP4NMfQrKqP11TUQeFpobyjDstt4VqjeHSZhdctuza",
       "3qninxEina34RE4ANNaPHdY2XYWor3Qq5gSwtRC9SeZeRCEB9KNwsPWmdYGXpUPiFEhQ12UGA5RXX1bX9sYeWgNK",
       "fKrMidPwkmGrmdwZQMVvnbLm1CUmG5uotrPgy4Q7E9kX7yufYD6bwWeaR1anJajqj6CC935oarPeLRXgJYbPRcB",
-      "3zyYCxneqPpmGu1od3dsA3dHyuCHNqbAhnMT6GrW7vfA8uMS9nHtepyggN45EAjH9LkTq5JpctnhUiyTMXfMNSk"
+      "3zyYCxneqPpmGu1od3dsA3dHyuCHNqbAhnMT6GrW7vfA8uMS9nHtepyggN45EAjH9LkTq5JpctnhUiyTMXfMNSk",
+      "K1JnMp9oV8AkkUBvFH964RHgZWTntwKQBivTPHZ1UKAeLtgZAJs3T7VxqMFV2YYYinWjxj8ffnEmqmdHoaFHkeP"
     ]
   },
   "APU": {
@@ -856,9 +857,6 @@
   "AURORA": {
     "initialized": true,
     "seenHashes": [
-      "0x9af688400877048c7457944ccde9238c7d8c5e5217f87c84a661adcd50af463f",
-      "0xf536f175f8698e3af99e6aa47e4df6ca50ebda756368ae6c886a340e693ae0ce",
-      "0x6fa80dd84168ef376b81b14f73f476ab8eddc72ff74c0a3eb0c6b819ea0ad022",
       "0xf39df845f359b9abe7a2baa313d8f39c6b8f022816c02e12e680cae5599073d3",
       "0x9c2a2667687cf18d1cb887dc056f2b27b8b59fe6902c2d64b2171b3dab8d8777",
       "0x0b089ddfdf039ae31a3317e8666f7a70d3c0fd32696bc8f06b310687c604b6ae",
@@ -1155,7 +1153,10 @@
       "0xbf3f649280d154298a61d1fc92cc2f73faad59709b1bf0f605876c9bc3217664",
       "0x5e07bfefbee45f5fd66743ff84cdc00f7dc6580306c55902ec27f23bf554208c",
       "0xbfb5822b00b69de6dba2abd611a883cedfc7f4bc58094456a9d4950471f6550e",
-      "0x533bfb9072a90485ad07b6c921a6cba3d1bfebec839c0136360d1d40b5f9e8bf"
+      "0x533bfb9072a90485ad07b6c921a6cba3d1bfebec839c0136360d1d40b5f9e8bf",
+      "0xdcd843e142a5a0b0de511ac2d026dd1da1375cb8677282118a0ab74280669504",
+      "0xaa68a84a6c8ea1a18225ee19c8f36d290598094330e6bcccc51c89a177d8b39f",
+      "0x47e3c05ae8c328e7fdbb1fc12df26c185163d90b4dc2d69756328400c1bffe1c"
     ]
   },
   "JASMY": {
