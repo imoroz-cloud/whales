@@ -1,8 +1,8 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2103843769514606984",
-    "avgEngagement": 1684.5864606205082,
+    "lastSeenId": "2103854463211676134",
+    "avgEngagement": 2022.8105224343558,
     "lastAlertUnix": 1790287644
   },
   "wublockchain": {
@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2103842263474258234",
-    "avgEngagement": 177.52786244511873,
+    "lastSeenId": "2103857363757244661",
+    "avgEngagement": 179.89865259810813,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2103832034288234820",
-    "avgEngagement": 129.7687271393605,
+    "lastSeenId": "2103850121599357339",
+    "avgEngagement": 150.53810899755234,
     "lastAlertUnix": 1790413643
   },
   "coingecko": {
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2103809480651923537",
-    "avgEngagement": 6.635476424139126,
+    "lastSeenId": "2103857037755158653",
+    "avgEngagement": 4.644833496897388,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -125,8 +125,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2103641455734710653",
-    "avgEngagement": 177.47214025180824,
+    "lastSeenId": "2103849451161088061",
+    "avgEngagement": 165.03049817626575,
     "lastAlertUnix": 1789996086
   },
   "altcoindaily": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790431664
+    "lastCheckUnix": 1790435260
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2103586065428939007",
-    "avgEngagement": 58.04514406047525,
+    "lastSeenId": "2103862165715247582",
+    "avgEngagement": 48.43160084233267,
     "lastAlertUnix": 1790338073
   },
   "litecoin": {
@@ -216,8 +216,8 @@
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2103801132095246390",
-    "avgEngagement": 140.30716132266755,
+    "lastSeenId": "2103850577251963031",
+    "avgEngagement": 159.71501292586728,
     "lastAlertUnix": 1790359660
   },
   "cryptotea": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2103836775118762222",
-    "avgEngagement": 408.66662002092266,
+    "lastSeenId": "2103856870050136572",
+    "avgEngagement": 391.66663401464587,
     "lastAlertUnix": 1790428058
   },
   "bscgemsalert": {
@@ -372,8 +372,8 @@
   },
   "orangefren": {
     "initialized": true,
-    "lastSeenId": "2103173598819049939",
-    "avgEngagement": 7.266126306009392,
+    "lastSeenId": "2103855994526650704",
+    "avgEngagement": 6.586288414206574,
     "lastAlertUnix": 1790258868
   },
   "coinoswap": {
@@ -507,8 +507,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2103824179942539559",
-    "avgEngagement": 316.0034760271177,
+    "lastSeenId": "2103849425500057615",
+    "avgEngagement": 352.3024332189824,
     "lastAlertUnix": 1790334470
   }
 }
