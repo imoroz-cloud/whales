@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2103700726342148351",
-    "avgEngagement": 47.7799366451505,
+    "lastSeenId": "2103717903858315611",
+    "avgEngagement": 48.74595565160534,
     "lastAlertUnix": 1790327246
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2103703864167788653",
-    "avgEngagement": 133.49131714611678,
+    "lastSeenId": "2103718971799138439",
+    "avgEngagement": 147.74392200228175,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
@@ -25,14 +25,14 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2103692330372837423",
-    "avgEngagement": 76.64310753069371,
+    "lastSeenId": "2103713721239347558",
+    "avgEngagement": 98.3501752714856,
     "lastAlertUnix": 1790366878
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2103575286143201674",
-    "avgEngagement": 88.43703794266207,
+    "lastSeenId": "2103719979224879438",
+    "avgEngagement": 113.80592655986345,
     "lastAlertUnix": 1790269643
   },
   "bitcoinmagazine": {
@@ -49,14 +49,14 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2103700414608892398",
-    "avgEngagement": 163.6753787292635,
+    "lastSeenId": "2103717518590484631",
+    "avgEngagement": 145.47276511048446,
     "lastAlertUnix": 1790399241
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2103617628296348112",
-    "avgEngagement": 4.480564130896176,
+    "lastSeenId": "2103719876418576442",
+    "avgEngagement": 7.336394891627323,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790399267
+    "lastCheckUnix": 1790402859
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2103674140871774430",
-    "avgEngagement": 388.9270429934684,
+    "lastSeenId": "2103718204246016427",
+    "avgEngagement": 334.04893009542786,
     "lastAlertUnix": 1790366914
   },
   "bscgemsalert": {
