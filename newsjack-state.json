@@ -1,8 +1,8 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2104206023556813036",
-    "avgEngagement": 1145.995704505542,
+    "lastSeenId": "2104234599358271865",
+    "avgEngagement": 1235.3969931538795,
     "lastAlertUnix": 1790287644
   },
   "wublockchain": {
@@ -13,15 +13,15 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2104217903641895106",
-    "avgEngagement": 233.48639526929716,
+    "lastSeenId": "2104232354877231517",
+    "avgEngagement": 278.340476688508,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2103899068766589383",
-    "avgEngagement": 34.21075797910285,
-    "lastAlertUnix": 1790446042
+    "lastSeenId": "2104226408994308347",
+    "avgEngagement": 69.847530585372,
+    "lastAlertUnix": 1790525247
   },
   "coinmarketcap": {
     "initialized": true,
@@ -31,8 +31,8 @@
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2104173800069697930",
-    "avgEngagement": 172.25952001768894,
+    "lastSeenId": "2104232584704094622",
+    "avgEngagement": 247.18166401238224,
     "lastAlertUnix": 1790438844
   },
   "bitcoinmagazine": {
@@ -125,8 +125,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2104002818768245151",
-    "avgEngagement": 167.121348723386,
+    "lastSeenId": "2104235567227830515",
+    "avgEngagement": 173.3849441063702,
     "lastAlertUnix": 1789996086
   },
   "altcoindaily": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2104201896911057197",
-    "avgEngagement": 346.65854416381853,
+    "lastSeenId": "2104231475575140606",
+    "avgEngagement": 500.66098091467296,
     "lastAlertUnix": 1790280448
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790521676
+    "lastCheckUnix": 1790525281
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2104219509351707015",
-    "avgEngagement": 426.16068761345804,
+    "lastSeenId": "2104232847519392192",
+    "avgEngagement": 470.2124813294206,
     "lastAlertUnix": 1790507247
   },
   "bscgemsalert": {
@@ -347,8 +347,8 @@
   },
   "onekeyhq": {
     "initialized": true,
-    "lastSeenId": "2103895833527689273",
-    "avgEngagement": 6.293452350198658
+    "lastSeenId": "2104238409707671579",
+    "avgEngagement": 4.70541664513906
   },
   "cryptorubic": {
     "initialized": true,
@@ -495,8 +495,8 @@
   },
   "nearprotocol": {
     "initialized": true,
-    "lastSeenId": "2104197282019110997",
-    "avgEngagement": 454.36140044609164,
+    "lastSeenId": "2104228182408974796",
+    "avgEngagement": 459.9529803122641,
     "lastAlertUnix": 1790518074
   },
   "vladtenev": {
