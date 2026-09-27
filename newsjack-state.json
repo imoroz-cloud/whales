@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2104096445808718069",
-    "avgEngagement": 155.88524789142198,
+    "lastSeenId": "2104111545697308904",
+    "avgEngagement": 149.91967352399539,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2104067476573041062",
-    "avgEngagement": 186.2776699792186,
+    "lastSeenId": "2104105804366327960",
+    "avgEngagement": 206.894368985453,
     "lastAlertUnix": 1790413643
   },
   "coingecko": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2104084823820411056",
-    "avgEngagement": 42.642238490261256,
+    "lastSeenId": "2104107755330212275",
+    "avgEngagement": 57.5232878021596,
     "lastAlertUnix": 1790294850
   },
   "thecryptodog": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790492873
+    "lastCheckUnix": 1790496465
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,14 +192,14 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2104058452981039370",
-    "avgEngagement": 39.302120589632864,
+    "lastSeenId": "2104119098204651880",
+    "avgEngagement": 32.911484412743,
     "lastAlertUnix": 1790338073
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2103921483915448329",
-    "avgEngagement": 205.7436212952244,
+    "lastSeenId": "2104119911329005784",
+    "avgEngagement": 147.92053490665705,
     "lastAlertUnix": 1790258855
   },
   "babydoge": {
@@ -210,8 +210,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2103949144780062957",
-    "avgEngagement": 595.6586938505782,
+    "lastSeenId": "2104112001605570661",
+    "avgEngagement": 689.9610856954047,
     "lastAlertUnix": 1790330871
   },
   "cryptowendyo": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2104099217027346625",
-    "avgEngagement": 337.3784540129547,
+    "lastSeenId": "2104111548067414409",
+    "avgEngagement": 407.76491780906827,
     "lastAlertUnix": 1790428058
   },
   "bscgemsalert": {
@@ -507,8 +507,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2103912425317876086",
-    "avgEngagement": 370.38819227730136,
+    "lastSeenId": "2104113697287213112",
+    "avgEngagement": 378.0717345941109,
     "lastAlertUnix": 1790334470
   }
 }
