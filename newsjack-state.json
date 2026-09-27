@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2104111545697308904",
-    "avgEngagement": 149.91967352399539,
+    "lastSeenId": "2104126647662252469",
+    "avgEngagement": 154.44377146679676,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2104105804366327960",
-    "avgEngagement": 206.894368985453,
+    "lastSeenId": "2104133953963589749",
+    "avgEngagement": 179.9260582898171,
     "lastAlertUnix": 1790413643
   },
   "coingecko": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790496465
+    "lastCheckUnix": 1790500062
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -198,8 +198,8 @@
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2104119911329005784",
-    "avgEngagement": 147.92053490665705,
+    "lastSeenId": "2104121303120646243",
+    "avgEngagement": 142.24437443465993,
     "lastAlertUnix": 1790258855
   },
   "babydoge": {
@@ -210,8 +210,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2104112001605570661",
-    "avgEngagement": 689.9610856954047,
+    "lastSeenId": "2104132531884798322",
+    "avgEngagement": 587.3727599867832,
     "lastAlertUnix": 1790330871
   },
   "cryptowendyo": {
@@ -228,14 +228,14 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2104111548067414409",
-    "avgEngagement": 407.76491780906827,
+    "lastSeenId": "2104129919299055825",
+    "avgEngagement": 418.23480972644336,
     "lastAlertUnix": 1790428058
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2104096197279728037",
-    "avgEngagement": 95.0429811613992,
+    "lastSeenId": "2104127768548020293",
+    "avgEngagement": 65.9510607690856,
     "lastAlertUnix": 1790446059
   },
   "coinify": {
@@ -473,8 +473,8 @@
   },
   "zano_project": {
     "initialized": true,
-    "lastSeenId": "2103612967820374509",
-    "avgEngagement": 81.7229696370313,
+    "lastSeenId": "2104133054880964919",
+    "avgEngagement": 65.9060787459219,
     "lastAlertUnix": 1790377659
   },
   "floki": {
