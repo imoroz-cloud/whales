@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2104375803060396527",
-    "avgEngagement": 140.15182594447887,
+    "lastSeenId": "2104390890898764113",
+    "avgEngagement": 115.47439471279463,
     "lastAlertUnix": 1790374042
   },
   "theblockco": {
@@ -85,9 +85,9 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2104373361224962057",
-    "avgEngagement": 78.70385641899911,
-    "lastAlertUnix": 1790449646
+    "lastSeenId": "2104382275588886751",
+    "avgEngagement": 147.49269949329937,
+    "lastAlertUnix": 1790561245
   },
   "saylor": {
     "initialized": true,
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790557700
+    "lastCheckUnix": 1790561279
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,9 +192,9 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2104164900268642644",
-    "avgEngagement": 35.638039088920095,
-    "lastAlertUnix": 1790338073
+    "lastSeenId": "2104385100653744516",
+    "avgEngagement": 75.20284740749959,
+    "lastAlertUnix": 1790561259
   },
   "litecoin": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2104299536688574610",
-    "avgEngagement": 478.58828695114744,
+    "lastSeenId": "2104392170878931112",
+    "avgEngagement": 347.6118008658032,
     "lastAlertUnix": 1790536049
   },
   "bscgemsalert": {
@@ -335,8 +335,8 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2104243592898150775",
-    "avgEngagement": 606.1254143483261,
+    "lastSeenId": "2104390328048365693",
+    "avgEngagement": 456.6877900438282,
     "lastAlertUnix": 1790114863
   },
   "houdiniswap": {
@@ -424,8 +424,8 @@
   },
   "kaspaunchained": {
     "initialized": true,
-    "lastSeenId": "2104179057978204476",
-    "avgEngagement": 145.0690230180369,
+    "lastSeenId": "2104387438491918419",
+    "avgEngagement": 123.1483161126258,
     "lastAlertUnix": 1789996122
   },
   "pudgypenguins": {
