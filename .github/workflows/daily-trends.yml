@@ -19,3 +19,12 @@ jobs:
           TELEGRAM_NEWSJACK_BOT_TOKEN: ${{ secrets.TELEGRAM_NEWSJACK_BOT_TOKEN }}
           TELEGRAM_NEWSJACK_CHAT_ID: ${{ secrets.TELEGRAM_NEWSJACK_CHAT_ID }}
         run: node daily-trends.mjs
+
+      # Shares this workflow's daily trigger rather than needing its own
+      # cron-job.org job. always() so a trends failure doesn't skip it.
+      - name: Project birthday heads-up (tomorrow's anniversaries)
+        if: always()
+        env:
+          TELEGRAM_NEWSJACK_BOT_TOKEN: ${{ secrets.TELEGRAM_NEWSJACK_BOT_TOKEN }}
+          TELEGRAM_NEWSJACK_CHAT_ID: ${{ secrets.TELEGRAM_NEWSJACK_CHAT_ID }}
+        run: node birthdays.mjs

@@ -407,3 +407,36 @@ ANTHROPIC_API_KEY=xxx TELEGRAM_NEWSJACK_BOT_TOKEN=xxx TELEGRAM_NEWSJACK_CHAT_ID=
 
 Add `DRY_RUN=1` to print what it *would* send instead of posting to
 Telegram.
+
+---
+
+## Project Birthday Reminders
+
+`birthdays.mjs` runs as an extra step of the **Daily Trends** workflow (same
+11:00 Moscow trigger, no extra cron job or secrets). If a project's launch
+anniversary is **tomorrow** (Moscow time), it posts one prominent message to
+the newsjack Telegram chat and **pins it**, so the content team has a day to
+prepare a post. It removes its own pin automatically on the next run once the
+pin is 12+ hours old, and never touches pins it didn't make. No LLM and no
+paid APIs are involved. The bot needs the "edit messages" admin right to pin.
+
+### Where the dates come from
+
+`asset-birthdays.json` holds only dates that were verified, each with an
+`evidence` note. Free aggregators disagree with each other by days
+(CoinGecko has Litecoin off by one day and Dogecoin off by two), so a date is
+included only if it is confirmed by a primary source (the network's genesis
+block on a public explorer) or by two independent sources that agree.
+Ambiguous cases (e.g. Cardano: genesis block 23 Sep 2017 vs. the 29 Sep
+launch the community celebrates) are left out until someone decides which
+date counts. To add a project, append an entry with `name`, `tickers`, `date`
+(YYYY-MM-DD) and `evidence`.
+
+### Testing
+
+```bash
+DRY_RUN=1 TODAY_OVERRIDE=2026-10-06 node birthdays.mjs
+```
+
+`TODAY_OVERRIDE` pretends today is that date; a real send with it set is
+labeled as a test.
