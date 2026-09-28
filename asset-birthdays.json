@@ -54,5 +54,29 @@
     ],
     "date": "2017-09-29",
     "evidence": "Mainnet launch as celebrated by the Cardano community/Foundation (29 Sep 2017); date chosen by the ChangeHero team. On-chain genesis block timestamp is 2017-09-23 (Byron system start), so the two differ by 6 days"
+  },
+  {
+    "name": "Zcash",
+    "tickers": [
+      "ZEC"
+    ],
+    "date": "2016-10-28",
+    "evidence": "CoinGecko genesis_date and CoinPaprika started_at agree exactly"
+  },
+  {
+    "name": "Monero",
+    "tickers": [
+      "XMR"
+    ],
+    "date": "2014-04-18",
+    "evidence": "CoinGecko genesis_date and CoinPaprika started_at agree exactly"
+  },
+  {
+    "name": "DigiByte",
+    "tickers": [
+      "DGB"
+    ],
+    "date": "2014-01-10",
+    "evidence": "CoinGecko genesis_date and CoinPaprika started_at agree exactly"
   }
 ]
