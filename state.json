@@ -913,7 +913,6 @@
   "AURORA": {
     "initialized": true,
     "seenHashes": [
-      "0x8e7c65c2a55f8e70aeaceb70f7a6f8dc77f1d9e02a39b663b84338f932d760b7",
       "0x1f0602cc765fc45a2a9f3766ee92e37a9bdf2b4e0f9d994b18162ddb38b4be9b",
       "0x46dddac9a23f9a904ae1505df3128aac1c7dafc6aa5cb89d96b83fffff1a8ed9",
       "0xe0e7b08a1e5bfffd60a711e672697c544e6efb4352dae128279b1df5c8903371",
@@ -1212,7 +1211,8 @@
       "0x4ffa771c799a10dfb0578cb43e6ecb6f5ff49c322df10c6b3a8b5012bbe0b012",
       "0x1c5fd5cd4e428e9c224092078d86c28d1f51db313253f8a37c5d172175915663",
       "0x83d41ae88ab44cfbbc5cc05ff5a98e29b20ae30a5d0ed72aee18e6805c575266",
-      "0xedc46c242df6dd4c0f05acc21cb0fcacb7a04d018a7c883c44a3aa556369c7bd"
+      "0xedc46c242df6dd4c0f05acc21cb0fcacb7a04d018a7c883c44a3aa556369c7bd",
+      "0x8d3af6e95b8a69a6370543dc0fd16bbcf6d79c74e38e6fb4ae51c6af8adbb7f1"
     ]
   },
   "JASMY": {
