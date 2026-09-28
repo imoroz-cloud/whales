@@ -1,38 +1,58 @@
 [
   {
     "name": "Bitcoin",
-    "tickers": ["BTC"],
+    "tickers": [
+      "BTC"
+    ],
     "date": "2009-01-03",
     "evidence": "genesis block timestamp 2009-01-03T18:15:05Z (blockstream.info); CoinGecko + CoinPaprika agree"
   },
   {
     "name": "Litecoin",
-    "tickers": ["LTC"],
+    "tickers": [
+      "LTC"
+    ],
     "date": "2011-10-07",
     "evidence": "genesis block timestamp 2011-10-07T07:31:05Z (litecoinspace.org). CoinGecko says 2011-10-08, which is off by a day"
   },
   {
     "name": "Dogecoin",
-    "tickers": ["DOGE"],
+    "tickers": [
+      "DOGE"
+    ],
     "date": "2013-12-06",
     "evidence": "genesis block timestamp 2013-12-06 10:25:40 (blockchair); CoinPaprika agrees. CoinGecko says 2013-12-08, which is off by two days"
   },
   {
     "name": "Ethereum",
-    "tickers": ["ETH"],
+    "tickers": [
+      "ETH"
+    ],
     "date": "2015-07-30",
     "evidence": "CoinGecko genesis_date and CoinPaprika started_at agree (genesis block itself carries timestamp 0, so on-chain can't be used)"
   },
   {
     "name": "Algorand",
-    "tickers": ["ALGO"],
+    "tickers": [
+      "ALGO"
+    ],
     "date": "2019-06-11",
     "evidence": "mainnet genesis block timestamp 2019-06-11 (algonode.cloud), matches the officially announced mainnet launch date"
   },
   {
     "name": "Tezos",
-    "tickers": ["XTZ"],
+    "tickers": [
+      "XTZ"
+    ],
     "date": "2018-06-30",
     "evidence": "mainnet genesis block timestamp 2018-06-30T16:07:32Z (tzkt.io), matches the officially announced mainnet launch date"
+  },
+  {
+    "name": "Cardano",
+    "tickers": [
+      "ADA"
+    ],
+    "date": "2017-09-29",
+    "evidence": "Mainnet launch as celebrated by the Cardano community/Foundation (29 Sep 2017); date chosen by the ChangeHero team. On-chain genesis block timestamp is 2017-09-23 (Byron system start), so the two differ by 6 days"
   }
 ]
