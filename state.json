@@ -316,34 +316,10 @@
       "0xc1d138c029bd4ae25e44fe08ba07fb50efaf9e21210b1b97ad3e8c8227994032",
       "0xfc725b5ae2a5198a83946395e8eece698bcdbb0ebb483e43f4e6eae7694d06bd",
       "0x5797013d1243001ebf92b5c03a115739512a8522e8460e3dc773b9eadb5b26ea",
-      "0xe142a3f613827ccfcb6031cd4fbc39d03bf55c4e6a23c089518d67c5c118b406"
+      "0xe142a3f613827ccfcb6031cd4fbc39d03bf55c4e6a23c089518d67c5c118b406",
+      "0x2955cfc3ef91297977340fe9a658125a260997221048b9ab9baefaf1f61efbd4"
     ],
-    "pending": [
-      {
-        "usd": 4404.67588553263,
-        "tokenAmount": 754725663.778302,
-        "txHash": "0xc1d138c029bd4ae25e44fe08ba07fb50efaf9e21210b1b97ad3e8c8227994032",
-        "timestamp": "2026-09-29T12:32:23Z"
-      },
-      {
-        "usd": 4509.28012327326,
-        "tokenAmount": 767687239.266851,
-        "txHash": "0xfc725b5ae2a5198a83946395e8eece698bcdbb0ebb483e43f4e6eae7694d06bd",
-        "timestamp": "2026-09-29T12:32:59Z"
-      },
-      {
-        "usd": 4921.86097662891,
-        "tokenAmount": 833032583.207636,
-        "txHash": "0x5797013d1243001ebf92b5c03a115739512a8522e8460e3dc773b9eadb5b26ea",
-        "timestamp": "2026-09-29T13:59:35Z"
-      },
-      {
-        "usd": 4945.44114226171,
-        "tokenAmount": 852212730.14828,
-        "txHash": "0xe142a3f613827ccfcb6031cd4fbc39d03bf55c4e6a23c089518d67c5c118b406",
-        "timestamp": "2026-09-29T16:37:11Z"
-      }
-    ]
+    "pending": []
   },
   "BONK": {
     "initialized": true,
@@ -794,8 +770,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x3d5c69f8435c22bb1e5f24f14d279ecd7cf8a389126f92451999a8292f3bd249",
-      "0x4d33c7688a8320318a6994114f81f28f55db3687a4056dae18ef25e81ba9234f",
       "0x4afc96e31498dc4f40d0d29fc5f4ad32966c54743ce210e0dc385981b714a453",
       "0xee98eea0eb672bf64b5f7509c5b9c785252621092a3e9263c0b775d3dd118ed5",
       "0x43593a86349901d48c57fcfc8e8842dc0fa9ab1e5c583ff90bd670bb46c97b05",
@@ -1093,7 +1067,9 @@
       "0x4d95b97136d393d0e4b587854593db23175b2dff46dde5404442ad4336c369d2",
       "0x81682ba9894cce9d1d08289fd5a5003bc6a6c8f73ff7bca932944abbf4ea69b6",
       "0xd915d544b54ab8a32391b5c17ee87b8dda0af96e1947da69a778abe3e68f7451",
-      "0x3f224e186219d872251e7d515dccff54dd48090c6745892b4c8718d53a7841c7"
+      "0x3f224e186219d872251e7d515dccff54dd48090c6745892b4c8718d53a7841c7",
+      "0x0157365daa3de2740b5a95e48dd3d4b49a49a6af7bddb1daf92cb1edad3c6e74",
+      "0xeffe1a2c1f293b89e21a31b51e48127940bfef39d7b0b0087c7785ec786b1187"
     ],
     "pending": [
       {
