@@ -1,8 +1,8 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2104950285445759166",
-    "avgEngagement": 1208.6189514918021,
+    "lastSeenId": "2104991975422472459",
+    "avgEngagement": 1083.9332660442615,
     "lastAlertUnix": 1790658443
   },
   "wublockchain": {
@@ -13,20 +13,20 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2104979509615198465",
-    "avgEngagement": 83.85560558444026,
+    "lastSeenId": "2104994928656867834",
+    "avgEngagement": 66.802472715463,
     "lastAlertUnix": 1790701643
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2104964466265735320",
-    "avgEngagement": 13.461144300420102,
+    "lastSeenId": "2104990520753967616",
+    "avgEngagement": 15.422801010294071,
     "lastAlertUnix": 1790644044
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2104976294291165499",
-    "avgEngagement": 118.10853559345485,
+    "lastSeenId": "2104993420959731933",
+    "avgEngagement": 90.911227708555,
     "lastAlertUnix": 1790676442
   },
   "coingecko": {
@@ -37,14 +37,14 @@
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2104965632294842635",
-    "avgEngagement": 117.1009985944489,
+    "lastSeenId": "2104992265684779029",
+    "avgEngagement": 134.77069901611424,
     "lastAlertUnix": 1790629655
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2104975706094518735",
-    "avgEngagement": 49.54466783173705,
+    "lastSeenId": "2104982497100456008",
+    "avgEngagement": 50.581267482215935,
     "lastAlertUnix": 1790701652
   },
   "lookonchain": {
@@ -125,14 +125,14 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2104788622360866883",
-    "avgEngagement": 418.5019323116934,
+    "lastSeenId": "2104988421882364028",
+    "avgEngagement": 378.15135261818534,
     "lastAlertUnix": 1790615271
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2104979708391850290",
-    "avgEngagement": 128.28597123374465,
+    "lastSeenId": "2104985776383820242",
+    "avgEngagement": 162.40017986362125,
     "lastAlertUnix": 1790626052
   },
   "cryptokaleo": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790701685
+    "lastCheckUnix": 1790705263
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2104981048341754108",
-    "avgEngagement": 57.42522087472189,
+    "lastSeenId": "2104993695342768482",
+    "avgEngagement": 51.29765461230532,
     "lastAlertUnix": 1790600852
   },
   "litecoin": {
@@ -210,14 +210,14 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2104956244255719443",
-    "avgEngagement": 842.6510898754204,
+    "lastSeenId": "2104982647567249824",
+    "avgEngagement": 843.9557629127943,
     "lastAlertUnix": 1790683650
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2104964424532451776",
-    "avgEngagement": 261.0278979392268,
+    "lastSeenId": "2104987350128619597",
+    "avgEngagement": 207.91952855745876,
     "lastAlertUnix": 1790694469
   },
   "cryptotea": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2104975742664609939",
-    "avgEngagement": 215.54727313608055,
+    "lastSeenId": "2104995372372463782",
+    "avgEngagement": 324.82871468567555,
     "lastAlertUnix": 1790683659
   },
   "bscgemsalert": {
@@ -335,8 +335,8 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2104936498164580821",
-    "avgEngagement": 369.37581560412707,
+    "lastSeenId": "2104988387572679022",
+    "avgEngagement": 312.15414964602223,
     "lastAlertUnix": 1790114863
   },
   "houdiniswap": {
@@ -508,8 +508,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2104973283976523878",
-    "avgEngagement": 334.6241355630401,
+    "lastSeenId": "2104996331865391183",
+    "avgEngagement": 241.13689489412806,
     "lastAlertUnix": 1790334470
   }
 }
