@@ -185,20 +185,7 @@
       "33mF7YpcKnXXM91x5pogHoQcQg7VKhG6cC8D74eyd2B18pHLx7VkwSKRKFzCoV9D5yfnvDj942s7puLz2MMFVbm3",
       "4ENmtsLkStCtXqSd2S1PAddgL39UTZ6iirAEbX1VxYxEfai9xjM18EZBVNz2D3XNNzDy7G4tmsaHGb7cnXXN5dwD"
     ],
-    "pending": [
-      {
-        "usd": 4994.026509397482,
-        "tokenAmount": 205732.921630927,
-        "txHash": "33mF7YpcKnXXM91x5pogHoQcQg7VKhG6cC8D74eyd2B18pHLx7VkwSKRKFzCoV9D5yfnvDj942s7puLz2MMFVbm3",
-        "timestamp": "2026-09-29T15:25:07Z"
-      },
-      {
-        "usd": 4947.272455081705,
-        "tokenAmount": 200369.635171681,
-        "txHash": "4ENmtsLkStCtXqSd2S1PAddgL39UTZ6iirAEbX1VxYxEfai9xjM18EZBVNz2D3XNNzDy7G4tmsaHGb7cnXXN5dwD",
-        "timestamp": "2026-09-29T15:25:15Z"
-      }
-    ]
+    "pending": []
   },
   "SHIB": {
     "initialized": true,
@@ -373,28 +360,10 @@
       "0x0cf1d6c9fb87d14ed24965ccadf5572ddd807a287d1a35bb5e4738e3dc7638d4",
       "0xd700bc55d8804f7edcac5f9996078cb5843020214cd16166fa6d93f0f41fc068",
       "0x28b414fc680b7e5040d66fa4757def67f900511764af137e67c24fd28cda158d",
-      "0x8fbad53546535f5faba8a60664b43f597a3c9bbc591516c824ccfb7bd14e08b7"
+      "0x8fbad53546535f5faba8a60664b43f597a3c9bbc591516c824ccfb7bd14e08b7",
+      "0x4ccaa5b32c8a458cb5d254846a860c397b178624f85925f8af90f6d14dbaa9c0"
     ],
-    "pending": [
-      {
-        "usd": 4087.00240691778,
-        "tokenAmount": 714161434.588534,
-        "txHash": "0x3d4b1ca6902dab9f15133753ad796a622fce337b13832e85e97de63c3e0feaec",
-        "timestamp": "2026-09-29T17:00:11Z"
-      },
-      {
-        "usd": 4082.02405410358,
-        "tokenAmount": 708415867.880662,
-        "txHash": "0xc34f456675a20900b4235c90061b4cde2c08f34396f7292b6b872ee157d636cd",
-        "timestamp": "2026-09-29T17:05:11Z"
-      },
-      {
-        "usd": 11819.8461633304,
-        "tokenAmount": 2041476341.68253,
-        "txHash": "0xdb3b5b1d1595051483225720fd8147cc78390b4ab78efb478a3c9cf572e239c2",
-        "timestamp": "2026-09-29T17:10:35Z"
-      }
-    ]
+    "pending": []
   },
   "BONK": {
     "initialized": true,
