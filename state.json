@@ -815,7 +815,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xdb97a8ecfa0e634da328dcfbae5d3add18ee28ef0e6cbae886df8cd94920c516",
       "0xdba167fe93f8c15d38dc80f037f5916d8ce4d7958d557e3296136a39e2064ede",
       "0xe9ee3b0dc5157bf075d4a1c84cb51711a3d88e03d28d48188f522dce91e04061",
       "0xac92345333344b5c23718a3e7db3b55b1c78f83efc742ce22fed92777d354d55",
@@ -1114,9 +1113,17 @@
       "0x2cda689c98634aaefbf4c007b876f6102641e20cd126dda355bc34a97c38f19e",
       "0x517cac59588a7b3511d31bd5879664daf2146bd9103744233a3a2db8ab3555e5",
       "0x9ae36c3cd49da2657a07f30f01013efe3073ea7ca53c0d5869c7cf62eb7d8c4a",
-      "0x5420fda39ae6eef9268f2e6473fbc8babf3f5b95c752767c4198518dc116c360"
+      "0x5420fda39ae6eef9268f2e6473fbc8babf3f5b95c752767c4198518dc116c360",
+      "0x9c6f258f7dd9c92a6e30eadc83d7c3834025c1dcb5259de21f54d6924cc5e839"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 6195.75989673216,
+        "tokenAmount": 1452401251.95619,
+        "txHash": "0x9c6f258f7dd9c92a6e30eadc83d7c3834025c1dcb5259de21f54d6924cc5e839",
+        "timestamp": "2026-09-29T21:49:47Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
@@ -1193,7 +1200,6 @@
   "AURORA": {
     "initialized": true,
     "seenHashes": [
-      "0xe7df858868086383df9442c5374e3fd5bf7948dbb6ab7ceefe0657d355d8f15b",
       "0xf1011087533fdb541ceb459d0ebf25683ffb517c8d45b64c9bf933dabcc7e4bc",
       "0xc4a6b7df3bd5ea15ab57bf9d6e40e948e917ec2957826058e581e6f7f0a9ee76",
       "0x8b017a08614dcd533e4dc1889865f117d8ea280713249467a8d790a83d87f322",
@@ -1492,7 +1498,8 @@
       "0xb1585ae7f5048473c0c753d274e335a86e9ef4860ba389aca3f7415e1e393dfe",
       "0x00b1bf43c043df4290391e522795e2491f360f4674da8f0993f4aa9825d66f06",
       "0xf089e49e7aef3a729345fcafa0cb7bdb6b22f0c4c00c47a1f23a039878f35565",
-      "0x8f8136bda4d88e09a8f84f5ad4a0d4e21c8a443263c6dde689762f6c314ba33f"
+      "0x8f8136bda4d88e09a8f84f5ad4a0d4e21c8a443263c6dde689762f6c314ba33f",
+      "0x86a0b2e3dc502cf6a3e0d665302b1c1bd750fee54a90a0cc0505a02556100d93"
     ],
     "pending": [
       {
