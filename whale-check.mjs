@@ -27,6 +27,16 @@ const EXPLORERS = {
 const MAX_SEEN_HASHES_PER_COIN = 300;
 const SLEEP_BETWEEN_COINS_MS = 2500; // stay well under GeckoTerminal's 30 req/min
 
+// Buys below a coin's threshold but still worth noticing (e.g. several $10K
+// buys that never individually cross a $20K bar) accumulate here. Once their
+// combined value crosses the threshold, they go out as one "combined" alert
+// instead of each getting ignored individually. Trades below this floor
+// aren't tracked at all -- pure dust, not worth accumulating.
+const TRACK_FRACTION_OF_THRESHOLD = 0.2;
+// Pending buys older than this are dropped uncounted rather than surfacing
+// in a combined alert long after the fact.
+const PENDING_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function fmtUsd(n) {
@@ -52,12 +62,12 @@ async function loadJson(url, fallback) {
   }
 }
 
-async function fetchTrades(network, pool, thresholdUsd, retrying = false) {
-  const url = `https://api.geckoterminal.com/api/v2/networks/${network}/pools/${pool}/trades?trade_volume_in_usd_greater_than=${thresholdUsd}`;
+async function fetchTrades(network, pool, minVolumeUsd, retrying = false) {
+  const url = `https://api.geckoterminal.com/api/v2/networks/${network}/pools/${pool}/trades?trade_volume_in_usd_greater_than=${minVolumeUsd}`;
   const res = await fetch(url, { headers: { Accept: "application/json;version=20230302" } });
   if (res.status === 429 && !retrying) {
     await sleep(15000);
-    return fetchTrades(network, pool, thresholdUsd, true);
+    return fetchTrades(network, pool, minVolumeUsd, true);
   }
   if (!res.ok) {
     throw new Error(`GeckoTerminal ${res.status} for ${network}/${pool}`);
@@ -105,17 +115,36 @@ function formatAlert(coin, trade) {
   return text;
 }
 
+function formatCombinedAlert(coin, items) {
+  const totalUsd = items.reduce((sum, it) => sum + it.usd, 0);
+  const totalTokens = items.reduce((sum, it) => sum + it.tokenAmount, 0);
+  const explorer = EXPLORERS[coin.network];
+
+  let text = `🟢🐋 *Whale BUY (combined): ${coin.symbol}*\n`;
+  text += `${items.length} buys totaling ${fmtTokenAmount(totalTokens)} ${coin.symbol} (${fmtUsd(totalUsd)})\n`;
+  text += `Network: ${coin.network}\n\n`;
+  for (const it of items) {
+    const link = explorer ? explorer(it.txHash) : null;
+    const amount = `${fmtTokenAmount(it.tokenAmount)} ${coin.symbol} (${fmtUsd(it.usd)})`;
+    text += link ? `• ${amount} — [tx](${link})\n` : `• ${amount}\n`;
+  }
+  return text.trimEnd();
+}
+
 async function processCoin(coin, state) {
   const key = coin.symbol;
   let coinState = state[key];
   if (!coinState) {
-    coinState = { initialized: false, seenHashes: [] };
+    coinState = { initialized: false, seenHashes: [], pending: [] };
     state[key] = coinState;
   }
+  if (!coinState.pending) coinState.pending = []; // upgrade older state entries
+
+  const trackFloorUsd = Math.round(coin.thresholdUsd * TRACK_FRACTION_OF_THRESHOLD);
 
   let trades;
   try {
-    trades = await fetchTrades(coin.network, coin.pool, coin.thresholdUsd);
+    trades = await fetchTrades(coin.network, coin.pool, trackFloorUsd);
   } catch (err) {
     console.error(`[${key}] fetch error:`, err.message);
     return;
@@ -137,19 +166,45 @@ async function processCoin(coin, state) {
   const newTrades = trades.filter((t) => !seen.has(t.attributes.tx_hash)).reverse();
 
   for (const trade of newTrades) {
-    if (trade.attributes.kind !== "buy") {
-      // Sells are tracked (so they're never re-alerted later) but not posted.
-      seen.add(trade.attributes.tx_hash);
+    const a = trade.attributes;
+    seen.add(a.tx_hash); // every new trade is "seen" once inspected, alerted or not
+
+    if (a.kind !== "buy") continue; // sells are tracked for dedup only, never posted
+
+    if (Number(a.volume_in_usd) >= coin.thresholdUsd) {
+      try {
+        await sendTelegramMessage(formatAlert(coin, trade));
+        console.log(`[${key}] alerted ${a.tx_hash}`);
+      } catch (err) {
+        console.error(`[${key}] telegram error:`, err.message);
+        seen.delete(a.tx_hash); // let it retry next run since the alert never went out
+      }
       continue;
     }
+
+    // Below the single-trade bar, but still real activity -- bank it
+    // towards a combined alert instead of ignoring it outright.
+    coinState.pending.push({
+      usd: Number(a.volume_in_usd),
+      tokenAmount: Number(a.to_token_amount),
+      txHash: a.tx_hash,
+      timestamp: a.block_timestamp,
+    });
+  }
+
+  const cutoff = Date.now() - PENDING_MAX_AGE_MS;
+  coinState.pending = coinState.pending.filter((it) => new Date(it.timestamp).getTime() >= cutoff);
+
+  const pendingTotal = coinState.pending.reduce((sum, it) => sum + it.usd, 0);
+  if (pendingTotal >= coin.thresholdUsd) {
     try {
-      await sendTelegramMessage(formatAlert(coin, trade));
-      console.log(`[${key}] alerted ${trade.attributes.tx_hash}`);
+      await sendTelegramMessage(formatCombinedAlert(coin, coinState.pending));
+      console.log(`[${key}] combined alert for ${coinState.pending.length} buys ($${pendingTotal.toFixed(0)})`);
+      coinState.pending = [];
     } catch (err) {
-      console.error(`[${key}] telegram error:`, err.message);
-      continue; // don't mark as seen if we failed to send; retry next run
+      console.error(`[${key}] telegram error (combined):`, err.message);
+      // leave pending as-is; retry next run
     }
-    seen.add(trade.attributes.tx_hash);
   }
 
   coinState.seenHashes = [...seen].slice(-MAX_SEEN_HASHES_PER_COIN);

@@ -21,6 +21,15 @@ twice.
 Telegram for them — this was a deliberate choice after finding sell alerts
 were more noise than signal for this use case.
 
+**Every coin has a $20,000+ floor**, and buys below that don't just get
+dropped. Anything worth noticing but still under the bar (at least 20% of
+the threshold, so pure dust is ignored) is banked, and once several of those
+smaller buys add up to the full threshold, they go out together as one
+**"combined"** alert listing each trade — e.g. twelve separate $6K–$16K PEPE
+buys that never individually cross $30K, posted as one $113K combined alert.
+Banked buys older than 6 hours are dropped uncounted rather than surfacing in
+a combined alert long after the fact.
+
 ## What's covered right now
 
 These 25 coins trade on public decentralized exchanges (Uniswap, PancakeSwap,
@@ -28,41 +37,42 @@ Raydium, STON.fi, etc.), so GeckoTerminal can see individual trades for them:
 
 | Coin | Chain | Alert threshold |
 |---|---|---|
-| TURBO | Ethereum | $1,000 |
-| TOSHI | Base | $3,000 |
-| PONKE | Solana | $3,000 |
-| SHIB | Ethereum | $5,000 |
-| BONK | Solana | $10,000 |
-| VITA INU | BNB Chain | $500 |
+| TURBO | Ethereum | $20,000 |
+| TOSHI | Base | $20,000 |
+| PONKE | Solana | $20,000 |
+| SHIB | Ethereum | $20,000 |
+| BONK | Solana | $20,000 |
+| VITA INU | BNB Chain | $20,000 |
 | PENGU | Solana | $20,000 |
-| APU | Ethereum | $2,000 |
-| BABYDOGE | BNB Chain | $15,000 |
-| ZBCN | Solana | $15,000 |
-| FLOKI | BNB Chain | $8,000 |
-| BRETT | Base | $15,000 |
+| APU | Ethereum | $20,000 |
+| BABYDOGE | BNB Chain | $20,000 |
+| ZBCN | Solana | $20,000 |
+| FLOKI | BNB Chain | $20,000 |
+| BRETT | Base | $20,000 |
 | PEPE | Ethereum | $30,000 |
-| ELON (Dogelon Mars) | Ethereum | $15,000 |
+| ELON (Dogelon Mars) | Ethereum | $20,000 |
 | WIF (dogwifhat) | Solana | $100,000 |
 | MOG (Mog Coin) | Ethereum | $40,000 |
 | ADI | Ethereum | $50,000 |
 | TON (Toncoin) | TON | $150,000 |
 | MON (Monad) | Monad | $500,000 |
 | GEOD (Geodnet) | Solana | $200,000 |
-| COTI | Ethereum | $5,000 |
-| AURORA | Ethereum | $1,500 |
-| JASMY (JasmyCoin) | Ethereum | $800 |
-| LUMIA | Ethereum | $150 |
-| KAS (Kaspa) | Kasplex | $15,000 |
+| COTI | Ethereum | $20,000 |
+| AURORA | Ethereum | $20,000 |
+| JASMY (JasmyCoin) | Ethereum | $20,000 |
+| LUMIA | Ethereum | $20,000 |
+| KAS (Kaspa) | Kasplex | $20,000 |
 
-Thresholds were picked from each coin's actual recent trading volume on its
-pool (so alerts fire at a meaningful "big trade for this coin" size, not
-never and not constantly). Edit `coins.json` any time to change them.
+Every threshold is now $20,000 or higher (some coins are set higher than that
+floor because their actual trading volume calls for it — PEPE, WIF, MOG, ADI,
+TON, MON, and GEOD). Edit `coins.json` any time to change them.
 
 **LUMIA is a special case:** its on-chain trading is nearly dead right now
-(only a few hundred dollars a day across its pools). The $150 threshold means
-it'll alert on almost any trade at all, not really "whale" activity — kept in
-at your call, but don't expect much signal from it unless its liquidity picks
-up.
+(only a few hundred dollars a day across its pools). At a $20,000 threshold —
+even with buys accumulating towards a combined alert — it will likely go long
+stretches without alerting at all. That's a consequence of raising the floor,
+not a bug; lower `coins.json`'s LUMIA threshold if you'd rather it stay
+chatty.
 
 **KAS is tracked indirectly.** Kaspa's own layer-1 has no smart contracts, so
 there's no direct DEX to watch. What's tracked instead is **WKAS** (Wrapped
