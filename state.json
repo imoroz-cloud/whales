@@ -365,7 +365,9 @@
       "0x07092d053ba727a95d9cf721e7c4cf1c47b13f1b75815fe37cbb26b29bfa13d1",
       "0xe08f3c0dbac0de16557245cceb6ab502e8ba7a30b29b03e574a7ef8a00b44648",
       "0x4f91303df6858599a1b37941a384271c666fedcc711cc918eb93a950a71742ed",
-      "0x7edcb1bc63446941c91dff08ab9a5e4b09148f4ef095b4e3f47ea2ca5f01d949"
+      "0x7edcb1bc63446941c91dff08ab9a5e4b09148f4ef095b4e3f47ea2ca5f01d949",
+      "0x3a61f3bf53a817133f59b15500acf1d313c58f0400cfc545a801ba0dc14c8e34",
+      "0x69e5c91b568743deba863c1852acca1cc58010245d00cc6d73525d7fc49277a3"
     ],
     "pending": [
       {
@@ -821,7 +823,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xee98eea0eb672bf64b5f7509c5b9c785252621092a3e9263c0b775d3dd118ed5",
       "0x43593a86349901d48c57fcfc8e8842dc0fa9ab1e5c583ff90bd670bb46c97b05",
       "0x53ca0088e21d29c2b4c64c6380425920a77929c16636c94ed8513c9bf345d0e8",
       "0xe73514587d12129feda090038095f49da3d813038c99eec4cd3bc0849206e7c9",
@@ -1120,28 +1121,10 @@
       "0x3f224e186219d872251e7d515dccff54dd48090c6745892b4c8718d53a7841c7",
       "0x0157365daa3de2740b5a95e48dd3d4b49a49a6af7bddb1daf92cb1edad3c6e74",
       "0xeffe1a2c1f293b89e21a31b51e48127940bfef39d7b0b0087c7785ec786b1187",
-      "0xbc34811d058e7578a71de228bd9a25dd3e9aabdf1da276dc958bb5abf796defa"
+      "0xbc34811d058e7578a71de228bd9a25dd3e9aabdf1da276dc958bb5abf796defa",
+      "0x4d33f1100c9a606a0300a9501c48204bdda3c5accb97d76d07e7683aae7fa92b"
     ],
-    "pending": [
-      {
-        "usd": 8059.51420962489,
-        "tokenAmount": 1890947522.46467,
-        "txHash": "0x625cd958fa106944756251b78061533caa46cc5ceb851d43224d16620977bc99",
-        "timestamp": "2026-09-29T15:33:23Z"
-      },
-      {
-        "usd": 7557.21730291403,
-        "tokenAmount": 1768389183.01544,
-        "txHash": "0xc8fd893992c40c143d83cfdd241425a6a1e85d86abddd28419613b9e0425f367",
-        "timestamp": "2026-09-29T15:40:59Z"
-      },
-      {
-        "usd": 9259.1873607587,
-        "tokenAmount": 2199762823.93139,
-        "txHash": "0xbc34811d058e7578a71de228bd9a25dd3e9aabdf1da276dc958bb5abf796defa",
-        "timestamp": "2026-09-29T17:04:23Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
