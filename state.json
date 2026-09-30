@@ -1214,8 +1214,17 @@
   },
   "ADI": {
     "initialized": true,
-    "seenHashes": [],
-    "pending": []
+    "seenHashes": [
+      "0x52668437fe746b519e51855cdbc57ed04f800473202ee29247344580886d9b0f"
+    ],
+    "pending": [
+      {
+        "usd": 12272.4437660885,
+        "tokenAmount": 1500,
+        "txHash": "0x52668437fe746b519e51855cdbc57ed04f800473202ee29247344580886d9b0f",
+        "timestamp": "2026-09-30T17:08:23Z"
+      }
+    ]
   },
   "TON": {
     "initialized": true,
