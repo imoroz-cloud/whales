@@ -856,7 +856,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xd2e91576acf40d4cc07adc24665243cdf08de08880205cd10dc01ff0f9782b6c",
       "0x83502706bc858d8a75f001fb74d70c29fb1cb60bc944276d02075ce8545fe505",
       "0x7ba4535a7cfaae5ba519ce3b7aca0d3c44c8b75a53aadbd0af64fcd63bc3a881",
       "0x514bc1ebcfedafadf8b076e5dddc12e9fbec24a93646eb4bef0abc95b05a4b57",
@@ -1155,7 +1154,8 @@
       "0x1362c90f0d96a3b4c08ba75db4e8a8f37c6f7dcccabb5a58f32a7450a1dadd56",
       "0xf1bcd02386d0d16a3de17de93b05c82a1888e2efe8951b45445b05f68ed5a1ad",
       "0x970b3d5e149d61f6b66a158f5847cb4b522d2e6c328cb7f80e224cbd76af0173",
-      "0xda4bffd44b2b119e5e2b52bb004cd5c9e20b2cca9bc8f0319d1a51648aa95d33"
+      "0xda4bffd44b2b119e5e2b52bb004cd5c9e20b2cca9bc8f0319d1a51648aa95d33",
+      "0xa6bf5bdbb3d57b3df4ab0bddf01bbde2b27cee9a01023c512653afd28fcebf5b"
     ],
     "pending": [
       {
