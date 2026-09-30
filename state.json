@@ -365,16 +365,11 @@
       "0xcfa0238b78bb5579e3a86777d6950b2d96717ecac6f78b049a135aa597f4db5b",
       "0x2f7e0e1c92f737b1968bb8ad1df465fc64990b65452e9b5f6c819bd520783360",
       "0x110a2c207432bfd8de66e74ee448f10bba3e12032ac84845f37c87c5566ed1d5",
-      "0x5985ec7e5bf36c0680e59e8400e9cd2f882f5355f34308bb2eeb4142eb1b2a27"
+      "0x5985ec7e5bf36c0680e59e8400e9cd2f882f5355f34308bb2eeb4142eb1b2a27",
+      "0x29f8887f6a06551905bbe9590189623475308827f9446ce4dfd92792bbcdc457",
+      "0xaa7ba2a1ead5402bebbd76376f88054eda1246d0c223947f66d1d5f7be58af35"
     ],
-    "pending": [
-      {
-        "usd": 12734.7490635625,
-        "tokenAmount": 2184500531.3404,
-        "txHash": "0x5985ec7e5bf36c0680e59e8400e9cd2f882f5355f34308bb2eeb4142eb1b2a27",
-        "timestamp": "2026-09-30T20:52:11Z"
-      }
-    ]
+    "pending": []
   },
   "BONK": {
     "initialized": true,
@@ -870,7 +865,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x9b230617996422d32c9f5d4306aa0d5e383e3fe247dcd75ca46396917ff5ff2b",
       "0xe593045c286d8bff4f59076502321849dd6aa142e5c6382e9b443c33145f3632",
       "0x1a04fbf766c42d8184519c71628a4c5562a14f2761aea3e9881c65b4e1d786ab",
       "0xab9ae085bb75e93693defae70f95f8a7be50d4823554ff37381a8c341fe200fb",
@@ -1169,7 +1163,8 @@
       "0xcdf283ac492055db7cb9aa4b8656e452c88894125ee184cb67f5e189edc6118e",
       "0x6e299785eda53afd9f0cad575b2553d796615d67f861e15ba2d26f7cf938e354",
       "0x631d63c0bcd610f620c1330fd01f3ea908d93b47a3ae838845614b71d9421afc",
-      "0xae0039d9ab2f4af984cd3062bdf801289de31bb03b0aed03d9be471de4db6100"
+      "0xae0039d9ab2f4af984cd3062bdf801289de31bb03b0aed03d9be471de4db6100",
+      "0x2970832398b9d6e3f40506183979d937e5d9010dc87a51c80837feb976a9a645"
     ],
     "pending": [
       {
@@ -1221,14 +1216,7 @@
       "0x16767148f04190ece2b64dff0a3b95bdb6de5ce355cd575111868bacd73cc45b",
       "0xcab419c803f88a6032963f5b9d0e168b9a37c1160f866efdb80e68692571820f"
     ],
-    "pending": [
-      {
-        "usd": 12893.60447624,
-        "tokenAmount": 108308668410.103,
-        "txHash": "0x16767148f04190ece2b64dff0a3b95bdb6de5ce355cd575111868bacd73cc45b",
-        "timestamp": "2026-09-30T15:50:59Z"
-      }
-    ]
+    "pending": []
   },
   "ADI": {
     "initialized": true,
