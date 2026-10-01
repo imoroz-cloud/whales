@@ -543,7 +543,8 @@
       "2qz18NfKEzMWVpYJmMm2nmX7QnZk7kYQTG3pivUR3jEk26u5HSzh8u1gYYWmL9YtB8DGKN2T8S2NBzLyUdimUmbK",
       "2g9TTAXhGj7mwP2aGzc6AW3dwTchycnU52X26V9y95SisKrj1EKvStH7ZywD1QWUmevpVvVgxRdaC2JNLvj5VF7H",
       "3FsMxU4SBwtnteBkFz5Hoz2wDXp1Z6Rtg6Zpa1N6NgjJXn2Mw2Hbvs73dqjf6TXMwbN77cSDjW5wH7DWpwdprN5M",
-      "3azVVf67iEvEhnf8fjKVA6ZTKqTEu88S3shTttyQVY7fhmFD8orUH9FgvvL1nXQVEubig2dxXXQs3m3Gjp1oFe5T"
+      "3azVVf67iEvEhnf8fjKVA6ZTKqTEu88S3shTttyQVY7fhmFD8orUH9FgvvL1nXQVEubig2dxXXQs3m3Gjp1oFe5T",
+      "2NFCWWQejkNArkYh4zFD5ngpkLxmfVQKdLUZLLPEF7A3X6HeewnU5gQpcXpvLTbgUVmK6n8xpBfNRR177W788jaT"
     ],
     "pending": [
       {
@@ -916,7 +917,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x3d9292d3ba739c165a9a7fccc8b6da304cd73688adbffe8123fcf905fda89abd",
       "0x6a33e1141fb9fe8211e07948f0452dce4c8df8a89d15b7dcc67b61d775df42f6",
       "0x2a71fe90d348dea334a8d749a0cd1eb7b4b33f51e5fc8864e17754c3015fd378",
       "0x7a5bb5884cb829add6f6cf6becbe5ff33af6052bffdb426fa4873638cd1148aa",
@@ -1215,7 +1215,8 @@
       "0xa5526f3e00f8d28959a26e81e8af0615b30d5e820445c0b616125d9e37e1ba94",
       "0x877c52002d270a42e4d034e463a767748a2fd7b86b5476f983d7f3b2e9ba1c0a",
       "0x151314b9135d18beda60bb7bc15bbe7dd4377281a3585e30a839b0f4f1468500",
-      "0x6ab07fe01818cc288eadcae21bd8f0058d4cc149035f9c807e0f81e705257697"
+      "0x6ab07fe01818cc288eadcae21bd8f0058d4cc149035f9c807e0f81e705257697",
+      "0x02c2c6f6ca3db15cd85fceaaad8e8e16d13f61d1488c12ca0358cd85d8d05c21"
     ],
     "pending": [
       {
