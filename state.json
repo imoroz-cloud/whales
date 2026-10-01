@@ -374,9 +374,18 @@
       "0xd7004fe3f0629876a5e9de9f9c20687487283dbeace2400cd2a7e633f890c44e",
       "0x10132c9034d38a295b94a8f4eef97fd709bfe39808f5861da47a1b9f72514cc0",
       "0xa4d0c3cf447c69e082c9c74e123e5eca9ef4824d2b224e73609dfe06ab1c6a8b",
-      "0x1743cc1f256ed20556f70f82bd3deab2c200216e2ee2bd01a11d33a54e26f19d"
+      "0x1743cc1f256ed20556f70f82bd3deab2c200216e2ee2bd01a11d33a54e26f19d",
+      "0x5dbf5407c6e55eb122002d3e747a11ec1b2ea83e5c1640b7c78edc483f1f0357",
+      "0x8a3ea158e8f4a950404588bee5862a693924851f944433d90e9c8b5d6584a3f5"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 12188.8880506637,
+        "tokenAmount": 2100402334.55942,
+        "txHash": "0x5dbf5407c6e55eb122002d3e747a11ec1b2ea83e5c1640b7c78edc483f1f0357",
+        "timestamp": "2026-10-01T07:30:47Z"
+      }
+    ]
   },
   "BONK": {
     "initialized": true,
@@ -839,7 +848,8 @@
       "0x2bd20bd8875d817d490a4a9759ad08df4a5f880af98be214ed7c8b71b1035b64",
       "0xffe55cd7054308621a601ea90199e097d1e2f76d07a7367ff7e9d26f12ac6125",
       "0x395fe3ae8ac5a262ccef12eb54be63a2f58541f4dbaeefbe6e334ea25a6c9229",
-      "0x92b4b6c6f0253c35436158bc7f86effea2c4c571d55720e0663fb83e777262ab"
+      "0x92b4b6c6f0253c35436158bc7f86effea2c4c571d55720e0663fb83e777262ab",
+      "0x2ad5b1f57dc351b8d617aee6aa22ceb160d86eeda124a79b6c284c9af5629af2"
     ],
     "pending": []
   },
@@ -872,8 +882,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x93c247628b7e54844c6f0e672b82133fb064fe500fd467e664d38c888a38f53b",
-      "0xf336f6fbf73eb56d363a0fa5c1d9dee06f5bc29e8a8e9397b71c021024502e3a",
       "0xb3bc4838a90fb2bf250dc09e6898af898cacfdb39758b1df084c590592b6f3d8",
       "0x4dbea244660913afec4117bcba18b67626a506ffe39fda5e405e0d55f0c7ea81",
       "0x3bc5c6337ace54d17a2c21bac0f4fd63bc86000fe5d4bf9e84fbc0ccffbdfcd7",
@@ -1171,7 +1179,9 @@
       "0xefadfe1be27f550782d2e49b10d123df493e8cdfa71ec3c9099f7144b61ecd5f",
       "0x40c21951dc24fc2c5b1fa08f7874261dca9bbc03af0b5d24a9434b9205cbd2d1",
       "0x3652d6064eb5412114f3164cdfcbca59d549fa65eae18aec6c66f1bec90cf2eb",
-      "0xaab440352278faad8a77a51f1a61ff38d6e55ff1fcfa727b1e55618ca55d8fb0"
+      "0xaab440352278faad8a77a51f1a61ff38d6e55ff1fcfa727b1e55618ca55d8fb0",
+      "0xfbb8d6bc8a2bf0346f3290165281b645c6c66a765fbaa0c39c755aceacdde887",
+      "0x2af14dbd0e2311504684e6b6ebfca3bdbf3404324a5dd0577a95a1fb1404d4bf"
     ],
     "pending": [
       {
