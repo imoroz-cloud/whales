@@ -408,9 +408,18 @@
       "0xac85756b7bd5af1f3746dc7f7731fbf112d4e9cc0bf4516f6517b46ff433cb3d",
       "0xc724bb2c751ad6b18adc1ae1bcc7194ff09ed1b3202aa54a4665de7e94a795ab",
       "0xfcd8f3bddbba2c236be733184b09dd6d5437d207ed9d16b958ec752a6e49349e",
-      "0xfcbde5dc42bdb3e7425a71f2e32eb44ddac0c58b33b12e06fd0c87a8946415a9"
+      "0xfcbde5dc42bdb3e7425a71f2e32eb44ddac0c58b33b12e06fd0c87a8946415a9",
+      "0x3bfc67d1456ca18e25f0a046d3f366f14e70c9298ef2f8b0ce62ed421823a97f",
+      "0xda3acb924c516ff891b225701cc1591931d1ee6c7203de0fe67809ecbda96793"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 11954.1200624376,
+        "tokenAmount": 2056239007.35489,
+        "txHash": "0x3bfc67d1456ca18e25f0a046d3f366f14e70c9298ef2f8b0ce62ed421823a97f",
+        "timestamp": "2026-10-01T22:17:11Z"
+      }
+    ]
   },
   "BONK": {
     "initialized": true,
@@ -558,7 +567,8 @@
       "3qXwGMscKmNLB5ZJTcJG8VKwAAu3ZWDKQKDacugtkxMVCiRp2BvQwXdV7THf4GUC1f4cyo3812VHVZujv4XCBbo",
       "5KjVMsQxZXUPjMvhXAqKL4EeYAvVmLVCB3BmfCY5zUHcCuPkv4qEMiUWM5i3CXrD5p8Y7uxfQxsSuf55gFrxtujg",
       "65iWZ45F53y3LAHErCLjVdT7E7k6LBANFX4K69D5AHBdeKgdkA9WM1MqRQswUszKM8ujyY91ju7aq7aEynfxUfca",
-      "5tAXS1fm6Y6T2DfZjDXWptQeciLQrSpoRswJs5TSJGi49L4w9nAxHeBaqcFsNS65tQjAd1tvUJZ5Xy44jA4emHx3"
+      "5tAXS1fm6Y6T2DfZjDXWptQeciLQrSpoRswJs5TSJGi49L4w9nAxHeBaqcFsNS65tQjAd1tvUJZ5Xy44jA4emHx3",
+      "5UAceiyUeSWXDrcadPBr9voUsNDpKpGEuxrWvM3taSZc3AkC4RfSuNp7Pos945gEDEU4L1kZck2GZjQARK7oi7Ce"
     ],
     "pending": []
   },
