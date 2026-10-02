@@ -609,9 +609,17 @@
       "3YFpYfm8bCuYuxLTXUScs8WMC3ZeRgFXbre6WAmbTxtEshvfQ9NVsNLM1yXgTQcmSJWwkbgncoMd5Zj1a3ckUKHY",
       "q1h31SfUa8BkxmjnPnEB6y9X6baBpoBqvPqMukYEP7guXa7RpQ69zH6zQG7yfjfg1GYAbBtNpEVxMCQxp6xhoeZ",
       "4hiMVr4e4ZiDa4CuA2FVrDw1CeS1U2Svoo9ZpSiNiUt7ifKKbPL2VXqwxzotKnuuWeCofPcnkc4tvWHKaht7fp4M",
-      "64ugwbSAWNzqnTxU6oyvMcD38VXvDRsRS34qbg9GWaVnkeLHAnDVARK46JJZqPvHzwR6JjHiLfp6ksmPtvgDojmN"
+      "64ugwbSAWNzqnTxU6oyvMcD38VXvDRsRS34qbg9GWaVnkeLHAnDVARK46JJZqPvHzwR6JjHiLfp6ksmPtvgDojmN",
+      "4gVJiNGtCmwgTYtjypkktQmhg7SF2GDWVkEh6ZVtESEzPcoK5Q3R8m1eCuQQtgWpQvgFX6nuAdTwQP17MthuCXzi"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 8822.173022647945,
+        "tokenAmount": 950312.955191,
+        "txHash": "4gVJiNGtCmwgTYtjypkktQmhg7SF2GDWVkEh6ZVtESEzPcoK5Q3R8m1eCuQQtgWpQvgFX6nuAdTwQP17MthuCXzi",
+        "timestamp": "2026-10-02T18:06:35Z"
+      }
+    ]
   },
   "APU": {
     "initialized": true,
