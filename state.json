@@ -575,16 +575,13 @@
       "2XwrYbKAKMSvzbaFkH6s7BEL1sfnZBJpBb5t5SZeM5kGZAZxACpExcEey2UwG1rTQEuqBbRUdom3bHmMPLBHM4Lo",
       "2VLbSLMjwU2WhP1BmJ4fU1nViundZ3VaA4qM4SWFRABM8hFGuKJdP8BXcyF7jU8JH6u9EPecoqKrPJdGgdxC8J5F",
       "w9mE3T5X4qz5UHuxTF1ttnMffgncaYsnCb4ogK7FX8CBgWeNoDsT7CZ9KbnL6CoBoZA5iP4Y8B16obLcpuyNVjC",
-      "4dMVTjiGb3osZCR6DubmQ1WjPmHc5ZfNLmpMoqcuipyukQo2xEMr9ZyxX7usNR5Lh3bB83pJu8Zrpc3G9Gr2d7hA"
+      "4dMVTjiGb3osZCR6DubmQ1WjPmHc5ZfNLmpMoqcuipyukQo2xEMr9ZyxX7usNR5Lh3bB83pJu8Zrpc3G9Gr2d7hA",
+      "5zmjAVZT1KRib1Hsc5eZYTHVvypgPNHmGZDQe4NHmkSWMHuPCTLEWAg5JmowaXFJAPESGz1TAesnsTRxomHLzxUG",
+      "5rBmB2CZRvJE5Aq5RGocVDSVeA3ZqQiSiKVhdqrAgrGXTBAYFtuubkWQ9DHLjKybkUiDEVjz2yb1JxEi2nQqcrof",
+      "2uYzudbKyCoqwg3TM5yAFznhXWgUABZiwCdGmzXwi7gCDEV2iftNoLCMUfFGhxM8Ei5p8ZfzgC6aFUDNaDmBkeio",
+      "2xd6dByyL9ez5rK6KH6A59D6imK57okhJXYNRau4np65gSEYDqKzohLJXUx5jCKeyvJ7ZC1Rr528CbgbyotKPY4F"
     ],
-    "pending": [
-      {
-        "usd": 6198.846302085347,
-        "tokenAmount": 621876.340662,
-        "txHash": "4dMVTjiGb3osZCR6DubmQ1WjPmHc5ZfNLmpMoqcuipyukQo2xEMr9ZyxX7usNR5Lh3bB83pJu8Zrpc3G9Gr2d7hA",
-        "timestamp": "2026-10-02T08:59:03Z"
-      }
-    ]
+    "pending": []
   },
   "APU": {
     "initialized": true,
@@ -971,7 +968,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xd8217356de97eb3d43de3cb413010e330af8ca5cbd2f0ca604f8a04d58c3cd09",
       "0x3ca059bafa565db991e4dc536a978fa784ba63098369d36ce609eb1f2b89f7cd",
       "0x8d19a5c491d1b4b6d5158f46519ae6a449c0890c431700ac57af3f95c69aa4aa",
       "0x966576a45612edadb931500e917f70a3c934e86688afc88e72f0f578f9294a6a",
@@ -1270,7 +1266,8 @@
       "0xff01c2a73fc60dc61b35437b65931195de53042d5f2d422c060b0cbac886c8eb",
       "0x4aeeadaaee6a00229cf69b6deda395979af8c051cdae2ddc265adfe70e4cbf17",
       "0xb22945defee7af46a52aa1860d3d0e804bcf3720e89315e5224f6998d73b4a7b",
-      "0x2a5007172c6b7c1fdefd306bf1c7ef055babd7a04628e67c8697ced9d4d8159a"
+      "0x2a5007172c6b7c1fdefd306bf1c7ef055babd7a04628e67c8697ced9d4d8159a",
+      "0x1073feb33a8118563d77819d863deaf40bf87041c509cc891d87aa63b831d8d9"
     ],
     "pending": []
   },
