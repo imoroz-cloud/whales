@@ -925,7 +925,8 @@
       "0x58b88c68473d534a18d59a7262ba10333629bc969d0b98415e4e7df84d762695",
       "0x7f6bb74b39d528fcddcba594e9f65f83ca2c5c260d9880b94c2d2b23fbe3ccca",
       "0xe0a7faf939a49087a2614f8ac4f3085bf4b622758909e2a831c70c537dab8654",
-      "0x470a09b75b4dbe33f874ef9849548b4b112996ca2bf9de14f1c07aca931c4937"
+      "0x470a09b75b4dbe33f874ef9849548b4b112996ca2bf9de14f1c07aca931c4937",
+      "0x6afd32300a4fd9edbac74d505e6653bdccb568032ef2d07d4b515f962d5288ed"
     ],
     "pending": [
       {
@@ -933,13 +934,18 @@
         "tokenAmount": 1385694.01929101,
         "txHash": "0x470a09b75b4dbe33f874ef9849548b4b112996ca2bf9de14f1c07aca931c4937",
         "timestamp": "2026-10-02T02:47:33Z"
+      },
+      {
+        "usd": 4143.79898081947,
+        "tokenAmount": 702414.173305899,
+        "txHash": "0x6afd32300a4fd9edbac74d505e6653bdccb568032ef2d07d4b515f962d5288ed",
+        "timestamp": "2026-10-02T05:40:53Z"
       }
     ]
   },
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x004449a808c7457c63d4b6dbd37f62e713c4ba8816b870c1f24de636f25e7ed7",
       "0xfbcad041d94ee7a8104835a5f56ba0b9f91513be2f9c0eb66022725bc6adc933",
       "0x5e71a4d95a9ab4d236bb2dae822a3a9bba2c20eacc98967da8f2ec27495e88ba",
       "0x478160d6596e59539bca1e175c894a28f51edfeaa0abdf4f278ad145c1aade13",
@@ -1238,9 +1244,17 @@
       "0x775b49439957b59ef8d52fcd90f9491b282c59c4ac9c58dd58c26ccabeaf5911",
       "0x9a2ea13a1d4e7488abcec46e3108b7c8c18073da52f13b3872b6dcf5707c509c",
       "0xac8d5704a594c004af36271cd939eb171266e56feb08a2795ab1b1ac104d7bc8",
-      "0xa0ca6d0559ae16b3f593d50bae854c00383eaa06783c3dfbfc9ab616649418fc"
+      "0xa0ca6d0559ae16b3f593d50bae854c00383eaa06783c3dfbfc9ab616649418fc",
+      "0xa5e062429dc886467d53493e47649deec93f827fd936a23ef56bda99dad1d3f6"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 10201.4702619068,
+        "tokenAmount": 2225318644.74166,
+        "txHash": "0xa5e062429dc886467d53493e47649deec93f827fd936a23ef56bda99dad1d3f6",
+        "timestamp": "2026-10-02T05:42:11Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
