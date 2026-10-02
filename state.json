@@ -1394,9 +1394,17 @@
   "ADI": {
     "initialized": true,
     "seenHashes": [
-      "0x52668437fe746b519e51855cdbc57ed04f800473202ee29247344580886d9b0f"
+      "0x52668437fe746b519e51855cdbc57ed04f800473202ee29247344580886d9b0f",
+      "0x67a99be14f5ea0c7ff779bb0056e3b0946e34485f03c7593c08894d879665e1c"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 10029.4309039389,
+        "tokenAmount": 1243.00000009547,
+        "txHash": "0x67a99be14f5ea0c7ff779bb0056e3b0946e34485f03c7593c08894d879665e1c",
+        "timestamp": "2026-10-02T19:19:23Z"
+      }
+    ]
   },
   "TON": {
     "initialized": true,
