@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2106181969256284337",
-    "avgEngagement": 47.838792322581114,
+    "lastSeenId": "2106198202785656915",
+    "avgEngagement": 49.38715462580678,
     "lastAlertUnix": 1790935655
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2106180110969610517",
-    "avgEngagement": 113.30547299864912,
+    "lastSeenId": "2106195204210401471",
+    "avgEngagement": 123.71383109905437,
     "lastAlertUnix": 1790960843
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2106186265016127834",
-    "avgEngagement": 110.6982156427625,
+    "lastSeenId": "2106194819584249859",
+    "avgEngagement": 122.78875094993374,
     "lastAlertUnix": 1790975243
   },
   "coingecko": {
@@ -49,14 +49,14 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2106030673563914574",
-    "avgEngagement": 113.49637836982956,
+    "lastSeenId": "2106199982051393660",
+    "avgEngagement": 104.04746485888067,
     "lastAlertUnix": 1790755644
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2106100560609120564",
-    "avgEngagement": 1.8121089359469356,
+    "lastSeenId": "2106199461685055967",
+    "avgEngagement": 3.3684762551628546,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -131,9 +131,9 @@
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2106173761443738077",
-    "avgEngagement": 155.3774110185722,
-    "lastAlertUnix": 1790946456
+    "lastSeenId": "2106190160354587073",
+    "avgEngagement": 252.76418771300052,
+    "lastAlertUnix": 1790993243
   },
   "cryptokaleo": {
     "initialized": true,
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2106179283769335853",
-    "avgEngagement": 33.684686656621835,
+    "lastSeenId": "2106199427061047731",
+    "avgEngagement": 28.5054964617447,
     "lastAlertUnix": 1790604473
   },
   "thecryptodog": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1790989670
+    "lastCheckUnix": 1790993264
   },
   "bitcoinarchive": {
     "initialized": true,
