@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2106557642072101046",
-    "avgEngagement": 117.61967237803026,
+    "lastSeenId": "2106572744313708880",
+    "avgEngagement": 132.73377066462118,
     "lastAlertUnix": 1790960843
   },
   "theblockco": {
@@ -49,14 +49,14 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2106562473298108598",
-    "avgEngagement": 93.10327741883206,
+    "lastSeenId": "2106569901678940263",
+    "avgEngagement": 105.67229419318244,
     "lastAlertUnix": 1790755644
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2106496392680321247",
-    "avgEngagement": 1.743387355520859,
+    "lastSeenId": "2106570658167816371",
+    "avgEngagement": 2.720371148864601,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791079658
+    "lastCheckUnix": 1791083258
   },
   "bitcoinarchive": {
     "initialized": true,
