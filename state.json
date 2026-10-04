@@ -1457,7 +1457,6 @@
   "AURORA": {
     "initialized": true,
     "seenHashes": [
-      "0xc4a6b7df3bd5ea15ab57bf9d6e40e948e917ec2957826058e581e6f7f0a9ee76",
       "0x8b017a08614dcd533e4dc1889865f117d8ea280713249467a8d790a83d87f322",
       "0x06c885e07ab8e2b4ef57eb69f91574dea0e1af8614985ea77a32f60078dca732",
       "0xfdae89c1ebfb9e5938be0f33c2822bc9be8d2c6eac9affaaf1626324e9818467",
@@ -1756,9 +1755,17 @@
       "0xf089e49e7aef3a729345fcafa0cb7bdb6b22f0c4c00c47a1f23a039878f35565",
       "0x8f8136bda4d88e09a8f84f5ad4a0d4e21c8a443263c6dde689762f6c314ba33f",
       "0x86a0b2e3dc502cf6a3e0d665302b1c1bd750fee54a90a0cc0505a02556100d93",
-      "0xa3a57191a92871461d21bbd6ef5ec25b206721a02e89ecd0a72ee81dcfc3dd6d"
+      "0xa3a57191a92871461d21bbd6ef5ec25b206721a02e89ecd0a72ee81dcfc3dd6d",
+      "0x7c318d64ba2592de4e683d287b86beedbb3a52b020faa73b70ec37ce5ec7e53b"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 6647.46873652988,
+        "tokenAmount": 93511.19987453,
+        "txHash": "0x7c318d64ba2592de4e683d287b86beedbb3a52b020faa73b70ec37ce5ec7e53b",
+        "timestamp": "2026-10-04T18:18:11Z"
+      }
+    ]
   },
   "JASMY": {
     "initialized": true,
