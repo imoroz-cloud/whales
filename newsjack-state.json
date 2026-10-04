@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2106663334456037397",
-    "avgEngagement": 152.29691483560285,
+    "lastSeenId": "2106678891305632111",
+    "avgEngagement": 133.30784038492197,
     "lastAlertUnix": 1790960843
   },
   "theblockco": {
@@ -25,14 +25,14 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2106670671157723248",
-    "avgEngagement": 101.38211259184688,
+    "lastSeenId": "2106685777790820541",
+    "avgEngagement": 122.86747881429281,
     "lastAlertUnix": 1790975243
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2106612312828219850",
-    "avgEngagement": 217.61842359723283,
+    "lastSeenId": "2106672738005876991",
+    "avgEngagement": 293.6328965180629,
     "lastAlertUnix": 1790917643
   },
   "bitcoinmagazine": {
@@ -43,9 +43,9 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2106536865977229797",
-    "avgEngagement": 44.45041116476166,
-    "lastAlertUnix": 1791040043
+    "lastSeenId": "2106682184245432486",
+    "avgEngagement": 61.715287815333156,
+    "lastAlertUnix": 1791108441
   },
   "lookonchain": {
     "initialized": true,
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2106570658167816371",
-    "avgEngagement": 2.720371148864601,
+    "lastSeenId": "2106686620644847715",
+    "avgEngagement": 2.2042598042052206,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -97,8 +97,8 @@
   },
   "willywoo": {
     "initialized": true,
-    "lastSeenId": "2105848186518811103",
-    "avgEngagement": 416.86535509605864,
+    "lastSeenId": "2106685826235269573",
+    "avgEngagement": 302.90574856724106,
     "lastAlertUnix": 1790611666
   },
   "100trillionusd": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791104876
+    "lastCheckUnix": 1791108470
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2106663111315124424",
-    "avgEngagement": 296.8719531728084,
+    "lastSeenId": "2106686515615236515",
+    "avgEngagement": 256.76725705467607,
     "lastAlertUnix": 1791104858
   },
   "bscgemsalert": {
