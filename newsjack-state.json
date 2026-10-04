@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2106756124087116066",
-    "avgEngagement": 158.33382211344565,
+    "lastSeenId": "2106769236043423998",
+    "avgEngagement": 157.93367547941196,
     "lastAlertUnix": 1790960843
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2106755012311282165",
-    "avgEngagement": 190.52506461900344,
+    "lastSeenId": "2106771872331215221",
+    "avgEngagement": 184.06754523330238,
     "lastAlertUnix": 1790975243
   },
   "coingecko": {
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2106686620644847715",
-    "avgEngagement": 2.2042598042052206,
+    "lastSeenId": "2106763224549044516",
+    "avgEngagement": 2.442981862943654,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2106723512631095559",
-    "avgEngagement": 432.23314581075556,
+    "lastSeenId": "2106768200264241173",
+    "avgEngagement": 503.5632020675289,
     "lastAlertUnix": 1790939254
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791126466
+    "lastCheckUnix": 1791130066
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -198,8 +198,8 @@
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2106715567193272446",
-    "avgEngagement": 97.67517858000728,
+    "lastSeenId": "2106775184095195478",
+    "avgEngagement": 82.77262500600509,
     "lastAlertUnix": 1790798855
   },
   "babydoge": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2106759999703912607",
-    "avgEngagement": 350.3679997176579,
+    "lastSeenId": "2106768810845904900",
+    "avgEngagement": 369.4575998023605,
     "lastAlertUnix": 1791104858
   },
   "bscgemsalert": {
@@ -399,8 +399,8 @@
   },
   "husherexchange": {
     "initialized": true,
-    "lastSeenId": "2106107112581370118",
-    "avgEngagement": 10.046156038109157
+    "lastSeenId": "2106763934858608941",
+    "avgEngagement": 10.032309226676409
   },
   "sumex_labs": {
     "initialized": true,
@@ -474,8 +474,8 @@
   },
   "zano_project": {
     "initialized": true,
-    "lastSeenId": "2105648653876474358",
-    "avgEngagement": 97.33614950689584,
+    "lastSeenId": "2106774695445934552",
+    "avgEngagement": 84.63530465482708,
     "lastAlertUnix": 1790626075
   },
   "floki": {
