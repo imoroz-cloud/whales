@@ -975,14 +975,7 @@
       "0x5cfec0d7995441746bed93951653f99e2a8f8c41801bc4afd71889e8893ba399",
       "0xb7401b56f0aeb839f6bf876ab3aff77fb57554a03ee0492990334c0bf7b1b535"
     ],
-    "pending": [
-      {
-        "usd": 4372.7947002655,
-        "tokenAmount": 10477457410575.2,
-        "txHash": "0x5cfec0d7995441746bed93951653f99e2a8f8c41801bc4afd71889e8893ba399",
-        "timestamp": "2026-10-05T10:47:05Z"
-      }
-    ]
+    "pending": []
   },
   "ZBCN": {
     "initialized": true,
@@ -1385,18 +1378,6 @@
       "0x94255d429a9dccec3d5cddb069745263f8077797006ce90d37e3a7614c326ab4"
     ],
     "pending": [
-      {
-        "usd": 6036.97412110117,
-        "tokenAmount": 1337660193.3962,
-        "txHash": "0x16ef9511d8d28112940a2754db890c969da15648af36b142da612b02e055a81f",
-        "timestamp": "2026-10-05T10:47:59Z"
-      },
-      {
-        "usd": 6872.92735905063,
-        "tokenAmount": 1519346015.82994,
-        "txHash": "0xf3283f9ff34a3dd0e1af7de8c93d13f94c116270463c3a2b072b5c8e16b82ddb",
-        "timestamp": "2026-10-05T10:50:23Z"
-      },
       {
         "usd": 6657.72168251301,
         "tokenAmount": 1477751064.69944,
