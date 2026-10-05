@@ -656,9 +656,28 @@
       "v1SJUwhYgWUNV4Sp3TT2z4kWYrGPV8ViLuAmX42px7WbWeFDCodNhCPqnqUAWbDRbjYDetAFpQSfgrDLpJibEBw",
       "3492bwgevWTgJrmX9gaNpvh22yBsce64E3fWUNqrURevXHiEsgKemENDkgfukiBcpTCLB3uaZ3RBkovgE9JnE9kx",
       "5rmmw4NvcheG83fz2U43JYi66VureqdrkUsKG9wKJTUrssNWFSzscK2qrhdZjwn3T1fgiSPW9VuEn9CAypyfwxDB",
-      "3HKxGProHY9zhcg3pS5rEL9yubJLCLJkHu6ZxGWMAnrUi4vVqnYmgm1ycmj1k9SyiL9dteJRBqXamX4q3N7JDAbV"
+      "3HKxGProHY9zhcg3pS5rEL9yubJLCLJkHu6ZxGWMAnrUi4vVqnYmgm1ycmj1k9SyiL9dteJRBqXamX4q3N7JDAbV",
+      "4rzhFmTP3dAVrV59LwvC2HbqpA2jMyx9sCMSgU9LGR8QSH4L9GnF8x5Cw8pmj4NHJGTogVdSuetqEYWVq2aLEXpK",
+      "FhGoYN5M5CrnPwZX5ZdxmjGyJvULzDgWzUk3a9bqgiB8KzX5H2PsGCeDeXypZ5L6MHsuwMggdbmVQvTLnYbaLqS",
+      "23725fq4cM8jJWoKVVpmsR4SJ2c3J5GuasD534NLkbKsoSBxWJySgp73kDR91Qx3eCou99vnBSGiRgkV6xq38HBK",
+      "3dRjvuYCNt1rRK8osgyr2mKT6HhCzE5uZ6aiAZM5jBihLf1vZU83u4bD1TCj4nseQonexJgUzcUEKDxP1ZjdT5Nn",
+      "37BepUjvj7hZqpNKCyPraTTvUjzYmv1sVCdCXtkHjnRf8Sm2QNZpgFkz6msr4Hqim5vsckoAy86hT9d1gBM1F8wY",
+      "2zJtx2JYuHSzZ6kMKd9tJemipGptEWpZ6iHpXZqSiippPHkRf356a1x75rCbWNFrqxBHoenS3w76Frvrx9yYLzxe"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 4994.618027692691,
+        "tokenAmount": 503624.750956,
+        "txHash": "37BepUjvj7hZqpNKCyPraTTvUjzYmv1sVCdCXtkHjnRf8Sm2QNZpgFkz6msr4Hqim5vsckoAy86hT9d1gBM1F8wY",
+        "timestamp": "2026-10-05T04:02:20Z"
+      },
+      {
+        "usd": 5627.41135848296,
+        "tokenAmount": 569815.913493,
+        "txHash": "2zJtx2JYuHSzZ6kMKd9tJemipGptEWpZ6iHpXZqSiippPHkRf356a1x75rCbWNFrqxBHoenS3w76Frvrx9yYLzxe",
+        "timestamp": "2026-10-05T04:04:53Z"
+      }
+    ]
   },
   "APU": {
     "initialized": true,
@@ -1047,7 +1066,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x2520cbeccac1e55a2ef68cf0a42224eeae2f239a7d04511720c7d39dc266c5d3",
       "0xdc21056b79f5fba2ec45823d555fa473fb1eeea48076ddde983363e08bf0f985",
       "0x76c26d27437e94859a73529976d25bcbb8c0d0ce6c3f5959b29ee0964394e886",
       "0x41fe826b5c32416c5a511bfa4d6de27d5ed5cb026ad65bf4a10ae100eddd27c2",
@@ -1346,7 +1364,8 @@
       "0x37f067e85bf8384ebf0aaeaa4ad01e261118f5807058b5b88327c7809db1b5d5",
       "0xa53df81f9e06eb411ce754a91f72a05ed0f07d096a2289f826cad246d2bdcc17",
       "0x68b6153abdf7bcee320f5f6ea13b9087009991d38ff1a79f2149873b052cd6d2",
-      "0x101ed9e308d45a772f190a83bd41cb8f7464258653fedb5b5c940d016555c7c2"
+      "0x101ed9e308d45a772f190a83bd41cb8f7464258653fedb5b5c940d016555c7c2",
+      "0x27c989ffb30b2c07a8d818718f913b6f92aa265513e99df04a3a71ca1d425ba8"
     ],
     "pending": [
       {
