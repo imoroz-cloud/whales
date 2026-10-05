@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2107216984672702957",
-    "avgEngagement": 83.21122920614319,
+    "lastSeenId": "2107227046032134212",
+    "avgEngagement": 87.42350231101015,
     "lastAlertUnix": 1791234770
   },
   "theblockco": {
@@ -25,20 +25,20 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2107215515353493597",
-    "avgEngagement": 88.76445351904044,
+    "lastSeenId": "2107224569857651129",
+    "avgEngagement": 90.6351174633283,
     "lastAlertUnix": 1791191243
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2107138727206117513",
-    "avgEngagement": 111.08136167047714,
-    "lastAlertUnix": 1790917643
+    "lastSeenId": "2107221819535020488",
+    "avgEngagement": 192.056953169334,
+    "lastAlertUnix": 1791238044
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2107202272975319254",
-    "avgEngagement": 268.75048022807744,
+    "lastSeenId": "2107218061900271834",
+    "avgEngagement": 303.32533615965417,
     "lastAlertUnix": 1791234778
   },
   "whale_alert": {
@@ -91,8 +91,8 @@
   },
   "saylor": {
     "initialized": true,
-    "lastSeenId": "2107144761555726484",
-    "avgEngagement": 2101.12991545806,
+    "lastSeenId": "2107225482991472757",
+    "avgEngagement": 1802.590940820642,
     "lastAlertUnix": 1791050844
   },
   "willywoo": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791234802
+    "lastCheckUnix": 1791238075
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2107207134005916089",
-    "avgEngagement": 70.69953940001311,
+    "lastSeenId": "2107230852140708235",
+    "avgEngagement": 49.252774306006415,
     "lastAlertUnix": 1791202084
   },
   "litecoin": {
@@ -234,8 +234,8 @@
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2107138841115279393",
-    "avgEngagement": 41.57916297315244,
+    "lastSeenId": "2107217797918916814",
+    "avgEngagement": 55.50541408120671,
     "lastAlertUnix": 1791151659
   },
   "coinify": {
@@ -400,8 +400,8 @@
   },
   "husherexchange": {
     "initialized": true,
-    "lastSeenId": "2106763934858608941",
-    "avgEngagement": 10.032309226676409
+    "lastSeenId": "2107229019351679099",
+    "avgEngagement": 10.322616458673487
   },
   "sumex_labs": {
     "initialized": true,
