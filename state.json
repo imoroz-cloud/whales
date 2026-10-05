@@ -1053,7 +1053,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xcfd6437005a450c68c992a229b82b2ad397f363b3a5bf8264bcf3e1b00b1ddea",
       "0x283df36fa157242db29e28e5785ff84468d8bbe70b7d03300b00cb003504aa03",
       "0x907bae502ae34b92226c0dc4bc705270ec0d5c2c27e7907f2b1218a3ad4674d9",
       "0xe233175ace28141046512f476df6478fcd52a8cf29822ea12b7cd3d3ae8e2f1c",
@@ -1352,7 +1351,8 @@
       "0xa041fd72fc715566cd5f6fc151eabc7c1251856f27918f6f43a6eda208530b51",
       "0xc327547dd4709496373c323a66f44bd5019e5150d0fd3321edfcc629df85d51f",
       "0xf88d60cedb09bc9fec7e3120993892fb63c52d46cadec885cd3b6ca4e0a2dba6",
-      "0x6efcb84c1679e515ec1bff3a3e69ea6a4984d378ec99cf92dfda772325c22e4a"
+      "0x6efcb84c1679e515ec1bff3a3e69ea6a4984d378ec99cf92dfda772325c22e4a",
+      "0x7e96fba6cca39eb9ad15a6f0d025c4c8b647673fc752c77a7bb18eb5e0a766c2"
     ],
     "pending": [
       {
@@ -1372,6 +1372,12 @@
         "tokenAmount": 1432512397.92544,
         "txHash": "0x6efcb84c1679e515ec1bff3a3e69ea6a4984d378ec99cf92dfda772325c22e4a",
         "timestamp": "2026-10-05T02:03:35Z"
+      },
+      {
+        "usd": 7079.10913723326,
+        "tokenAmount": 1597156685.53956,
+        "txHash": "0x7e96fba6cca39eb9ad15a6f0d025c4c8b647673fc752c77a7bb18eb5e0a766c2",
+        "timestamp": "2026-10-05T02:09:59Z"
       }
     ]
   },
@@ -1469,9 +1475,17 @@
       "0xfe3550067fd2a6708c40bedffbccfef6637869d254e1409dcef3697cd36b8a82",
       "0x8662db43859d52f8fd4fdd29a4c520032d647665108ed4303a5c203491656cf1",
       "0x5431263ceb51a219cdfc199ad75fa92adef1f1f1a044fb78b463bd80792e1435",
-      "0x6fece89bb11e12602a343a032c5d55f6f1c0d4b6f40866c06cffbd0488623ae3"
+      "0x6fece89bb11e12602a343a032c5d55f6f1c0d4b6f40866c06cffbd0488623ae3",
+      "0x13770b37fe61a79274d83530ee3d00d1149cab520848f8328155f4541b297caf"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 4428.47597795544,
+        "tokenAmount": 300632.385601869,
+        "txHash": "0x13770b37fe61a79274d83530ee3d00d1149cab520848f8328155f4541b297caf",
+        "timestamp": "2026-10-05T02:12:59Z"
+      }
+    ]
   },
   "AURORA": {
     "initialized": true,
