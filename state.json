@@ -1757,14 +1757,7 @@
       "0xa3a57191a92871461d21bbd6ef5ec25b206721a02e89ecd0a72ee81dcfc3dd6d",
       "0x7c318d64ba2592de4e683d287b86beedbb3a52b020faa73b70ec37ce5ec7e53b"
     ],
-    "pending": [
-      {
-        "usd": 6647.46873652988,
-        "tokenAmount": 93511.19987453,
-        "txHash": "0x7c318d64ba2592de4e683d287b86beedbb3a52b020faa73b70ec37ce5ec7e53b",
-        "timestamp": "2026-10-04T18:18:11Z"
-      }
-    ]
+    "pending": []
   },
   "JASMY": {
     "initialized": true,
