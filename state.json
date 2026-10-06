@@ -1821,20 +1821,7 @@
       "0xe5b63bd96440333da26c005a5caa446ea85d7c1897f5d83a2fd83d590357d7e2",
       "0xb9a7a1c05da9c2e6acd11a9513f968206b282af63b3448ccb0c390155db7c5fd"
     ],
-    "pending": [
-      {
-        "usd": 4892.0479139424,
-        "tokenAmount": 73565.5720138134,
-        "txHash": "0xe5b63bd96440333da26c005a5caa446ea85d7c1897f5d83a2fd83d590357d7e2",
-        "timestamp": "2026-10-06T00:57:23Z"
-      },
-      {
-        "usd": 4961.3999439512,
-        "tokenAmount": 73233.2801893708,
-        "txHash": "0xb9a7a1c05da9c2e6acd11a9513f968206b282af63b3448ccb0c390155db7c5fd",
-        "timestamp": "2026-10-06T00:57:47Z"
-      }
-    ]
+    "pending": []
   },
   "JASMY": {
     "initialized": true,
