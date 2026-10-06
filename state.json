@@ -679,14 +679,7 @@
       "4eTCHK5GHuB99uWiPFuiASR5wzQvssiKnsEmN9nv1urMuVDp3UKFTB9gFot63CFVWp52aEo9bG1EptP9dDtBoGKk",
       "2GDcosbHcHGPcsYGEynzb4NQiiQjNKnwWZb7Q2L3AdKA8NURV8G5Aj6bpmVMUpixvdarde7DtPjUqdrHWDPncaHw"
     ],
-    "pending": [
-      {
-        "usd": 4033.3138396153176,
-        "tokenAmount": 431298.561187,
-        "txHash": "4xNueg1bGENvZB6ayQGRtA5w2sFQF12UX2FHSsU1G2rLdPWJCjaJVkgrh2LBi2m3ijonB9MjzrHUCChHYYWxXr8C",
-        "timestamp": "2026-10-06T03:27:58Z"
-      }
-    ]
+    "pending": []
   },
   "APU": {
     "initialized": true,
