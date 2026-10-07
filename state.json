@@ -724,16 +724,13 @@
       "3G3tpPjeVYGrmoqUNibwKJhpZiBGRRfUNbi2hcfegBMyFY3AKKSCjexZcY2W42XpChdbjsyouCBQLKmHWAAFp1if",
       "56QH7KYaKZQ51eS3rDdZPmPkFNDXSpDkKtjGzXtzLA4tL1YjDau9gvgKPcjrfHvLMdFNkWkYPYtGwBohJM2Z3TNo",
       "3gSgc1qmfGbQXAC1quaj2mWY7Qy5qK4a7c9Yd8qvu6ZHpnGHE8gdeoqF5no12ySxBF85vAscFexyrDA1GALq395D",
-      "468wFmU2zMnCFJx47by11LxtCUefDWrG5EMeiWvKu9EzF79do6r6piH11Bzp1AuW2tdeYrEac7bnFVB6tKA5WnFg"
+      "468wFmU2zMnCFJx47by11LxtCUefDWrG5EMeiWvKu9EzF79do6r6piH11Bzp1AuW2tdeYrEac7bnFVB6tKA5WnFg",
+      "fM9fmrWKTDL1CvHekRcaWEZUu5EHTfrLDMLz4FmowB9rVw2o1N7ZVwftAAG9noBAM9TLUVr4un2MoUPUh3ULtLm",
+      "4NtA8Krm9b8cNR1i5zyeP7zfvMsWsW1sUnNZxyjrVGuxiGbvCiZa93wf1Qm57x8MvGf9FkQ4ipNBzLSzFuGeAzDy",
+      "5CZZGHvBV8wqqZ2edeSzj6rfn7EnHgDoeBerYZgGoHd6erF3WhMYEQhwmmRHvCB9eGAp2U3jYyYCxW2GrehyhAQ7",
+      "5wudatBxwX2JfYSAS8cjcWf166DLTiXUEcS19EmVZUL24Xbo6KWqRKHBoUDc1CvdMpY8CnLkvLcHZfN7nMnQVYAr"
     ],
-    "pending": [
-      {
-        "usd": 5398.719602623077,
-        "tokenAmount": 601161.721945,
-        "txHash": "3gSgc1qmfGbQXAC1quaj2mWY7Qy5qK4a7c9Yd8qvu6ZHpnGHE8gdeoqF5no12ySxBF85vAscFexyrDA1GALq395D",
-        "timestamp": "2026-10-07T05:52:06Z"
-      }
-    ]
+    "pending": []
   },
   "APU": {
     "initialized": true,
