@@ -1552,9 +1552,17 @@
     "initialized": true,
     "seenHashes": [
       "0x52668437fe746b519e51855cdbc57ed04f800473202ee29247344580886d9b0f",
-      "0x67a99be14f5ea0c7ff779bb0056e3b0946e34485f03c7593c08894d879665e1c"
+      "0x67a99be14f5ea0c7ff779bb0056e3b0946e34485f03c7593c08894d879665e1c",
+      "0x3147026a99c594d10429f219edc6a10cd8ff88c4a5cee40954becd25a733db11"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 10570.1515152036,
+        "tokenAmount": 1301.72228226406,
+        "txHash": "0x3147026a99c594d10429f219edc6a10cd8ff88c4a5cee40954becd25a733db11",
+        "timestamp": "2026-10-07T06:50:23Z"
+      }
+    ]
   },
   "TON": {
     "initialized": true,
