@@ -1165,7 +1165,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x02c2c6f6ca3db15cd85fceaaad8e8e16d13f61d1488c12ca0358cd85d8d05c21",
       "0x5f8554c48cc78fe3aa7eb30856b895b6a6768630bbd1fdeeb0c9149d2856be21",
       "0x7f4d2023489018d5ef41f43b14b43a6aae343a5af82d0dd8a542279dfdcbe818",
       "0x7230ee44672eb9c3ba81f094e43f6c6805ddb85ff4312b4321040205b21a8b6c",
@@ -1464,28 +1463,10 @@
       "0xf85668bfc789c3a245e0c4e24e0fce838e9315afdbc93545e5fcd32f429fb0a9",
       "0xc347d0a3659c63bb84b36ecca9c85f7ab85715738beb4049b729cd86a9edce6b",
       "0xbf64798effa1856c5424fd24bf4e521460f2a8414442db4984174123264667be",
-      "0x10dc41037f8cbf58a1e52c14443ad146ea7ffd56b85bf53ddc108e985df4bd5a"
+      "0x10dc41037f8cbf58a1e52c14443ad146ea7ffd56b85bf53ddc108e985df4bd5a",
+      "0xd4e29e0ac00b9e563f29a6c0ef427160044e91d21233d9bd63e1147a64b50034"
     ],
-    "pending": [
-      {
-        "usd": 7680.60510749975,
-        "tokenAmount": 1867667498.7994,
-        "txHash": "0x3ab8f84938e95353ad5b627d3f8a750ae56fd8a75dacb032045967274ffc0d13",
-        "timestamp": "2026-10-07T10:05:23Z"
-      },
-      {
-        "usd": 12000.4852833689,
-        "tokenAmount": 2914462376.25259,
-        "txHash": "0xf85668bfc789c3a245e0c4e24e0fce838e9315afdbc93545e5fcd32f429fb0a9",
-        "timestamp": "2026-10-07T10:07:47Z"
-      },
-      {
-        "usd": 6197.98759906752,
-        "tokenAmount": 1503301361.76565,
-        "txHash": "0xc347d0a3659c63bb84b36ecca9c85f7ab85715738beb4049b729cd86a9edce6b",
-        "timestamp": "2026-10-07T10:08:11Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
@@ -2096,7 +2077,13 @@
       "0x87bf70b0b03660d45606afbc6112a16368d4cec04929ff59e4561fe46e0efe4f",
       "0x3434041cccb39d6c6664ac62f43e1a43004020a442b702d86897da04dc82cb56",
       "0x6c8f4a06040f8fafcb6710a535ad2f0b7954f19faacdde280142c3bbb044f669",
-      "0xce540448339c19b299b8df4f768d24a923e046fb38202050612a0bb1a66b6dba"
+      "0xce540448339c19b299b8df4f768d24a923e046fb38202050612a0bb1a66b6dba",
+      "0x6c579db6edfdd20a150d271158b8dab9febdb25143a92ade0d5f2927b9ae9998",
+      "0x1a68c020feb657d9aeee6011d42632939d8460d2ac1dbaa016cc875cb9bd2454",
+      "0xc78e2fe410f90cb8b2feef4d365f660ef511663ed2c50f256b60eaa961003797",
+      "0xa3f72e57024406548987ea881290deba5f83b40f4f12b46ba2d68e5ff93d5b8f",
+      "0xb1f55692941060ca8dd408b86f211be3bbe21974e50b4dbe052c955d48643475",
+      "0xcb0b46a18c21efc08fb26a24d4ede8c113c9a8ae3e079b026bc46996b8593935"
     ],
     "pending": []
   }
