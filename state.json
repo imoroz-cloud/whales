@@ -2097,7 +2097,9 @@
   },
   "KAS": {
     "initialized": true,
-    "seenHashes": [],
+    "seenHashes": [
+      "0xc61154b26bd55222dad4240c061b861a101813c62f1e12addd53436c457d7da7"
+    ],
     "pending": []
   }
 }
