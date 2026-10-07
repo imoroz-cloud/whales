@@ -1076,16 +1076,12 @@
       "0x272e61fdf21d5cc042ee15adf1113cd370f190563e9f2a7486b87e080a20cf9f",
       "0x6e72e619c4b7e663c8e1ac66d6ab1a6cdfbd3f4c80085b60ce94cdc14a187b7c",
       "0x0e88f22ca1c97f3c05cd722bbd1a47a62e4c2a53e8a5953c0945d8164e821943",
-      "0xbb2646877065bc9a15d600e670e34e8b9907130dcd2f7d87a7fd3cc2f6797989"
+      "0xbb2646877065bc9a15d600e670e34e8b9907130dcd2f7d87a7fd3cc2f6797989",
+      "0x4a0fc93aec47bbbec2b0642575bf78a5caec32f4a191fd2dd3429b6de1f976ae",
+      "0xff1216904159f3267d32e5b3839c4f1c8384a18be2163e8a2e4d7de0b1a0dbdf",
+      "0x6d7a1bdf65d482b08126eebb6210f20b51f85805d85b1f6c436cebbbf8b446d6"
     ],
-    "pending": [
-      {
-        "usd": 4061.53712207146,
-        "tokenAmount": 140236576.220438,
-        "txHash": "0xbb2646877065bc9a15d600e670e34e8b9907130dcd2f7d87a7fd3cc2f6797989",
-        "timestamp": "2026-10-06T19:09:45Z"
-      }
-    ]
+    "pending": []
   },
   "BRETT": {
     "initialized": true,
