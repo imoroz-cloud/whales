@@ -2074,14 +2074,7 @@
       "0xe683f718d765cd8a8e455876a1f967381ec5f6a0ba0b0471df2981503da6403d",
       "0xf8e7c000800bcbc505ad4feabe03ce51a1f7fef580a56f7bad291a2f9fddced6"
     ],
-    "pending": [
-      {
-        "usd": 4222.27102627745,
-        "tokenAmount": 817349.314274522,
-        "txHash": "0xf8e7c000800bcbc505ad4feabe03ce51a1f7fef580a56f7bad291a2f9fddced6",
-        "timestamp": "2026-10-07T02:31:35Z"
-      }
-    ]
+    "pending": []
   },
   "LUMIA": {
     "initialized": true,
