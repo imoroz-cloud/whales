@@ -7,26 +7,26 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2108104415530156134",
-    "avgEngagement": 30.91619722628129,
+    "lastSeenId": "2108120213250093161",
+    "avgEngagement": 27.0413380583969,
     "lastAlertUnix": 1791216449
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2108105375048143253",
-    "avgEngagement": 61.915973136221005,
+    "lastSeenId": "2108121471033975234",
+    "avgEngagement": 49.52309785851659,
     "lastAlertUnix": 1791428840
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2108094832862429262",
-    "avgEngagement": 26.006684139099356,
+    "lastSeenId": "2108119854708654485",
+    "avgEngagement": 20.252163403258425,
     "lastAlertUnix": 1791410846
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2108106382423601437",
-    "avgEngagement": 54.54891144711562,
+    "lastSeenId": "2108120233802109403",
+    "avgEngagement": 68.69896660908665,
     "lastAlertUnix": 1791400044
   },
   "coingecko": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2108071933757862233",
-    "avgEngagement": 114.50787827705065,
+    "lastSeenId": "2108117243230138630",
+    "avgEngagement": 124.85551479393544,
     "lastAlertUnix": 1791342458
   },
   "hupzy_agent": {
@@ -137,15 +137,15 @@
   },
   "cryptokaleo": {
     "initialized": true,
-    "lastSeenId": "2108075621629022338",
-    "avgEngagement": 74.11135284270134,
+    "lastSeenId": "2108111895958065517",
+    "avgEngagement": 74.97794698989092,
     "lastAlertUnix": 1791256046
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2108106807583597029",
-    "avgEngagement": 9.186982129653458,
-    "lastAlertUnix": 1791410857
+    "lastSeenId": "2108113533536022695",
+    "avgEngagement": 26.53088749075742,
+    "lastAlertUnix": 1791450445
   },
   "thecryptodog": {
     "initialized": true,
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2108042904774291626",
-    "avgEngagement": 537.7173588314146,
+    "lastSeenId": "2108114537434190076",
+    "avgEngagement": 525.5021511819901,
     "lastAlertUnix": 1791421646
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791446865
+    "lastCheckUnix": 1791450468
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2107968323971404122",
-    "avgEngagement": 57.182752725561414,
+    "lastSeenId": "2108112882059608359",
+    "avgEngagement": 72.72792690789299,
     "lastAlertUnix": 1791389278
   },
   "litecoin": {
@@ -228,14 +228,14 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2108097563672899640",
-    "avgEngagement": 331.8814620626036,
+    "lastSeenId": "2108111284831219943",
+    "avgEngagement": 332.2170234438225,
     "lastAlertUnix": 1791371256
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2107974429636788307",
-    "avgEngagement": 93.74089797229065,
+    "lastSeenId": "2108117168210514166",
+    "avgEngagement": 82.11862858060346,
     "lastAlertUnix": 1791410877
   },
   "coinify": {
@@ -330,8 +330,8 @@
   },
   "tangem": {
     "initialized": true,
-    "lastSeenId": "2107901585263337661",
-    "avgEngagement": 23.33034659353786,
+    "lastSeenId": "2108119962317725821",
+    "avgEngagement": 23.19186983083355,
     "lastAlertUnix": 1791205685
   },
   "moonpay": {
@@ -390,8 +390,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2108102450096054453",
-    "avgEngagement": 4.749807437435437
+    "lastSeenId": "2108108012938469477",
+    "avgEngagement": 5.7248652062048055
   },
   "bitexly": {
     "initialized": true,
@@ -481,8 +481,8 @@
   },
   "floki": {
     "initialized": true,
-    "lastSeenId": "2107847073416856044",
-    "avgEngagement": 90.63409153216986,
+    "lastSeenId": "2108114453304692888",
+    "avgEngagement": 83.5438640725189,
     "lastAlertUnix": 1791389337
   },
   "runonflux": {
