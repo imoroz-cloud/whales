@@ -1,8 +1,8 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2107992198709117416",
-    "avgEngagement": 2114.8371714450286,
+    "lastSeenId": "2108030742169342002",
+    "avgEngagement": 1572.48602001152,
     "lastAlertUnix": 1791407243
   },
   "wublockchain": {
@@ -13,26 +13,26 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2108016238102225057",
-    "avgEngagement": 65.80486250168265,
-    "lastAlertUnix": 1791378441
+    "lastSeenId": "2108030587948736685",
+    "avgEngagement": 57.9523432406578,
+    "lastAlertUnix": 1791428840
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2108004036452708631",
-    "avgEngagement": 33.527007432018564,
+    "lastSeenId": "2108024690384204111",
+    "avgEngagement": 29.468905202412994,
     "lastAlertUnix": 1791410846
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2108012763087839373",
-    "avgEngagement": 76.1485881765037,
+    "lastSeenId": "2108028367442182353",
+    "avgEngagement": 74.9628082064868,
     "lastAlertUnix": 1791400044
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2107952105805762811",
-    "avgEngagement": 229.99236976860598,
+    "lastSeenId": "2108022680628682828",
+    "avgEngagement": 208.09465883802417,
     "lastAlertUnix": 1791284841
   },
   "bitcoinmagazine": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2108011082820579579",
-    "avgEngagement": 108.64339140795778,
+    "lastSeenId": "2108028010981130335",
+    "avgEngagement": 105.97526178989932,
     "lastAlertUnix": 1791342458
   },
   "hupzy_agent": {
@@ -137,8 +137,8 @@
   },
   "cryptokaleo": {
     "initialized": true,
-    "lastSeenId": "2107994923123519810",
-    "avgEngagement": 105.97608005764053,
+    "lastSeenId": "2108025133143331123",
+    "avgEngagement": 99.08325604034837,
     "lastAlertUnix": 1791256046
   },
   "inversebrah": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2107994265104339166",
-    "avgEngagement": 477.79052822737685,
+    "lastSeenId": "2108022784626659555",
+    "avgEngagement": 574.4533697591637,
     "lastAlertUnix": 1791421646
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791425258
+    "lastCheckUnix": 1791428866
   },
   "bitcoinarchive": {
     "initialized": true,
