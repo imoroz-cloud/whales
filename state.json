@@ -738,7 +738,8 @@
       "4smwGwdoTHnBbDSSi4QTB1qCSRQVdUz5H2ZWaw8swj6fUWs2oveWqX5yak5g9pg6aFcfxKFLyJXobNEe8J4oQxAf",
       "4q1Ftmcx6NeVQvYDQGY2pg1SscEp8V9AviBGnWLYREnmi6w2eqy67R1dqhFFgTunvKAts5EsiCM3ed9nNc4PPEQC",
       "3nVxU1GHDKanKaHExn1SatDMAERQ9UArXWdzF1smxA69yXLV7mGRwwRnB5rKTEHJ7XxPZxiDMhgKdbhUPdmDVZJN",
-      "4sRPuGJTFWaLmKsCPDYTXX7vJYSAfkRrJcqryUtU6o3fdLf5PZpkCVEKCaHRuyBcA8TqTHrADq1xmbTyEcUhUMdv"
+      "4sRPuGJTFWaLmKsCPDYTXX7vJYSAfkRrJcqryUtU6o3fdLf5PZpkCVEKCaHRuyBcA8TqTHrADq1xmbTyEcUhUMdv",
+      "3KkzA6dGP5t5vrfqWnbxeyPXPrx6QMbTaQsNmF53f9TtH4c4xXGUefJHxLxRcCekdK2gsmtkCZLtkQdGzayHHams"
     ],
     "pending": [
       {
@@ -1032,15 +1033,10 @@
       "0x87d9b7d4548f44613d104b30186f7d977f3ddec7f7a0741f8f3d3d3a42e9ad35",
       "0xc113b0dd42aff87d000b18e17adbcbecaec6283ab1e4553ee200abd25d2f6535",
       "0x9e66349c95539954fad2325d37093b11656c3f49075041429b44bad60932018c",
-      "0xf1d08a2ed93e5556d74ef5737594486de085ea3afd6873c68ff3cae40faa20f9"
+      "0xf1d08a2ed93e5556d74ef5737594486de085ea3afd6873c68ff3cae40faa20f9",
+      "0xb27a87715dc0aef27083f9b48bed0b864db74ac582a2d1c19e958d9b88fcfa17"
     ],
     "pending": [
-      {
-        "usd": 6353.80903907132,
-        "tokenAmount": 438727482.64559,
-        "txHash": "0xc113b0dd42aff87d000b18e17adbcbecaec6283ab1e4553ee200abd25d2f6535",
-        "timestamp": "2026-10-07T22:45:23Z"
-      },
       {
         "usd": 6386.93770746524,
         "tokenAmount": 435322259.97851,
