@@ -1,8 +1,8 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2108769543652807030",
-    "avgEngagement": 1139.5591361028999,
+    "lastSeenId": "2108874206066909437",
+    "avgEngagement": 998.9913952720298,
     "lastAlertUnix": 1791569241
   },
   "wublockchain": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2108860108230820039",
-    "avgEngagement": 70.55837309321221,
+    "lastSeenId": "2108876455887127014",
+    "avgEngagement": 66.61360281567397,
     "lastAlertUnix": 1791533242
   },
   "coingecko": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791626869
+    "lastCheckUnix": 1791630467
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,9 +192,9 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2108664212742721670",
-    "avgEngagement": 48.57288496731647,
-    "lastAlertUnix": 1791554866
+    "lastSeenId": "2108872410308973034",
+    "avgEngagement": 69.40101947712152,
+    "lastAlertUnix": 1791630445
   },
   "litecoin": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2108861597469003951",
-    "avgEngagement": 202.55541313005014,
+    "lastSeenId": "2108871412135960693",
+    "avgEngagement": 204.48878919103507,
     "lastAlertUnix": 1791626847
   },
   "bscgemsalert": {
@@ -342,8 +342,8 @@
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2108512819029160403",
-    "avgEngagement": 10.362602701055414,
+    "lastSeenId": "2108875200473268503",
+    "avgEngagement": 8.753821890738788,
     "lastAlertUnix": 1791468487
   },
   "onekeyhq": {
@@ -374,8 +374,8 @@
   },
   "orangefren": {
     "initialized": true,
-    "lastSeenId": "2108581933059911903",
-    "avgEngagement": 9.090071443853919,
+    "lastSeenId": "2108872678853538017",
+    "avgEngagement": 6.663050010697742,
     "lastAlertUnix": 1791540464
   },
   "coinoswap": {
@@ -390,8 +390,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2108859101505831163",
-    "avgEngagement": 4.392209472461413
+    "lastSeenId": "2108863862581690444",
+    "avgEngagement": 3.6745466307229893
   },
   "bitexly": {
     "initialized": true,
