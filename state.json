@@ -768,12 +768,6 @@
     ],
     "pending": [
       {
-        "usd": 6415.414647721716,
-        "tokenAmount": 792998.145509,
-        "txHash": "yNbFYTVwpTfeVsNa2pfMaKTDihpWoi48wYyYS6q3c5Q53tmrUMmjrqNoHAXdk1CnbkRTyAsUXaamJvN9mUvP7jA",
-        "timestamp": "2026-10-09T18:11:02Z"
-      },
-      {
         "usd": 5594.571955698444,
         "tokenAmount": 688102.167066,
         "txHash": "5SM7zDoj7g5HzBUfpgnq6D3K5JXK1ujcJhCWJtangVaaiejvus5wJEKnhtufY1T2MxnbjGdKEDtpNA4X3wndbqEa",
@@ -1229,8 +1223,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x562d0431eb45766a49fc26d47bdd3545c434157a8a3f49ab9fd699a90d0c84e6",
-      "0x9d2175ae35daf99d47f4d22c6e3bfed49815cffde20809b33bed13c310248634",
       "0xb99ff64a352533dc72c5ebfda430a9de6dfb6859d48adebe5b3d3646d2792c85",
       "0x9a459ee47cda0290132398af7bf509c5e1ac851c12fcf66d097820c59c10048f",
       "0x34e0f319fb4f3ee74f5e23a6f3833f26bef3e0c8cd39e5e067c0b93f817e0e9b",
@@ -1528,22 +1520,11 @@
       "0xf887382f0b7bc2c23864a29c9b020a230c18cd000bc8cd4fd6a41a61f7939e38",
       "0xeb4da7ebe1db201db52653305ded981f15c843f53f72e586fa1155c7874561da",
       "0x00b09307ed424fedcb3d0456e4de06d75eb78913f8a853b5b2ce5e5968c13bdb",
-      "0x9c22c752cd07527676c2b2addcfbca3b5fa9864dc78e4b442d19e497e2ca4d1d"
+      "0x9c22c752cd07527676c2b2addcfbca3b5fa9864dc78e4b442d19e497e2ca4d1d",
+      "0xa43b79c8eccb928b5202b8b6d240cf9c789a55731b7264d00ced9b5007511996",
+      "0x33ea71bbb80858d3cbaa6f1a5c5161e24cf50f9aacdfbe36b561c092646f47fe"
     ],
-    "pending": [
-      {
-        "usd": 7311.11058186199,
-        "tokenAmount": 1863439579.38384,
-        "txHash": "0x00b09307ed424fedcb3d0456e4de06d75eb78913f8a853b5b2ce5e5968c13bdb",
-        "timestamp": "2026-10-09T20:18:47Z"
-      },
-      {
-        "usd": 8522.25072889278,
-        "tokenAmount": 2164555712.08328,
-        "txHash": "0x9c22c752cd07527676c2b2addcfbca3b5fa9864dc78e4b442d19e497e2ca4d1d",
-        "timestamp": "2026-10-09T21:04:11Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
