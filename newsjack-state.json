@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2108799910791225453",
-    "avgEngagement": 54.28906245821091,
+    "lastSeenId": "2108815051029193017",
+    "avgEngagement": 46.10234372074763,
     "lastAlertUnix": 1791565643
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2108797685746561130",
-    "avgEngagement": 49.64272388955337,
+    "lastSeenId": "2108809513826419099",
+    "avgEngagement": 57.249906722687356,
     "lastAlertUnix": 1791533242
   },
   "coingecko": {
@@ -49,14 +49,14 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2108765715834744886",
-    "avgEngagement": 131.8910158999531,
+    "lastSeenId": "2108806550026600774",
+    "avgEngagement": 110.40659779097699,
     "lastAlertUnix": 1791472046
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2108664670278345073",
-    "avgEngagement": 2.705410399547661,
+    "lastSeenId": "2108802960700682640",
+    "avgEngagement": 3.693787279683362,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -131,8 +131,8 @@
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2108763101126639937",
-    "avgEngagement": 136.2285845147968,
+    "lastSeenId": "2108812607599903138",
+    "avgEngagement": 110.66000916035776,
     "lastAlertUnix": 1791400058
   },
   "cryptokaleo": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791612456
+    "lastCheckUnix": 1791616055
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -186,8 +186,8 @@
   },
   "zelcore_io": {
     "initialized": true,
-    "lastSeenId": "2108440940197400776",
-    "avgEngagement": 6.863535807816302,
+    "lastSeenId": "2108806642766872932",
+    "avgEngagement": 5.40447506547141,
     "lastAlertUnix": 1791281273
   },
   "coindesk": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2108799693065171041",
-    "avgEngagement": 292.43463293398327,
+    "lastSeenId": "2108814791330681197",
+    "avgEngagement": 250.0042430537883,
     "lastAlertUnix": 1791547652
   },
   "bscgemsalert": {
@@ -330,8 +330,8 @@
   },
   "tangem": {
     "initialized": true,
-    "lastSeenId": "2108789762161283136",
-    "avgEngagement": 137.44447352620543,
+    "lastSeenId": "2108805881026466190",
+    "avgEngagement": 115.11113146834379,
     "lastAlertUnix": 1791558453
   },
   "moonpay": {
