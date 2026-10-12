@@ -13,20 +13,20 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2109524735679758756",
-    "avgEngagement": 88.51471451680816,
+    "lastSeenId": "2109539840307888350",
+    "avgEngagement": 101.122210113236,
     "lastAlertUnix": 1791778042
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2109514371089227831",
-    "avgEngagement": 32.83665799747945,
+    "lastSeenId": "2109535618846150744",
+    "avgEngagement": 41.88566059823561,
     "lastAlertUnix": 1791778052
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2109354605653922138",
-    "avgEngagement": 122.07025312614755,
+    "lastSeenId": "2109534541144641843",
+    "avgEngagement": 123.84917718830329,
     "lastAlertUnix": 1791731242
   },
   "coingecko": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2109494266066260193",
-    "avgEngagement": 350.7820200071483,
+    "lastSeenId": "2109540737251684449",
+    "avgEngagement": 274.6474140050038,
     "lastAlertUnix": 1791652044
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791785267
+    "lastCheckUnix": 1791788861
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -186,8 +186,8 @@
   },
   "zelcore_io": {
     "initialized": true,
-    "lastSeenId": "2109169405397725277",
-    "avgEngagement": 4.683132545829986,
+    "lastSeenId": "2109531527096967649",
+    "avgEngagement": 3.87819278208099,
     "lastAlertUnix": 1791281273
   },
   "coindesk": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2109524968757445045",
-    "avgEngagement": 407.18584914112233,
+    "lastSeenId": "2109537551388188892",
+    "avgEngagement": 371.13009439878556,
     "lastAlertUnix": 1791778067
   },
   "bscgemsalert": {
@@ -267,8 +267,8 @@
   },
   "coolwallet": {
     "initialized": true,
-    "lastSeenId": "2108086414361715067",
-    "avgEngagement": 0.6597939120383397
+    "lastSeenId": "2109541211640107278",
+    "avgEngagement": 0.46185573842683775
   },
   "trocadorapp": {
     "initialized": true,
@@ -390,8 +390,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2109494268607791387",
-    "avgEngagement": 2.8953694943379853
+    "lastSeenId": "2109539569964044563",
+    "avgEngagement": 1.203111736557929
   },
   "bitexly": {
     "initialized": true,
