@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2109282793360658727",
-    "avgEngagement": 59.89415374204708,
+    "lastSeenId": "2109448859458158667",
+    "avgEngagement": 49.425907619432955,
     "lastAlertUnix": 1791702441
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2109434074838290496",
-    "avgEngagement": 153.65170724457735,
+    "lastSeenId": "2109449196390478132",
+    "avgEngagement": 126.1693365498429,
     "lastAlertUnix": 1791634041
   },
   "theblockco": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2109427496483475613",
-    "avgEngagement": 55.76394413447149,
+    "lastSeenId": "2109436598001480185",
+    "avgEngagement": 50.734760894130034,
     "lastAlertUnix": 1791709641
   },
   "lookonchain": {
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2109344292754104786",
-    "avgEngagement": 1.6714703796674675,
+    "lastSeenId": "2109445828339528191",
+    "avgEngagement": 3.8700292657672266,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791763662
+    "lastCheckUnix": 1791767257
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -210,8 +210,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2109419854302441617",
-    "avgEngagement": 541.0273685712465,
+    "lastSeenId": "2109436329654472993",
+    "avgEngagement": 695.5191579998725,
     "lastAlertUnix": 1791572851
   },
   "cryptowendyo": {
@@ -336,8 +336,8 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2109348813664145699",
-    "avgEngagement": 757.003120233403,
+    "lastSeenId": "2109439491509268882",
+    "avgEngagement": 703.9021841633821,
     "lastAlertUnix": 1791400092
   },
   "houdiniswap": {
@@ -390,8 +390,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2108863862581690444",
-    "avgEngagement": 3.6745466307229893
+    "lastSeenId": "2109448972502958112",
+    "avgEngagement": 4.072182641506092
   },
   "bitexly": {
     "initialized": true,
