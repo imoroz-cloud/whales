@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2109748639316815882",
-    "avgEngagement": 94.00009958215803,
+    "lastSeenId": "2109758706145448071",
+    "avgEngagement": 85.57004879525743,
     "lastAlertUnix": 1791814043
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2109752478103167226",
-    "avgEngagement": 63.31131306553536,
+    "lastSeenId": "2109764307843989812",
+    "avgEngagement": 67.41791914587475,
     "lastAlertUnix": 1791799642
   },
   "coingecko": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2109714119792132176",
-    "avgEngagement": 44.6120229866866,
+    "lastSeenId": "2109763757421326707",
+    "avgEngagement": 43.82841609068061,
     "lastAlertUnix": 1791832043
   },
   "lookonchain": {
@@ -137,8 +137,8 @@
   },
   "cryptokaleo": {
     "initialized": true,
-    "lastSeenId": "2109661675192545565",
-    "avgEngagement": 110.3355761737897,
+    "lastSeenId": "2109765804766183774",
+    "avgEngagement": 100.80443232515694,
     "lastAlertUnix": 1791785245
   },
   "inversebrah": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2109742693245153564",
-    "avgEngagement": 378.3846108718209,
+    "lastSeenId": "2109755364648337736",
+    "avgEngagement": 330.2692276102746,
     "lastAlertUnix": 1791652044
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791839259
+    "lastCheckUnix": 1791842863
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -198,9 +198,9 @@
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2109631531463651723",
-    "avgEngagement": 42.687546850265434,
-    "lastAlertUnix": 1791288448
+    "lastSeenId": "2109763560314179788",
+    "avgEngagement": 61.0812827951858,
+    "lastAlertUnix": 1791842846
   },
   "babydoge": {
     "initialized": true,
@@ -421,8 +421,8 @@
   },
   "eidex_official": {
     "initialized": true,
-    "lastSeenId": "2106086365179809836",
-    "avgEngagement": 1.2184199999999996
+    "lastSeenId": "2109763607831490722",
+    "avgEngagement": 1.1528939999999996
   },
   "kaspaunchained": {
     "initialized": true,
