@@ -1543,14 +1543,7 @@
       "0x381442a4b91865fa8dd23c0c5b04a2bc3907939cabd0b5f5cc9b1b3e34e866a6",
       "0x9fe9c1153397714b00b8e85d6487e5744b16a3d7ff6039da9fa84a3c1860e6e4"
     ],
-    "pending": [
-      {
-        "usd": 13609.5671283194,
-        "tokenAmount": 3233720615.16601,
-        "txHash": "0x7224f049dd50a61d80976c3915f2c4447f14090ec573d41b516c569d32670c4c",
-        "timestamp": "2026-10-12T12:13:47Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
@@ -1659,9 +1652,17 @@
       "0x8662db43859d52f8fd4fdd29a4c520032d647665108ed4303a5c203491656cf1",
       "0x5431263ceb51a219cdfc199ad75fa92adef1f1f1a044fb78b463bd80792e1435",
       "0x6fece89bb11e12602a343a032c5d55f6f1c0d4b6f40866c06cffbd0488623ae3",
-      "0x13770b37fe61a79274d83530ee3d00d1149cab520848f8328155f4541b297caf"
+      "0x13770b37fe61a79274d83530ee3d00d1149cab520848f8328155f4541b297caf",
+      "0x62821828baa395be7c21a923a3e69afc49aba844087005079ed61ee55a95e320"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5023.74,
+        "tokenAmount": 361080.299999637,
+        "txHash": "0x62821828baa395be7c21a923a3e69afc49aba844087005079ed61ee55a95e320",
+        "timestamp": "2026-10-12T18:15:47Z"
+      }
+    ]
   },
   "AURORA": {
     "initialized": true,
