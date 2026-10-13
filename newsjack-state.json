@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2110110980357189745",
-    "avgEngagement": 109.53318906376994,
+    "lastSeenId": "2110128592877130012",
+    "avgEngagement": 85.34371869421115,
     "lastAlertUnix": 1791911249
   },
   "theblockco": {
@@ -25,26 +25,26 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2110112101498802374",
-    "avgEngagement": 92.66818242528161,
+    "lastSeenId": "2110122165282422948",
+    "avgEngagement": 104.76772769769713,
     "lastAlertUnix": 1791918443
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2110072617084579888",
-    "avgEngagement": 74.86304096741003,
+    "lastSeenId": "2110120921490927638",
+    "avgEngagement": 215.004128677187,
     "lastAlertUnix": 1791896844
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2110104837346226511",
-    "avgEngagement": 208.89249762881508,
+    "lastSeenId": "2110123556231434702",
+    "avgEngagement": 189.12474834017056,
     "lastAlertUnix": 1791889642
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2110114998504628696",
-    "avgEngagement": 17.004505235838216,
+    "lastSeenId": "2110118214814302236",
+    "avgEngagement": 31.703153665086752,
     "lastAlertUnix": 1791911258
   },
   "lookonchain": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1791925669
+    "lastCheckUnix": 1791929263
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2110105473546674622",
-    "avgEngagement": 164.8764082691735,
+    "lastSeenId": "2110121492688351254",
+    "avgEngagement": 170.84944005189502,
     "lastAlertUnix": 1791911279
   },
   "zelcore_io": {
@@ -434,8 +434,8 @@
   },
   "pudgypenguins": {
     "initialized": true,
-    "lastSeenId": "2109676062359929081",
-    "avgEngagement": 185.88345390124013,
+    "lastSeenId": "2110129574243696978",
+    "avgEngagement": 163.4184177308681,
     "lastAlertUnix": 1790881688
   },
   "ponkehq": {
