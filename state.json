@@ -198,9 +198,31 @@
       "2HKDxv3R8sPgd8CCJKj4HXVuzMV36xq9oRgd9QDRTdeQ8EyZG5ffC85c8mFa13vT76BqCgb8wzRoUZBi23wFXcyb",
       "2MjBujw2kmhEQ5tjYHMmhsZD8PwPBx952qj5Ho3Sca9X8PkNTwVzT6FGjxG58wVtgcSc94bTwACbCRiLMnzaWjWM",
       "53RECRmrSZk84SFkqfXRiPPn5KqpZZRW6WQaKHa7NuBAznV87mg86jdgoKFLj3fC9SWeRSfvgVLKjL3azenTEnYk",
-      "3P6RGL7RKiJ5JHhG7uDCGDpAAucpSbjGjvSoeSckkbKXz8N8usJsYammynRvp4eqeAY9VKUDpTz71SJUdXkizugG"
+      "3P6RGL7RKiJ5JHhG7uDCGDpAAucpSbjGjvSoeSckkbKXz8N8usJsYammynRvp4eqeAY9VKUDpTz71SJUdXkizugG",
+      "3FJRVzkAba2yevxwcvX8Dk8EsWo2WjSa3RgLzQNLyeQZAbpMuLbqNMLdQr2uiE8KKQJzGT57zjSVQ1uRgjsKe3tH",
+      "wqT4X4wTLhF92C4mnhRPJtiEes79nUXFqzYQEsxPKFwb5DjLE2i12WBwudiHgGVZFTnCmudnnu28K8QTv7zmqfz",
+      "3RXgZdqtJp4MaeRx957ntoYzrSLL7yLcZDmqkZqE4ie5SAZeaEMvusxRv6VeQrfPGEtuisG7YqTTnaPWrSZfKoRj"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5007.767079856157,
+        "tokenAmount": 234539.58747793,
+        "txHash": "3FJRVzkAba2yevxwcvX8Dk8EsWo2WjSa3RgLzQNLyeQZAbpMuLbqNMLdQr2uiE8KKQJzGT57zjSVQ1uRgjsKe3tH",
+        "timestamp": "2026-10-14T15:21:39Z"
+      },
+      {
+        "usd": 5006.203916988224,
+        "tokenAmount": 230967.766866901,
+        "txHash": "wqT4X4wTLhF92C4mnhRPJtiEes79nUXFqzYQEsxPKFwb5DjLE2i12WBwudiHgGVZFTnCmudnnu28K8QTv7zmqfz",
+        "timestamp": "2026-10-14T15:22:02Z"
+      },
+      {
+        "usd": 4912.110218182054,
+        "tokenAmount": 222002.460865531,
+        "txHash": "3RXgZdqtJp4MaeRx957ntoYzrSLL7yLcZDmqkZqE4ie5SAZeaEMvusxRv6VeQrfPGEtuisG7YqTTnaPWrSZfKoRj",
+        "timestamp": "2026-10-14T15:22:54Z"
+      }
+    ]
   },
   "SHIB": {
     "initialized": true,
