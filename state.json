@@ -1672,14 +1672,7 @@
       "0x79d96504e2c31aa5ae9d5b6817b649c5dc1653140f4003ef984064be96ab66ad",
       "0x9374b176cb9ff95e5b5eeb6ff5e48f46ce664ac7dd2201125723eda95940876e"
     ],
-    "pending": [
-      {
-        "usd": 17110.0207075738,
-        "tokenAmount": 2034.44450133681,
-        "txHash": "0x9374b176cb9ff95e5b5eeb6ff5e48f46ce664ac7dd2201125723eda95940876e",
-        "timestamp": "2026-10-14T11:00:11Z"
-      }
-    ]
+    "pending": []
   },
   "TON": {
     "initialized": true,
