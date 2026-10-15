@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2110850793469333704",
-    "avgEngagement": 105.99802695537215,
+    "lastSeenId": "2110865869978919297",
+    "avgEngagement": 101.98532324569265,
     "lastAlertUnix": 1792062442
   },
   "theblockco": {
@@ -25,14 +25,14 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2110846944843096160",
-    "avgEngagement": 91.62544869288834,
+    "lastSeenId": "2110865057144095022",
+    "avgEngagement": 83.20646985951527,
     "lastAlertUnix": 1792066042
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2110829599223382134",
-    "avgEngagement": 148.34489005942538,
+    "lastSeenId": "2110868348653219937",
+    "avgEngagement": 126.94142304159776,
     "lastAlertUnix": 1792033658
   },
   "bitcoinmagazine": {
@@ -125,8 +125,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2110587774890115476",
-    "avgEngagement": 246.9376731726565,
+    "lastSeenId": "2110859684659994897",
+    "avgEngagement": 312.6563712208595,
     "lastAlertUnix": 1791479267
   },
   "altcoindaily": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792102061
+    "lastCheckUnix": 1792105656
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2110831956393144645",
-    "avgEngagement": 122.78812057710026,
+    "lastSeenId": "2110865554513039572",
+    "avgEngagement": 119.20617908277912,
     "lastAlertUnix": 1792076856
   },
   "zelcore_io": {
@@ -234,8 +234,8 @@
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2110778768092430739",
-    "avgEngagement": 30.22830615223781,
+    "lastSeenId": "2110856832713469971",
+    "avgEngagement": 35.85981430656646,
     "lastAlertUnix": 1791932859
   },
   "coinify": {
@@ -504,8 +504,8 @@
   },
   "nearprotocol": {
     "initialized": true,
-    "lastSeenId": "2110825732146713061",
-    "avgEngagement": 357.04636857958474,
+    "lastSeenId": "2110866422348054824",
+    "avgEngagement": 282.6324580057093,
     "lastAlertUnix": 1792004863
   },
   "vladtenev": {
