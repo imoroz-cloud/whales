@@ -1996,14 +1996,7 @@
       "0xa127d1b2663c93f5cbb3c285dc060f5b4319d21423ccc92b8cac262c75873be5",
       "0xad01aae54b08b964be94f37c67b0f9e49926867e01983162b5dbde9804713175"
     ],
-    "pending": [
-      {
-        "usd": 12690.5082419349,
-        "tokenAmount": 228156.519559482,
-        "txHash": "0xad01aae54b08b964be94f37c67b0f9e49926867e01983162b5dbde9804713175",
-        "timestamp": "2026-10-15T18:40:47Z"
-      }
-    ]
+    "pending": []
   },
   "JASMY": {
     "initialized": true,
