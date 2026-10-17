@@ -1085,9 +1085,17 @@
       "0x4c5c1f4a939e5fc19ac4ef23d31241d91113b3e926373a24e9f511ac44483148",
       "0xb265c5f0d0b5dd1092d13bb64318776bde4fc383f8e3d8b46bd266b8a6dad2c1",
       "0x4527d82605b9a963e7cb01483ade90074f0a6a5c57d7eb9cdb72bb707c60b80f",
-      "0x3820b24522915dc91f3f602fd330c0bb2eb6fcf7beb041723b613ae11152c1f5"
+      "0x3820b24522915dc91f3f602fd330c0bb2eb6fcf7beb041723b613ae11152c1f5",
+      "0x281a4fc138a739349b9882f13508ebda021e171e6788a7d7f96c480a57c7cb13"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5268.36688835086,
+        "tokenAmount": 440371477.971386,
+        "txHash": "0x281a4fc138a739349b9882f13508ebda021e171e6788a7d7f96c480a57c7cb13",
+        "timestamp": "2026-10-17T03:27:11Z"
+      }
+    ]
   },
   "BABYDOGE": {
     "initialized": true,
