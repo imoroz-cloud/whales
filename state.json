@@ -1589,14 +1589,7 @@
       "0x66f67b4beafea1f5deec40e018bff06be35266413177ebcd3f4e2f2e9f66bfac",
       "0xaa574b002bdfdf4117f8c9c1f59c597e9a64b559128d6f8900c9021bd4023da7"
     ],
-    "pending": [
-      {
-        "usd": 8301.79134587966,
-        "tokenAmount": 2060578423.44107,
-        "txHash": "0xaa574b002bdfdf4117f8c9c1f59c597e9a64b559128d6f8900c9021bd4023da7",
-        "timestamp": "2026-10-16T22:04:47Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
