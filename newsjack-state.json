@@ -7,8 +7,8 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2111155210806497597",
-    "avgEngagement": 48.859048211382884,
+    "lastSeenId": "2111245896998641814",
+    "avgEngagement": 48.060933623577604,
     "lastAlertUnix": 1792055242
   },
   "cointelegraph": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2111213860719878442",
-    "avgEngagement": 90.36497376861203,
+    "lastSeenId": "2111235247916368274",
+    "avgEngagement": 108.25548163802841,
     "lastAlertUnix": 1792166844
   },
   "coingecko": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2111223954522148917",
-    "avgEngagement": 38.78532366319996,
+    "lastSeenId": "2111239202163593387",
+    "avgEngagement": 35.24972656423997,
     "lastAlertUnix": 1792156042
   },
   "lookonchain": {
@@ -97,8 +97,8 @@
   },
   "willywoo": {
     "initialized": true,
-    "lastSeenId": "2111172073871827152",
-    "avgEngagement": 139.0906708772137,
+    "lastSeenId": "2111236434715902230",
+    "avgEngagement": 132.4634696140496,
     "lastAlertUnix": 1792069655
   },
   "100trillionusd": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792192068
+    "lastCheckUnix": 1792195661
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2111224985888997696",
-    "avgEngagement": 126.62680478922846,
+    "lastSeenId": "2111239917426855948",
+    "avgEngagement": 141.12713434672193,
     "lastAlertUnix": 1792192047
   },
   "zelcore_io": {
@@ -234,8 +234,8 @@
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2111221480277340253",
-    "avgEngagement": 55.95370539332387,
+    "lastSeenId": "2111247121630540157",
+    "avgEngagement": 40.36759377532671,
     "lastAlertUnix": 1792109248
   },
   "coinify": {
@@ -504,8 +504,8 @@
   },
   "nearprotocol": {
     "initialized": true,
-    "lastSeenId": "2111173943486796251",
-    "avgEngagement": 193.34343721701953,
+    "lastSeenId": "2111240788071911763",
+    "avgEngagement": 190.54040605191364,
     "lastAlertUnix": 1792004863
   },
   "vladtenev": {
