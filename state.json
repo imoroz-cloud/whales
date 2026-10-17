@@ -1707,14 +1707,7 @@
       "0xd7802a56202ac86e744a26f11db37578193830cb4ad2a3dd6e1968601d5a6b8b",
       "0xbbe0235c75dc199029781dc03a96e8d33895f3b8e4f5acc86d0f602b4fb1d90b"
     ],
-    "pending": [
-      {
-        "usd": 4507.75343570366,
-        "tokenAmount": 372573.619066329,
-        "txHash": "0xbbe0235c75dc199029781dc03a96e8d33895f3b8e4f5acc86d0f602b4fb1d90b",
-        "timestamp": "2026-10-17T02:23:35Z"
-      }
-    ]
+    "pending": []
   },
   "AURORA": {
     "initialized": true,
