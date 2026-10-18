@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2111701829520085443",
-    "avgEngagement": 179.26834404499857,
+    "lastSeenId": "2111721516916179217",
+    "avgEngagement": 227.187840831499,
     "lastAlertUnix": 1792120042
   },
   "theblockco": {
@@ -31,8 +31,8 @@
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2111685735283671249",
-    "avgEngagement": 239.18972024897408,
+    "lastSeenId": "2111727318188077551",
+    "avgEngagement": 185.43280417428184,
     "lastAlertUnix": 1792130843
   },
   "bitcoinmagazine": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2111679369353814068",
-    "avgEngagement": 39.44628607913977,
+    "lastSeenId": "2111723056385437855",
+    "avgEngagement": 42.61240025539784,
     "lastAlertUnix": 1791911269
   },
   "thecryptodog": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2111672368452251890",
-    "avgEngagement": 436.34143128040694,
+    "lastSeenId": "2111717666603827569",
+    "avgEngagement": 403.8390018962848,
     "lastAlertUnix": 1791932846
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792307261
+    "lastCheckUnix": 1792310872
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -228,14 +228,14 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2111697533932282129",
-    "avgEngagement": 201.7162617769274,
-    "lastAlertUnix": 1792274851
+    "lastSeenId": "2111726474663514439",
+    "avgEngagement": 326.1809682706944,
+    "lastAlertUnix": 1792310850
   },
   "bscgemsalert": {
     "initialized": true,
-    "lastSeenId": "2111697780473520271",
-    "avgEngagement": 183.3188661898651,
+    "lastSeenId": "2111715905055113488",
+    "avgEngagement": 180.52320633290554,
     "lastAlertUnix": 1792109248
   },
   "coinify": {
@@ -376,8 +376,8 @@
   },
   "orangefren": {
     "initialized": true,
-    "lastSeenId": "2111193634976432322",
-    "avgEngagement": 15.956451981856322,
+    "lastSeenId": "2111729821680128115",
+    "avgEngagement": 12.069516387299425,
     "lastAlertUnix": 1792145266
   },
   "coinoswap": {
@@ -516,8 +516,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2111709864242323520",
-    "avgEngagement": 136.06355689579402,
+    "lastSeenId": "2111727170876064039",
+    "avgEngagement": 128.54448982705583,
     "lastAlertUnix": 1792256868
   }
 }
