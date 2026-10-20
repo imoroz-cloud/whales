@@ -1215,9 +1215,17 @@
       "0xaf8146638e4d811f137bc59ef3df1d30b2449b87fa46aaa6e804c6692bb43b76",
       "0x6a047f5f4da3a26e842ba295603a8afac18efd3ca3f08824c4e172e3ab74d9f8",
       "0x579d979bc485e75ebf84af14e0a15fee84b0659865daab6e8cd4157c6a9f76dd",
-      "0xaf5ee0af7f95994927126678c3cf149a69a612fc137fed4cb306a2f1a67aba5f"
+      "0xaf5ee0af7f95994927126678c3cf149a69a612fc137fed4cb306a2f1a67aba5f",
+      "0x097196c79c9f096f8638113185aee551f7945a3a4bac4ee329a30410d1aaadc1"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5536.55695133284,
+        "tokenAmount": 232928015.391882,
+        "txHash": "0x097196c79c9f096f8638113185aee551f7945a3a4bac4ee329a30410d1aaadc1",
+        "timestamp": "2026-10-20T05:10:06Z"
+      }
+    ]
   },
   "BRETT": {
     "initialized": true,
