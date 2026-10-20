@@ -1091,14 +1091,7 @@
       "0x281a4fc138a739349b9882f13508ebda021e171e6788a7d7f96c480a57c7cb13",
       "0xbf29663d0af67ff9916abd0e5faafb39467fa64ab396161d68568a0b2a7914bc"
     ],
-    "pending": [
-      {
-        "usd": 4002.55763058996,
-        "tokenAmount": 335816120.622781,
-        "txHash": "0xbf29663d0af67ff9916abd0e5faafb39467fa64ab396161d68568a0b2a7914bc",
-        "timestamp": "2026-10-19T22:30:47Z"
-      }
-    ]
+    "pending": []
   },
   "BABYDOGE": {
     "initialized": true,
