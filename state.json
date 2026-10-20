@@ -503,11 +503,6 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "3pncC5f3hyBE1Q4tKb3HqCNGww9VuJxPMYetadbEQVzXMECXYgTrfThwcrK8drWgZXEd8kN6JjVk7KnG7yAAM5AV",
-      "TqvGnvY9Mg4EwZv3ffRk6347DU6ctKhH9aErACQk5xhz5NmuFrXtVGubFxvXkECHX78mhkFxgFDpkLRtEpTWbP4",
-      "PFx8C8KjSPTxttKxFEdLaejdiYyVyb9mPWgzCrKNjmYPviLDoLjs6a9Mwa5paWmJnQbnxoiXJ9HV15skBujP7MM",
-      "3Fgg5KYH28onzmZkppskfHFsokANXGdTYuaeMN4PhnuJG33RncUgQnJ9bxj9xcRtSJ3LNfsqidJ53RevnCXEeN39",
-      "3UNdHa9H15V4nNxA1q4fz5meLFpbuXMfhzEPHk7dA4qd2gvJTzU1XaWgFa2Y6LMi9GGa65dqiJy3oomU1wsxbc3h",
       "VWokj9t32HmKqb2SZDUN8XFgHgmtURgTroH6EXqiTaKX7MSWRAw7ypxb74xN4ddueJQdHcJHs2FiceXBh7zEaEW",
       "4dhXkmmTgGLMnNmUxzCLKLMgi5DYNyBokdj8w8t5avErKYG8ZUvW2Y1px9uszd6DgxNuo7ABKR9n1xkqb386crwy",
       "2HSNKP5dcLNXLrF8rFNdVf4tQrPxMicuK82y3G24YRQ668hZLUF6UV6Eo7tCWfJThbM1VN4SnWws6bmnN7mCiYY7",
@@ -802,7 +797,12 @@
       "YDPu5htgMPgr8J7n7Y7mG6rFf1PYV6hhJxmkLWB4hY1qBqgnDaruykA6y1xgaVwS2qgdAh7rR12rzcbmneMDpqL",
       "2LacQTjrgvRa63TP6jBx49z9R7mZmS17rEUY3Qafnc183zN5aZ1RctPnkDTDG3ueu9E2SDj5kjeqdqoCVUfSN51U",
       "5789q2N72vaMDcE5U5S5vhxu7NTTM15AxQ92nnrC7FevSUG2L7fY3HGH2o7Qxn5W1YP737ScDvDpkRZcBt31MTdU",
-      "RxseWuwy6WvakBhGt2EuY8CQfyxm1HetUeLEFg8JP2i34h1oxzGfdHwaZCLT7LU1WHY3j58vpmCMfyCRKGksUgE"
+      "RxseWuwy6WvakBhGt2EuY8CQfyxm1HetUeLEFg8JP2i34h1oxzGfdHwaZCLT7LU1WHY3j58vpmCMfyCRKGksUgE",
+      "52ZovPhBsYmAqYZTgwJr8sYAEP5Lx2B3xS2gEAeuAZNbVmr953Pc2j9gpcgPDaUMBx7wtzps4fojdT2sFanGQwRM",
+      "2XnhQfJHQPWBKpstXQoZJQaqZqFxRpbBhhbS6v4dLUdtc7b1kzSmwRi7GZQ7rzuiJrMpMTjAitmoa1HDwkH9DLFQ",
+      "5nS961zyiQnAMLSCsHypyfCPSQH164sKQ2BdZMGKB1KjfjkeaCRpNuseY4uuF8vXNqkg6cbM96zWUMdDG6pDeFFx",
+      "5QedR3zCfd8bcsdDVu8EQxv81Yo3eh31UaZnhcgK4Buja8HstiQdmdy4eYFK1ykVHt8XviquB9UgmuY5ZxuR69BX",
+      "rmyKxAbAfJaT5jCW8NeN7hpFZJRcsKAMtjcev7UhDxarmJ7E8vh2zXMZ9msmTCRB5y8QXkLamipaKYdBq2hT33X"
     ],
     "pending": []
   },
@@ -1333,7 +1333,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x53aec306a98fccc429021f22b90bd27decf7d6c98cff7c494e2cd018534313f3",
       "0xf8ba22f4ae5a9decd32a389e4158434adc6a3d815d7206d44dd9f90b1ea055f6",
       "0x52fefd5f87cfca0907dcd7a6b2f05af29ee8cb13a8120ea6db5ae4ee6bd96702",
       "0x85d27f09b503b788afa3cf012598fb027a3b96161d9ddbaf178d917d033f1ac1",
@@ -1632,7 +1631,8 @@
       "0xd4e8239179f08cd0e278e99807ff5d75e4ff1ec95fbf9933f7c3e16e081ffccd",
       "0x6d1ca00278898a263321971bcf457c092a9b2ce80560e38e2ba13b12e60013be",
       "0xddcf42502f017a31f6ffad7f095d771fed51aff8cb28138bc66c352613095a8d",
-      "0x29b08957caa31a27404f4b6327605618d5acecd30fe6338774a2eb12f88b49b5"
+      "0x29b08957caa31a27404f4b6327605618d5acecd30fe6338774a2eb12f88b49b5",
+      "0xe21e6a68d9af9d15d5681f4b09e7e7ca3567225b0568291cbb987c14891e367d"
     ],
     "pending": []
   },
