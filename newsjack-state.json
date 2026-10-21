@@ -7,26 +7,26 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2112806773203832912",
-    "avgEngagement": 49.516635731448275,
+    "lastSeenId": "2112831081804398751",
+    "avgEngagement": 40.06164501201379,
     "lastAlertUnix": 1792472843
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2112808786545017111",
-    "avgEngagement": 122.66834914769204,
+    "lastSeenId": "2112831511288328508",
+    "avgEngagement": 124.61424375765836,
     "lastAlertUnix": 1792548444
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2112797072126799992",
-    "avgEngagement": 25.756251803981016,
+    "lastSeenId": "2112827064466502109",
+    "avgEngagement": 24.530563383950696,
     "lastAlertUnix": 1792548454
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2112817423925584323",
-    "avgEngagement": 56.27942538957897,
+    "lastSeenId": "2112831274775617847",
+    "avgEngagement": 63.576918440893685,
     "lastAlertUnix": 1792552043
   },
   "coingecko": {
@@ -61,8 +61,8 @@
   },
   "arkham": {
     "initialized": true,
-    "lastSeenId": "2112785824735793604",
-    "avgEngagement": 35.612481848900416,
+    "lastSeenId": "2112821932982964228",
+    "avgEngagement": 41.12873729423029,
     "lastAlertUnix": 1791562042
   },
   "defillama": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2112744371733012568",
-    "avgEngagement": 654.2682483108421,
+    "lastSeenId": "2112823709115322738",
+    "avgEngagement": 563.8877738175894,
     "lastAlertUnix": 1791932846
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792570063
+    "lastCheckUnix": 1792573667
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2112649808846450862",
-    "avgEngagement": 53.47899808871016,
+    "lastSeenId": "2112830265827463243",
+    "avgEngagement": 62.33529866209711,
     "lastAlertUnix": 1792490855
   },
   "litecoin": {
@@ -204,14 +204,14 @@
   },
   "babydoge": {
     "initialized": true,
-    "lastSeenId": "2112529055635444171",
-    "avgEngagement": 71.53685484235243,
+    "lastSeenId": "2112823251286057252",
+    "avgEngagement": 89.97579838964668,
     "lastAlertUnix": 1792490849
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2112807369529086022",
-    "avgEngagement": 450.74519782006666,
+    "lastSeenId": "2112821744897855679",
+    "avgEngagement": 461.02163847404665,
     "lastAlertUnix": 1792483659
   },
   "cryptowendyo": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2112806089032949770",
-    "avgEngagement": 269.09728187964095,
+    "lastSeenId": "2112830751007752496",
+    "avgEngagement": 315.037668121024,
     "lastAlertUnix": 1792566452
   },
   "bscgemsalert": {
@@ -268,8 +268,8 @@
   },
   "coolwallet": {
     "initialized": true,
-    "lastSeenId": "2112044260258381851",
-    "avgEngagement": 1.0883540939573983
+    "lastSeenId": "2112828243133050988",
+    "avgEngagement": 0.7618478657701788
   },
   "trocadorapp": {
     "initialized": true,
@@ -343,8 +343,8 @@
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2112572874045231442",
-    "avgEngagement": 6.45402365738788,
+    "lastSeenId": "2112825164815810782",
+    "avgEngagement": 7.817816560171516,
     "lastAlertUnix": 1792490869
   },
   "onekeyhq": {
@@ -382,8 +382,8 @@
   },
   "coinoswap": {
     "initialized": true,
-    "lastSeenId": "2112629584978198682",
-    "avgEngagement": 5.906418098488219,
+    "lastSeenId": "2112826029760737770",
+    "avgEngagement": 7.134492668941753,
     "lastAlertUnix": 1791983322
   },
   "cyphergoatcom": {
@@ -516,8 +516,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2112605003156197503",
-    "avgEngagement": 143.16817005933504,
+    "lastSeenId": "2112823189655187674",
+    "avgEngagement": 129.6177190415345,
     "lastAlertUnix": 1792408069
   }
 }
