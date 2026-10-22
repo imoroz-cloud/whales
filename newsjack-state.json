@@ -13,20 +13,20 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2113073035230011400",
-    "avgEngagement": 91.0261535310127,
+    "lastSeenId": "2113088131574411648",
+    "avgEngagement": 87.95281523019621,
     "lastAlertUnix": 1792624044
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2113068902502871471",
-    "avgEngagement": 8.969636381515642,
+    "lastSeenId": "2113088849006190640",
+    "avgEngagement": 9.165121826942663,
     "lastAlertUnix": 1792584444
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2113069080429096978",
-    "avgEngagement": 79.58256419099365,
+    "lastSeenId": "2113075122567352381",
+    "avgEngagement": 80.60779493369554,
     "lastAlertUnix": 1792591648
   },
   "coingecko": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2112916244739531006",
-    "avgEngagement": 109.23709390580674,
+    "lastSeenId": "2113079238270271646",
+    "avgEngagement": 134.9659657340647,
     "lastAlertUnix": 1792508850
   },
   "hupzy_agent": {
@@ -125,8 +125,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2113026720274223513",
-    "avgEngagement": 273.14974152232764,
+    "lastSeenId": "2113075082021241162",
+    "avgEngagement": 270.70481906562935,
     "lastAlertUnix": 1792620448
   },
   "altcoindaily": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792631261
+    "lastCheckUnix": 1792634863
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2113049608951562498",
-    "avgEngagement": 93.04560428415263,
+    "lastSeenId": "2113078382800113939",
+    "avgEngagement": 110.18164226946433,
     "lastAlertUnix": 1792580888
   },
   "zelcore_io": {
@@ -325,8 +325,8 @@
   },
   "exodus": {
     "initialized": true,
-    "lastSeenId": "2112243436665426224",
-    "avgEngagement": 12.789998263686936,
+    "lastSeenId": "2113081451692675292",
+    "avgEngagement": 15.552998784580854,
     "lastAlertUnix": 1791389297
   },
   "tangem": {
