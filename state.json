@@ -1638,18 +1638,6 @@
     ],
     "pending": [
       {
-        "usd": 12871.9654557366,
-        "tokenAmount": 2749652327.6256,
-        "txHash": "0x683b5ea6ea64b0264326986398be1856bbc6c2ad7d0fb506e121c7b32f57dd40",
-        "timestamp": "2026-10-21T21:46:11Z"
-      },
-      {
-        "usd": 6330.62161666815,
-        "tokenAmount": 1350458208.77272,
-        "txHash": "0x5d2376e4f641e28578a01c85784b6ff37357c0fa24cc286eaddd2ebb6436cff8",
-        "timestamp": "2026-10-21T21:46:47Z"
-      },
-      {
         "usd": 8249.14113648785,
         "tokenAmount": 1783297254.74449,
         "txHash": "0x289a177b641eb65f54f2ddb51a00e822c5e88b36b7e5cf6b0e9baf6d9b344473",
