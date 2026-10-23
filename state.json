@@ -504,10 +504,6 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "3pobDMKEJtes8gNZhXWB7BDfd1rxkkEK56cKzRQUe5YrPuyp47uG3X7q558Z9hDVehkzvfofQAQUYMot9hwLMFJf",
-      "Wny1oMmE25uJtz3pZJjyo5AZ6rBUmE1SoW7XnjSLzj3LkbifwNYcXbRyZFsJLPUb51BHV81M1rngDs94qGTo7iu",
-      "5xWv9RzBN5Uf2iDMmNP1uCZzF9LYf7YN7QBZuwEEV9n233NeDzxvncY5Ac59dXEnZyyTyvFH5yDEmh3qBDtT2gg7",
-      "45PnQ36mkLjNAB5TVKGZXV7Fx1ozvu1SjrkJy4UF3hQ4oAjRUkbPZtUdTFtDyjwWSVoNXwvkcfUTEZDTkxtKHh8H",
       "z1R2FhAUC1owUpEXek5HDUnRD6HQ56vV6CY8mYFqM9KHhxtNuGK44TZqtnjDScPhkoa2gBJu64eo2rV461BaT98",
       "124P7omj7waUBWY8LkWXn9vBG5QPYaUM9hFUjPmTra9mVG2FU1nEjgEqZ6SXb5jLBUQ7xQDXWLjppAedVenP8qVL",
       "4PVUvtc1ZSwfVuiMAZ6tsWyU1WMmizRarPXHonYG8Dj1uaWGvTFoxp5Yk9nwdzshhBpcLuFzhdhsDyzocQVadR6V",
@@ -803,9 +799,26 @@
       "4Xw6w4zkgXVRWqc2PUpCZjG8MrHL8WDiVVkWLDnyPFkpUjNGDEsZm2dNnYnLcoLiFzCWxpbckUdx5qNwgvuf43tR",
       "5Mzo8s52r4r98f1W2R3VihmtYUK2fFhefLLajxsKjaK9sipF3GxVzfAqbhFnXDQbcDvnagUh77xhDXrDoQwNMA4k",
       "3ePPLpLHhykkKYFhmPVJ3paztsLW7YXBeVtJGzKmBDALdKSSPsjhJuYJUWzE94vUq3MdJ97xNd9KoBCi5BSMyveL",
-      "3rHHWi5822UF5Ya6VZXCPzzjtgMrQrAd4W9Ap7FYkm3JVAy8xrZrPX1LFxJxZ9ZYfQU431o8cxsLG6xUznoLG3HM"
+      "3rHHWi5822UF5Ya6VZXCPzzjtgMrQrAd4W9Ap7FYkm3JVAy8xrZrPX1LFxJxZ9ZYfQU431o8cxsLG6xUznoLG3HM",
+      "29iVuDrYmrBq8PewmYsiVnEoDH37Rh4B9THH8xD9BLHyQNh1LMv4ZxahqJe1mSkh3gEBngruaBg4RCTAPixhMet3",
+      "32bbLPZSUf7w7vUbpo75PqsFTYpTry7r1snJwWxoghTKA3NLE5Q5TR7fEDqqBMHvMJ8Shn3wV9zxhene2J6e5tY3",
+      "2AC9xgSREXNkando5bgUmfoFvfY3htpub3NqDxD1NxAghi3MK7ZRJ9p6xi5bZryZaShb6ErgS3av3qVo3JBnJKxN",
+      "5e1gt6g25iTcfqhifP8p3JyBVM7F5WwGz312pm885FYesL1V1j9YPTibgFdZpXBTSNR3Z3vSZjc6D5iEQtmyYh2V"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5000.015590930463,
+        "tokenAmount": 636213.263564,
+        "txHash": "29iVuDrYmrBq8PewmYsiVnEoDH37Rh4B9THH8xD9BLHyQNh1LMv4ZxahqJe1mSkh3gEBngruaBg4RCTAPixhMet3",
+        "timestamp": "2026-10-23T21:21:30Z"
+      },
+      {
+        "usd": 7251.379449080045,
+        "tokenAmount": 923476.120221,
+        "txHash": "32bbLPZSUf7w7vUbpo75PqsFTYpTry7r1snJwWxoghTKA3NLE5Q5TR7fEDqqBMHvMJ8Shn3wV9zxhene2J6e5tY3",
+        "timestamp": "2026-10-23T21:21:30Z"
+      }
+    ]
   },
   "APU": {
     "initialized": true,
@@ -1695,7 +1708,8 @@
       "0xb763e1d0e019a397e156242e18310995b63d62339fe470bb8be728a8216447b0",
       "0x31b0e09fa247d201f615518e3f206289006318e84486effa2926e8c0be02bd0b",
       "0xdf77a283268e2235ec9b8e989645170d669928caf28e2bc8f12278f18204ec9e",
-      "0xe854434eb0a8d8405a3befa1f852881023af795a3fb96336f2a3ffd75a0dc08e"
+      "0xe854434eb0a8d8405a3befa1f852881023af795a3fb96336f2a3ffd75a0dc08e",
+      "0x4c39e0b2b8153aa232379afbc8e77df34e52387290bf981ddb58c0436b8e5b88"
     ],
     "pending": []
   },
