@@ -13,20 +13,20 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2113435430905356774",
-    "avgEngagement": 75.89396077717247,
+    "lastSeenId": "2113450514633441659",
+    "avgEngagement": 67.8180407808145,
     "lastAlertUnix": 1792706844
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2113435138701009202",
-    "avgEngagement": 22.74065066146199,
+    "lastSeenId": "2113440762671313137",
+    "avgEngagement": 22.00291882411637,
     "lastAlertUnix": 1792717643
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2113429706921939336",
-    "avgEngagement": 86.52869525848911,
+    "lastSeenId": "2113448329182892173",
+    "avgEngagement": 88.14906067665967,
     "lastAlertUnix": 1792685254
   },
   "coingecko": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2113272369821417488",
-    "avgEngagement": 165.07632273185288,
+    "lastSeenId": "2113451530741481880",
+    "avgEngagement": 126.35342591229701,
     "lastAlertUnix": 1792508850
   },
   "hupzy_agent": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2113436270655643774",
-    "avgEngagement": 21.3680557266327,
+    "lastSeenId": "2113451411027697981",
+    "avgEngagement": 17.919648238091643,
     "lastAlertUnix": 1792642049
   },
   "thecryptodog": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792717677
+    "lastCheckUnix": 1792721271
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2113435562916843919",
-    "avgEngagement": 112.95531591895698,
+    "lastSeenId": "2113440374471487743",
+    "avgEngagement": 129.46872114326987,
     "lastAlertUnix": 1792674451
   },
   "zelcore_io": {
@@ -268,8 +268,8 @@
   },
   "coolwallet": {
     "initialized": true,
-    "lastSeenId": "2112828243133050988",
-    "avgEngagement": 0.7618478657701788
+    "lastSeenId": "2113444780411908448",
+    "avgEngagement": 1.733293506039125
   },
   "trocadorapp": {
     "initialized": true,
