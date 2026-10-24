@@ -504,15 +504,6 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "5xqTSkULu4bFP8qesjiK6NccYvkpmiSoqhfMQ7Gu9vUjfoiwPqLH7rF7W8xT9s4NN1DyKRrKSfGxn6qQv1cnhC16",
-      "2HTyevbSey2zp8s9jX3ApEs3NLZQb6pAZsUbN9Gxk9D9e7TJVzyKmfzUXZN2FcNyraZ4JqVdPoJojvaiWef4rDJX",
-      "2XArAbtynue8HL33QUFCjw7tAxbusQa5ugXVirffNkyRcz5FP4aqtLGTCp6wTSiPRYuNKHARdCZAF4RemGpB9ZM6",
-      "54hTBg7uYs2t87zKQvrqA8EwDkLUXq3Fpa7CSPvoq5Uqa5Q4cHmVCg122LYtXCMBKChmtAa6n9okTwvCXr7aoarH",
-      "24yQV72azkrqR2gpvPMLGZT7LFEBWEkwk9bFnBf4sDuu1cpsivNK7BYXQNVWHGDBe2BMMTrox3haLtpS7P5tkwGi",
-      "59cYiwQsWEm6JrxZBd6hjW2u8LUHEuUqM5UtdB3cBaVQG7rLk5vxCwPrt56KXkvneGezLLCAYT1NiVgKtroAYofE",
-      "47hzfzyZxSciXDtqy7adU8gseT27C32f5ws54qanp3tzqEefzDHEpA4oRi1Rh8HfSP1vgsfhgyw7W2zubJGC4okH",
-      "29pQ9Fz3LXuenEP5kYtQhWTGavqttCbe8QhWh8tCzWT5FWqgBfVePb6xJDZWd7JKKUcV6KwzodDd7aXmYiXjdfNs",
-      "5MBnxxrHUbU121TEqzxQhHwLm7PTnvWRjNTTkh8pgSib2vY4cRof4TP1uFLekLsL2mzZaS91FfpYA1mru39fzf4u",
       "5sQBpbqXPVXds7x9gR97H2uVUrfFCZ6UtTVJCv2GNuDpR3rVg35mxVW9RffcaJ9hRomiZG7Wnin7519LB3zg7frN",
       "4C8bo6KcVWu4khoSNt2D7BoCp4YyQMWELUzDDpX8D45sL51Ka141EanC3pcfW99C18unFzVnrGz8gCKN5GvUZwbs",
       "55nz77vw1ncAq5dmh4qCRWhrVbe4XZe9Ki9Yxmr44bjeCbFbSjEerMUNWuNE4EqKeC6qSC5XvfeKx39eWsb51BYX",
@@ -803,7 +794,16 @@
       "fdNdDd3j5vC54fvJqThd8XSdeyd5sVyvR9UiNS9oLYZbHcgs3idSRpLiYrGN1T8Nt5Rgn5PfaasWAcP5ZWvjn8U",
       "5mVBALyVF81oLRVFMataLBCwqEKoPx8Eub5AGPTRrdUMrTdPqZpK5sjTvgoaojMLiaZe5gdxHPRf47fpMhGoyWc8",
       "2P6WN5aTusEJkUPibavH52qK81v2tKqaeLKPhfX9GFiuUYvtV2US4spnRtDX2ncbQAZStejkcDtdcshLtbh2bsGv",
-      "EzMD51HA1ueDtUaSHm6yQPxnxqex58aVvsXfBxJJYVetDgQvFxo6UyGwZrPK98Nfjcci7ypqsbC7oKXZ8Q2tQf3"
+      "EzMD51HA1ueDtUaSHm6yQPxnxqex58aVvsXfBxJJYVetDgQvFxo6UyGwZrPK98Nfjcci7ypqsbC7oKXZ8Q2tQf3",
+      "5VK5xrh8ZHiGWytXBCHgRg4ymHMLbSciAEvhL4DMt69cGoT56gHC6MjG6PnNM8vu1PQ8Q2gsp8YdD8kwQtEKw4fA",
+      "21Er2LkMdiaCryUrezV5B1cJjUGz2GX77xMoFNGGEdx8qaupY6jwzqL3odV6Gc9YenCW59bdLpEAJeofFGiFmhFV",
+      "3sASS9aPMnanDQKtDsVYDXpSQsfJuR52mv9FXckwZxyWpXYHtVni2n7eXSTURQvixaF9WnrRnYVeB3A1sHgfKs2q",
+      "42zQgr76esm7hwn7n4oynt7By4aJSeFS4vH3UYchXCGDeFU9wyur6aMUtd2VxrqBKmYxLC2KQ5LN9hEwQTM8fjUe",
+      "3KzW4m9x4mFxKqmNcPhS3DJwgja3RTvpEUoW4zgvuydknP4qee6hkZxjV9XCQk6j4LVwxbHvGAJy1k4isJvVVX2T",
+      "4HqRkNpqcPyEoZnjUnzjPEAW6ciS8kutnS2suqGe1m5z7en4Cc7ZCKWVhixFpQT5gjMSxTmkdYPnKUqdkEt8RjL3",
+      "VpcM4ZYpowwFm97ZHJvUCwB9BfR6hcCvJHAmttoZMm5BW6J3zE4GUnb5tZrYnsCfniPeTd6t3KBXCVbkuLbodhu",
+      "vFXG5YK6AGiKgRUXd3nDajL7zSNNQnbVTDdNJ4VqA2AYEXnN4XKTgyumSy169fz5SnvNxN5BA2SxofskVEFRX7n",
+      "3F4Eiqk2jKKEnDmtthaLxPhQoLv8DBc2igGgNmiVk585KmVmELiB2zGKn9Wy256t7qN4PV395vycHwm6r47Leccy"
     ],
     "pending": []
   },
@@ -1344,7 +1344,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x0eac1e587a4a734386249fcb289a887310bddefb401da2bd8808681af0eb2eac",
       "0x3db813aafe530f270ac7b09ac3057629d0842aefadedacf4431e88dc4f796a6f",
       "0x8bc238502c480b90fdd6791350d96b5cce632e94017e3912d00172d99e0c3cf4",
       "0x1988d73835fc97f7eb43b95856ef88be489d202cc6671d65e3fa1b6a5a04195f",
@@ -1643,7 +1642,8 @@
       "0xff4aa7fa01935501a298bff3d9e8db0fa392e23d62550baa929de1584f8c9981",
       "0xf86aff459ef24d9579706bb15041ad81337aa00db03c5d65120fe91e0fd5123b",
       "0x3ce88a22b3ddd063d2880c079d41ec46911c241217357b9ae867c973f00a891c",
-      "0x806e8d53e75053b8fe41c3debf1b8a82899313e93c5819b65c53e4f28f63d542"
+      "0x806e8d53e75053b8fe41c3debf1b8a82899313e93c5819b65c53e4f28f63d542",
+      "0x9bffa1d9ba4fee253b8747ffadabbef777936e9a7d634411f55b4d53b1cf3695"
     ],
     "pending": [
       {
