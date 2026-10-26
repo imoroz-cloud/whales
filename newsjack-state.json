@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2114416702801027175",
-    "avgEngagement": 49.95153871335762,
+    "lastSeenId": "2114549981394915772",
+    "avgEngagement": 45.766077099350326,
     "lastAlertUnix": 1792922843
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2114537704754938198",
-    "avgEngagement": 101.82009545625459,
+    "lastSeenId": "2114552802861031436",
+    "avgEngagement": 91.17184677356474,
     "lastAlertUnix": 1792822042
   },
   "theblockco": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2114220826174402783",
-    "avgEngagement": 167.10395703318082,
+    "lastSeenId": "2114552456248258713",
+    "avgEngagement": 156.31093894625857,
     "lastAlertUnix": 1792825642
   },
   "hupzy_agent": {
@@ -131,8 +131,8 @@
   },
   "altcoindaily": {
     "initialized": true,
-    "lastSeenId": "2114533762138886527",
-    "avgEngagement": 151.16347411235859,
+    "lastSeenId": "2114549893004140853",
+    "avgEngagement": 111.06995013437728,
     "lastAlertUnix": 1792703246
   },
   "cryptokaleo": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1792980459
+    "lastCheckUnix": 1792984062
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -222,14 +222,14 @@
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2114455048470294734",
-    "avgEngagement": 44.60325084052966,
+    "lastSeenId": "2114547581045092813",
+    "avgEngagement": 42.32227558837076,
     "lastAlertUnix": 1792346863
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2114416705120186386",
-    "avgEngagement": 218.67470453949568,
+    "lastSeenId": "2114549879154565147",
+    "avgEngagement": 196.27229317764696,
     "lastAlertUnix": 1792922859
   },
   "bscgemsalert": {
@@ -349,8 +349,8 @@
   },
   "onekeyhq": {
     "initialized": true,
-    "lastSeenId": "2113458115698098515",
-    "avgEngagement": 5.582242264152642,
+    "lastSeenId": "2114544861747798515",
+    "avgEngagement": 5.107569584906849,
     "lastAlertUnix": 1791558466
   },
   "cryptorubic": {
