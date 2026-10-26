@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2114673702767939976",
-    "avgEngagement": 131.63717114541356,
+    "lastSeenId": "2114690303160439245",
+    "avgEngagement": 82.02221386125264,
     "lastAlertUnix": 1792987641
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2114667687918133629",
-    "avgEngagement": 115.77920227276209,
+    "lastSeenId": "2114688548339065057",
+    "avgEngagement": 87.14878646569016,
     "lastAlertUnix": 1793012841
   },
   "coingecko": {
@@ -37,14 +37,14 @@
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2114457575408259084",
-    "avgEngagement": 321.33410001562663,
+    "lastSeenId": "2114689507127648538",
+    "avgEngagement": 251.93387001093862,
     "lastAlertUnix": 1792940842
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2114671924227854668",
-    "avgEngagement": 31.186050261083977,
+    "lastSeenId": "2114689456234008918",
+    "avgEngagement": 26.930235182758786,
     "lastAlertUnix": 1792793243
   },
   "lookonchain": {
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2114021141308453355",
-    "avgEngagement": 2.1937350778982223,
+    "lastSeenId": "2114681602404241796",
+    "avgEngagement": 2.1356145545287557,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -67,8 +67,8 @@
   },
   "defillama": {
     "initialized": true,
-    "lastSeenId": "2113719372082737395",
-    "avgEngagement": 25.289965816612014,
+    "lastSeenId": "2114688996219424871",
+    "avgEngagement": 22.50297607162841,
     "lastAlertUnix": 1792170443
   },
   "glassnode": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1370.3
   },
   "__meta": {
-    "lastCheckUnix": 1793012882
+    "lastCheckUnix": 1793016470
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2114489774950207960",
-    "avgEngagement": 132.3726241856418,
+    "lastSeenId": "2114686397202207203",
+    "avgEngagement": 110.36083692994926,
     "lastAlertUnix": 1792858049
   },
   "zelcore_io": {
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2114660311735423131",
-    "avgEngagement": 120.1387312202852,
+    "lastSeenId": "2114687034321195161",
+    "avgEngagement": 104.88797829793972,
     "lastAlertUnix": 1793012859
   },
   "litecoin": {
@@ -210,14 +210,14 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2114661463130620411",
-    "avgEngagement": 454.7748300736796,
+    "lastSeenId": "2114679996979847478",
+    "avgEngagement": 434.4423810515757,
     "lastAlertUnix": 1792944460
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2114563454984245289",
-    "avgEngagement": 55.7093130209996,
+    "lastSeenId": "2114688564948848713",
+    "avgEngagement": 47.396519114699714,
     "lastAlertUnix": 1792854471
   },
   "cryptotea": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2114672134614323373",
-    "avgEngagement": 229.24979393687948,
+    "lastSeenId": "2114688506362519727",
+    "avgEngagement": 194.07485575581563,
     "lastAlertUnix": 1792922859
   },
   "bscgemsalert": {
@@ -337,14 +337,14 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2114516298105573690",
-    "avgEngagement": 518.7881425356042,
+    "lastSeenId": "2114676448778916040",
+    "avgEngagement": 749.8516997749228,
     "lastAlertUnix": 1792516077
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2113641731979624476",
-    "avgEngagement": 3.7226577560971803,
+    "lastSeenId": "2114684565684203964",
+    "avgEngagement": 5.605860429268025,
     "lastAlertUnix": 1792490869
   },
   "onekeyhq": {
@@ -517,8 +517,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2114660283239305394",
-    "avgEngagement": 157.1807066306353,
+    "lastSeenId": "2114682759268483374",
+    "avgEngagement": 185.3264946414447,
     "lastAlertUnix": 1792922887
   }
 }
