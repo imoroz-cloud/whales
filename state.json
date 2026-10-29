@@ -497,16 +497,11 @@
       "0xc1cb917c2cab7e7597612da9d9d100f383d8a74c5eb018f4c2ff31bcc8a94cfe",
       "0x025be4a5134a021b8e3dcbd12ec0c659075685369d189101a760bfe14f28fadb",
       "0xa044cf97fcb2c5b6ce3ec0a4970043b2d23b61fa377018f11b6d25a2a77de41a",
-      "0xda84a63f3fe7461546e82223872bb52cb9e9ee068cee0d1e3457307711f2bccc"
+      "0xda84a63f3fe7461546e82223872bb52cb9e9ee068cee0d1e3457307711f2bccc",
+      "0x7064567dd3cc8fcead744898a099a31928fda0f86494cbe6090942edcbd130ba",
+      "0xd38aa6d93d8c5c68c9f73a45a19ff69bea597f61db0167d5b8e6c38bd1682a33"
     ],
-    "pending": [
-      {
-        "usd": 4052.80890517445,
-        "tokenAmount": 881010904.743791,
-        "txHash": "0x09eb63df9d5278a64d8d7b389e4deb2c23804c354ef32c7704e6411f9b137dff",
-        "timestamp": "2026-10-29T20:38:59Z"
-      }
-    ]
+    "pending": []
   },
   "BONK": {
     "initialized": true,
