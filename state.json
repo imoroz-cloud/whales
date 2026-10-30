@@ -1424,8 +1424,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x95854a74b1cb2796f0a66ee2e58ce8363a8227360e5c2df05734eda5f2ef1fe5",
-      "0x2cc19bd302ad496ff2319470ec0f0391d15863448ff73d4ae8fec2369871dd14",
       "0xbb8e6a0e43351e4f4a3de55fc3ca276a3bbaff507144a83e8d14d04353a735ea",
       "0xd170d950b2ca49bf4b0ab748407d7f2d5730f249964b0183cb9f2e1382ee4794",
       "0xd28fa79ca616f167a85a47436898c6bae206c82c647e41462a39cf2fbe3c7c37",
@@ -1723,7 +1721,9 @@
       "0x29224366ae63b05eb4483eaf35e6a55d46ecd58510617479bdca410094a74882",
       "0x3065e46c9a61c21eb180b6cd30a637dd37f23f8676014c91a3c8040fc6cfdaa2",
       "0x8aa5987c475a7456912247b097e091719e161385a24f1eafb65001b3ebe59aca",
-      "0xbd8b85405742da9f5e2eab1bcc1c204a497eeb2cd7721b6a5f0a47e06e59863c"
+      "0xbd8b85405742da9f5e2eab1bcc1c204a497eeb2cd7721b6a5f0a47e06e59863c",
+      "0x138f712622f540176754b88c09b2134e188bc2d1796dc19afd4b0abe01c119d1",
+      "0x0dbec5350a71c56a5e1fd935d4a1be8f6c5c80e6f6fb5b24e86258706ebfce4a"
     ],
     "pending": [
       {
@@ -5115,6 +5115,18 @@
         "tokenAmount": 3715306381.57277,
         "txHash": "0x8aa5987c475a7456912247b097e091719e161385a24f1eafb65001b3ebe59aca",
         "timestamp": "2026-10-30T01:06:47Z"
+      },
+      {
+        "usd": 11166.3219187739,
+        "tokenAmount": 2275159148.89932,
+        "txHash": "0x138f712622f540176754b88c09b2134e188bc2d1796dc19afd4b0abe01c119d1",
+        "timestamp": "2026-10-30T04:33:47Z"
+      },
+      {
+        "usd": 7380.7650524162,
+        "tokenAmount": 1501677762.67428,
+        "txHash": "0x0dbec5350a71c56a5e1fd935d4a1be8f6c5c80e6f6fb5b24e86258706ebfce4a",
+        "timestamp": "2026-10-30T04:36:11Z"
       }
     ]
   },
@@ -5253,12 +5265,6 @@
       "46c05736646d8ba42d21e00c516b376ed139de25d09711960b0c533316adfe4e"
     ],
     "pending": [
-      {
-        "usd": 30071.1782510233,
-        "tokenAmount": 29785.956732,
-        "txHash": "9dad96bb256a42dfdafd5f6605ea502c76a5a7fc029455a02105ddc276404027",
-        "timestamp": "2026-10-29T22:39:25Z"
-      },
       {
         "usd": 73660.5331887784,
         "tokenAmount": 70700.237602,
