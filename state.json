@@ -1424,11 +1424,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xe059db297e7f20f66f7d824ea4bd32fa9b01aa731bc4de4c5f5b474e29241a28",
-      "0x22c834d33f4224a939786f567ba4d00bd4885ade3a77edff6593780c4183bd92",
-      "0xccdec492f1a5b7ce07fbf48886eb56cbade11bb99255f4737d60b64f6027d197",
-      "0xa549845d79df6c38c2f9996a8ae2f628053520a523d49e42d943015a6e0c1f8e",
-      "0x4d9514128b717a08745e0629c9d599cca5165f48044b465ddfeb0ba34fcb5f12",
       "0x78a37e2e6959a47cf2420ca0c4a8de91c55e711be5bbe4ff7a6b01eee9ca6643",
       "0xf5f84664ed300e2ee5a8f569b5768e4c338ceb44ec3cc919a9483ece2d1acef9",
       "0xeb5c9b63d6c278dc0d923345cb06c877da85141505c2e088414f95c6b4efa311",
@@ -1723,7 +1718,12 @@
       "0xd274e17e98202270508473da8ba42a4aeab1d3343b02c7d678434e3c3d6b710e",
       "0xf5c8e97aad90ce2495415b6a0b5f102aa482b8f45d1218ad86b2861243002b2c",
       "0x90d4b5500fbf1d12b30ecc5788c09534d5405ecaffb6e6f6abe7d89120622bdf",
-      "0xb3ff6fb4b5fa452eb18064bfdd2898f9c81e6aae72be407002a5795715ab4f23"
+      "0xb3ff6fb4b5fa452eb18064bfdd2898f9c81e6aae72be407002a5795715ab4f23",
+      "0x737d3ac0f87d1aa530ac240187fa388e3dba9ecbb1f649bec953dc7fe0e21181",
+      "0x779d8f4089efaeeb4f812c8227ba09d548918fcd990952a9d0d84c9a4f1dd9d6",
+      "0x106727e3a0129b59141d7ba90971b1b88361eaed0b246326b4052a74d292f6ee",
+      "0x4cafbbfe9ba5c804a10446cee6ed8d8caf25a5bb58c40bd145dc750c0cbcda47",
+      "0x1e54e21f088ca1c1b4d5e37717cd42f703a8639c55913f76aa512ce3564139ab"
     ],
     "pending": [
       {
@@ -1731,6 +1731,18 @@
         "tokenAmount": 1881443542.44852,
         "txHash": "0x798ddd21992b0308cc6382579cbeac92b0ab14ae2f7abde8b00efd61f5f9c53b",
         "timestamp": "2026-10-31T17:50:11Z"
+      },
+      {
+        "usd": 11342.9621834799,
+        "tokenAmount": 2262169671.52019,
+        "txHash": "0x4cafbbfe9ba5c804a10446cee6ed8d8caf25a5bb58c40bd145dc750c0cbcda47",
+        "timestamp": "2026-10-31T18:08:35Z"
+      },
+      {
+        "usd": 6418.27008512214,
+        "tokenAmount": 1278534331.88666,
+        "txHash": "0x1e54e21f088ca1c1b4d5e37717cd42f703a8639c55913f76aa512ce3564139ab",
+        "timestamp": "2026-10-31T18:08:59Z"
       }
     ]
   },
