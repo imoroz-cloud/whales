@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2116319758995927275",
-    "avgEngagement": 89.34417939647582,
+    "lastSeenId": "2116342065474715935",
+    "avgEngagement": 88.34092557753307,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -25,8 +25,8 @@
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2116314718411395151",
-    "avgEngagement": 78.09250571380524,
+    "lastSeenId": "2116344915139395618",
+    "avgEngagement": 104.16475399966367,
     "lastAlertUnix": 1793174843
   },
   "coingecko": {
@@ -43,14 +43,14 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2116334789246509458",
-    "avgEngagement": 24.78780537242961,
+    "lastSeenId": "2116339717708865962",
+    "avgEngagement": 29.65146376070072,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2116160060716159167",
-    "avgEngagement": 236.78203822450934,
+    "lastSeenId": "2116344532786938309",
+    "avgEngagement": 210.74742675715652,
     "lastAlertUnix": 1793185645
   },
   "hupzy_agent": {
@@ -85,8 +85,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2116304389790933292",
-    "avgEngagement": 80.59019638634179,
+    "lastSeenId": "2116345995730592206",
+    "avgEngagement": 73.81313747043924,
     "lastAlertUnix": 1793066844
   },
   "saylor": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2116329638553407752",
-    "avgEngagement": 31.28860587722412,
+    "lastSeenId": "2116350805037273112",
+    "avgEngagement": 35.895694271121506,
     "lastAlertUnix": 1793153250
   },
   "thecryptodog": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1793408860
+    "lastCheckUnix": 1793412462
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -337,8 +337,8 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2116277616546095497",
-    "avgEngagement": 1805.573349592924,
+    "lastSeenId": "2116345056659480736",
+    "avgEngagement": 1874.4013447150467,
     "lastAlertUnix": 1793131670
   },
   "houdiniswap": {
