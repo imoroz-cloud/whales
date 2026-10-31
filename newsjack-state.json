@@ -1,20 +1,20 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2116523058022502841",
-    "avgEngagement": 1746.443455663075,
+    "lastSeenId": "2116547046618652958",
+    "avgEngagement": 1346.7104189641525,
     "lastAlertUnix": 1793196445
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2116507362643312815",
-    "avgEngagement": 50.751572483205294,
+    "lastSeenId": "2116546881715372246",
+    "avgEngagement": 39.72610073824371,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2116523286410518832",
-    "avgEngagement": 220.69364780435274,
+    "lastSeenId": "2116543088961196481",
+    "avgEngagement": 210.4998874241328,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2116525778590429632",
-    "avgEngagement": 46.20751644894423,
+    "lastSeenId": "2116545084904661351",
+    "avgEngagement": 65.69168305998267,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
@@ -55,8 +55,8 @@
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2116014622377734533",
-    "avgEngagement": 1.4599498762451741,
+    "lastSeenId": "2116536913347924247",
+    "avgEngagement": 2.5219649133716215,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -85,8 +85,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2116507410429067506",
-    "avgEngagement": 87.06919622930747,
+    "lastSeenId": "2116534641343496491",
+    "avgEngagement": 88.54843736051522,
     "lastAlertUnix": 1793066844
   },
   "saylor": {
@@ -176,18 +176,18 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1793455675
+    "lastCheckUnix": 1793459263
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2116508339345739931",
-    "avgEngagement": 120.91504898852605,
+    "lastSeenId": "2116542870148538466",
+    "avgEngagement": 129.94053429196822,
     "lastAlertUnix": 1793146049
   },
   "zelcore_io": {
     "initialized": true,
-    "lastSeenId": "2116262618168181127",
-    "avgEngagement": 8.346904198131266,
+    "lastSeenId": "2116541448447504866",
+    "avgEngagement": 7.3428329386918865,
     "lastAlertUnix": 1793225250
   },
   "coindesk": {
@@ -210,8 +210,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2116500915784241339",
-    "avgEngagement": 437.212146337019,
+    "lastSeenId": "2116545582466769046",
+    "avgEngagement": 444.5139517051392,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2116521822628008255",
-    "avgEngagement": 341.3528671876681,
+    "lastSeenId": "2116545741791560150",
+    "avgEngagement": 322.6110334453701,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
@@ -437,8 +437,8 @@
   },
   "pudgypenguins": {
     "initialized": true,
-    "lastSeenId": "2116199002001563704",
-    "avgEngagement": 382.0619582205568,
+    "lastSeenId": "2116542911794057585",
+    "avgEngagement": 344.8433707543897,
     "lastAlertUnix": 1790881688
   },
   "ponkehq": {
@@ -475,8 +475,8 @@
   },
   "mogcoin": {
     "initialized": true,
-    "lastSeenId": "2116182190652289088",
-    "avgEngagement": 88.49424555769514,
+    "lastSeenId": "2116535921440870441",
+    "avgEngagement": 95.8459718903866,
     "lastAlertUnix": 1793034464
   },
   "zano_project": {
@@ -487,8 +487,8 @@
   },
   "floki": {
     "initialized": true,
-    "lastSeenId": "2116183974011605015",
-    "avgEngagement": 47.87049277354623,
+    "lastSeenId": "2116536088194166937",
+    "avgEngagement": 80.60934494148236,
     "lastAlertUnix": 1793174889
   },
   "runonflux": {
@@ -517,8 +517,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2116508270638637362",
-    "avgEngagement": 119.0254739358931,
+    "lastSeenId": "2116542785230872798",
+    "avgEngagement": 147.94673756001134,
     "lastAlertUnix": 1793185684
   }
 }
