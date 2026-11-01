@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2116764451538104370",
-    "avgEngagement": 63.121824025753625,
+    "lastSeenId": "2116840024213958767",
+    "avgEngagement": 66.98527681802753,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2116825245894037691",
-    "avgEngagement": 144.72733154533117,
+    "lastSeenId": "2116840350132183425",
+    "avgEngagement": 221.30913208173183,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -31,8 +31,8 @@
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2116802028399992949",
-    "avgEngagement": 108.04535959165354,
+    "lastSeenId": "2116841601704046867",
+    "avgEngagement": 174.03175171415745,
     "lastAlertUnix": 1793214442
   },
   "bitcoinmagazine": {
@@ -43,20 +43,20 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2116830018378559849",
-    "avgEngagement": 69.57522309331377,
+    "lastSeenId": "2116849010082234714",
+    "avgEngagement": 47.786211064704624,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2116792207076434170",
-    "avgEngagement": 323.1295378073869,
+    "lastSeenId": "2116846332342354096",
+    "avgEngagement": 244.49347352561955,
     "lastAlertUnix": 1793185645
   },
   "hupzy_agent": {
     "initialized": true,
-    "lastSeenId": "2116671327310635097",
-    "avgEngagement": 2.645762807552094,
+    "lastSeenId": "2116843383549542752",
+    "avgEngagement": 3.952033965286466,
     "lastAlertUnix": 1789524442
   },
   "arkham": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2116833454398787908",
-    "avgEngagement": 25.361070823270524,
+    "lastSeenId": "2116836726090154293",
+    "avgEngagement": 29.76692470340255,
     "lastAlertUnix": 1793153250
   },
   "thecryptodog": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1793527662
+    "lastCheckUnix": 1793531264
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -204,14 +204,14 @@
   },
   "babydoge": {
     "initialized": true,
-    "lastSeenId": "2116793070880493976",
-    "avgEngagement": 86.88148118678818,
+    "lastSeenId": "2116842263833698585",
+    "avgEngagement": 69.7219257815262,
     "lastAlertUnix": 1792490849
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2116813045775454402",
-    "avgEngagement": 402.7983603329105,
+    "lastSeenId": "2116846121213382851",
+    "avgEngagement": 364.4588522330373,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2116832637339766842",
-    "avgEngagement": 243.77422367111305,
+    "lastSeenId": "2116846461627281689",
+    "avgEngagement": 273.7993695988454,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
@@ -331,14 +331,14 @@
   },
   "tangem": {
     "initialized": true,
-    "lastSeenId": "2116773230174482488",
-    "avgEngagement": 50.01123696438868,
+    "lastSeenId": "2116846627143217325",
+    "avgEngagement": 44.90786587507207,
     "lastAlertUnix": 1793088479
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2116623876163789290",
-    "avgEngagement": 1242.951024414146,
+    "lastSeenId": "2116848779655586267",
+    "avgEngagement": 1098.3657170899023,
     "lastAlertUnix": 1793131670
   },
   "houdiniswap": {
@@ -431,8 +431,8 @@
   },
   "kaspaunchained": {
     "initialized": true,
-    "lastSeenId": "2115754013425877350",
-    "avgEngagement": 141.24483324131762,
+    "lastSeenId": "2116836769815797849",
+    "avgEngagement": 131.27138326892234,
     "lastAlertUnix": 1793020089
   },
   "pudgypenguins": {
@@ -517,8 +517,8 @@
   },
   "gordongekko": {
     "initialized": true,
-    "lastSeenId": "2116812009731981504",
-    "avgEngagement": 108.01298507500016,
+    "lastSeenId": "2116836647027548602",
+    "avgEngagement": 147.6090895525001,
     "lastAlertUnix": 1793185684
   }
 }
