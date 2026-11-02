@@ -1788,9 +1788,19 @@
       "4W14X1DyNt8DUQFp5yUjCRQAkcLq2KStRNBBGTvJsYqx6LNgzXkYgw49h2ooG3cGeuKtLaRr5W2xUJVqoH5SLHSJ",
       "3bPa14ybPiHigHDsay94D5aGXzxUJVkidPB2tZvi1ixdb5396yrXhbap8mqrRki6qctF4ip4FJhzYHSjQFqVghsz",
       "2dJereCLCV5ZyJR8asNgwJWgRYALT3q9KRBCLjo1qW7eUWnS9nfsCfNhYdWdeXwxshmYS7GRM9aPbYwPGmpzjVYR",
-      "5BrR2qQMPVM14AHV8iPXdKbVwqapDYQ4VPcSRL2zdD66A7R5R7KziVMKSXToV2X473PNsFP5zLVUaW1SZQY4zZQQ"
+      "5BrR2qQMPVM14AHV8iPXdKbVwqapDYQ4VPcSRL2zdD66A7R5R7KziVMKSXToV2X473PNsFP5zLVUaW1SZQY4zZQQ",
+      "4pjHTHMqFKJSJevcXQvvqqHH1CKUCbq31Tvtw8gdr27kVV6HL7Lqyv19M4HGhqbXjvya8gy1MLjtyQaHGQeMiSBx",
+      "2RUU752aKXwRPaP9CsCeqTReCwqRatVJ9Q3ijyXkDuMJsLHAVZ4b75zM32N4oUh75sReebqsYV4VeqgUgUouqTCf",
+      "5Jv7rzZAZeNXavCBWAQWV54uCjchARBXCLG9oeKeCEN24xc2MxDhoFsuc1D5pTMuVtGR4gLEAEJo6Mw1TgNLyuTC"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 20392.03550486699,
+        "tokenAmount": 122479.114198,
+        "txHash": "5Jv7rzZAZeNXavCBWAQWV54uCjchARBXCLG9oeKeCEN24xc2MxDhoFsuc1D5pTMuVtGR4gLEAEJo6Mw1TgNLyuTC",
+        "timestamp": "2026-11-02T20:44:59Z"
+      }
+    ]
   },
   "MOG": {
     "initialized": true,
