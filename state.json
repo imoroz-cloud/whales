@@ -1435,9 +1435,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xb3ff6fb4b5fa452eb18064bfdd2898f9c81e6aae72be407002a5795715ab4f23",
-      "0x737d3ac0f87d1aa530ac240187fa388e3dba9ecbb1f649bec953dc7fe0e21181",
-      "0x779d8f4089efaeeb4f812c8227ba09d548918fcd990952a9d0d84c9a4f1dd9d6",
       "0x106727e3a0129b59141d7ba90971b1b88361eaed0b246326b4052a74d292f6ee",
       "0x4cafbbfe9ba5c804a10446cee6ed8d8caf25a5bb58c40bd145dc750c0cbcda47",
       "0x1e54e21f088ca1c1b4d5e37717cd42f703a8639c55913f76aa512ce3564139ab",
@@ -1734,7 +1731,10 @@
       "0xd2d03b696d699a6c12cb6dcfe18c6c3b866a20db2879744cc4c758d7dc13af33",
       "0x4a7c60cbd7fdc4627fb6266881e473ab6dd4100b822b59fded9fc086b887c067",
       "0xadf129cac8ffd5a3cb7d3dc062402d937d04b2380f48ea2b782a3cb7ff9bb1c0",
-      "0x10e67739b3c741664b77b3e2086b2188cbcd167c3f69c9261cc9f762cecfec4c"
+      "0x10e67739b3c741664b77b3e2086b2188cbcd167c3f69c9261cc9f762cecfec4c",
+      "0x20ef11a37d7464552124e8e1dd32acec84fb9c5d510e667c3e92f4d4ef8e4f1b",
+      "0xd79740b7f9608c16a06a120ec3e23ad8458f6f3912fb645c150dae3a7d1219d0",
+      "0xca0f0059de352526ab9ac8f90b798631f92f859e1e093f9faa18aa5155bb490d"
     ],
     "pending": [
       {
@@ -1742,6 +1742,24 @@
         "tokenAmount": 2122809601.31339,
         "txHash": "0x10e67739b3c741664b77b3e2086b2188cbcd167c3f69c9261cc9f762cecfec4c",
         "timestamp": "2026-11-02T01:07:11Z"
+      },
+      {
+        "usd": 29236.1570036407,
+        "tokenAmount": 5934743217.85991,
+        "txHash": "0x20ef11a37d7464552124e8e1dd32acec84fb9c5d510e667c3e92f4d4ef8e4f1b",
+        "timestamp": "2026-11-02T01:08:59Z"
+      },
+      {
+        "usd": 11263.9464384763,
+        "tokenAmount": 2278860787.77165,
+        "txHash": "0xd79740b7f9608c16a06a120ec3e23ad8458f6f3912fb645c150dae3a7d1219d0",
+        "timestamp": "2026-11-02T01:09:35Z"
+      },
+      {
+        "usd": 7340.43134746148,
+        "tokenAmount": 1479094713.79354,
+        "txHash": "0xca0f0059de352526ab9ac8f90b798631f92f859e1e093f9faa18aa5155bb490d",
+        "timestamp": "2026-11-02T01:12:11Z"
       }
     ]
   },
