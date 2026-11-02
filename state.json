@@ -229,14 +229,7 @@
       "4iCBcrcnzire2TTZMZDMpjGBUJWaLyabsuLyYmuwAGre25YHmJJx82paxukqfuNaWtCyRPCASssv3oxfPqhGNo74",
       "3E3j6Yxq62XyWvHeVm2UHCwL4ayGKmpKaQzBTLbJmoERfL9iyy83ft1PAiv5z9bNeaaoUGHZXd4Xkfv95zmKoFm1"
     ],
-    "pending": [
-      {
-        "usd": 6983.290581956597,
-        "tokenAmount": 388747.216091348,
-        "txHash": "3E3j6Yxq62XyWvHeVm2UHCwL4ayGKmpKaQzBTLbJmoERfL9iyy83ft1PAiv5z9bNeaaoUGHZXd4Xkfv95zmKoFm1",
-        "timestamp": "2026-11-01T21:23:15Z"
-      }
-    ]
+    "pending": []
   },
   "SHIB": {
     "initialized": true,
