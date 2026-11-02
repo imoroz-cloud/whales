@@ -1790,26 +1790,7 @@
       "2dJereCLCV5ZyJR8asNgwJWgRYALT3q9KRBCLjo1qW7eUWnS9nfsCfNhYdWdeXwxshmYS7GRM9aPbYwPGmpzjVYR",
       "5BrR2qQMPVM14AHV8iPXdKbVwqapDYQ4VPcSRL2zdD66A7R5R7KziVMKSXToV2X473PNsFP5zLVUaW1SZQY4zZQQ"
     ],
-    "pending": [
-      {
-        "usd": 31521.446206801113,
-        "tokenAmount": 184591.533386,
-        "txHash": "4xtAtFmkr8nX3kfY5ucAYBdKpWumJL1wmAwTGW7cZChonFetN9GFrmqt6iFWunPphUdEA4JSjunVQ9887mzaNuyH",
-        "timestamp": "2026-11-02T14:40:53Z"
-      },
-      {
-        "usd": 31492.832836911108,
-        "tokenAmount": 185048.862945,
-        "txHash": "3bPa14ybPiHigHDsay94D5aGXzxUJVkidPB2tZvi1ixdb5396yrXhbap8mqrRki6qctF4ip4FJhzYHSjQFqVghsz",
-        "timestamp": "2026-11-02T14:41:18Z"
-      },
-      {
-        "usd": 32359.698637900197,
-        "tokenAmount": 190355.652873,
-        "txHash": "5BrR2qQMPVM14AHV8iPXdKbVwqapDYQ4VPcSRL2zdD66A7R5R7KziVMKSXToV2X473PNsFP5zLVUaW1SZQY4zZQQ",
-        "timestamp": "2026-11-02T14:41:22Z"
-      }
-    ]
+    "pending": []
   },
   "MOG": {
     "initialized": true,
