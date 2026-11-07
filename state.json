@@ -1942,14 +1942,7 @@
     "seenHashes": [
       "5s5zEbiD5FUYarN4tS9z84r14SoD3E3yhiSU8G1B2MC9Rnq6J5ASmKCe9dzVzNN7hDs3pFpMsUJ7X35BvpoXKTMi"
     ],
-    "pending": [
-      {
-        "usd": 43623.12914212325,
-        "tokenAmount": 173561.081170201,
-        "txHash": "5s5zEbiD5FUYarN4tS9z84r14SoD3E3yhiSU8G1B2MC9Rnq6J5ASmKCe9dzVzNN7hDs3pFpMsUJ7X35BvpoXKTMi",
-        "timestamp": "2026-11-06T20:42:56Z"
-      }
-    ]
+    "pending": []
   },
   "COTI": {
     "initialized": true,
