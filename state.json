@@ -1474,10 +1474,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x8b458880548b122def3f90daf61b13b1a015150119a18b702a74f0a33b0c597b",
-      "0xcb768372be60f7874de38991af688d165c9f9db57cd61e62e9a670618030b73a",
-      "0x95b95c9e83582cb0c744ba3dba7fa14a6abe1b3c09537c98f17d646ecb6835dd",
-      "0xc00d06560b7fe2c269acdbe8763c6db970658aa9277c109a9ae96d55e3e070f5",
       "0x89a3242091f9839a631c30bd13c45b261553e9404df2102db006d816f032f9d4",
       "0xcb7104ccc3b1982acf22379df064e57e988b01c10b4a8d19c8fecac1c9565f6a",
       "0x9b0e00cbbdc1cbadd5b00c93c5e4c13e9ff96fa658f454e5eb8d9e044e717468",
@@ -1773,9 +1769,32 @@
       "0x3a4daa16894eb2f99d8b7220b8f897df3793cb6fda16829e783c437ae7926ec4",
       "0x71c6d8818f76c4f4883f9f562b3727ad1d59da2f660ec44f977afeadaa9e84ff",
       "0x7aa6917bcd65a79f97c6e77cb7f776aa7834ffcdda7d53c9caed5794161ef53c",
-      "0x9697bfdac27f25a972addebc3899aa1c425a03965003aa2969b2d414769d0804"
+      "0x9697bfdac27f25a972addebc3899aa1c425a03965003aa2969b2d414769d0804",
+      "0xbdd9613e9c4c402ec66d566306dc95205e534140d35ba48f0fc843c1cd8fd604",
+      "0x0d8bc3a0219371a727e001f5432bb1ab7905600b704b1050892364075e7928c7",
+      "0x6d99fc4efa74889b7df42d53680e690a46b9b101fb1ecfdc7ec7cbfb2021cc63",
+      "0x9561b4b4063c36f3a8a93a526a6f475a9ae46c791b685036db70f35b6c90e5f7"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 8327.56032263415,
+        "tokenAmount": 1643279885.31796,
+        "txHash": "0xbdd9613e9c4c402ec66d566306dc95205e534140d35ba48f0fc843c1cd8fd604",
+        "timestamp": "2026-11-08T17:12:59Z"
+      },
+      {
+        "usd": 15303.8682919791,
+        "tokenAmount": 3022232591.79874,
+        "txHash": "0x6d99fc4efa74889b7df42d53680e690a46b9b101fb1ecfdc7ec7cbfb2021cc63",
+        "timestamp": "2026-11-08T17:15:23Z"
+      },
+      {
+        "usd": 6242.50073925239,
+        "tokenAmount": 1233086365.33305,
+        "txHash": "0x9561b4b4063c36f3a8a93a526a6f475a9ae46c791b685036db70f35b6c90e5f7",
+        "timestamp": "2026-11-08T17:16:47Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
