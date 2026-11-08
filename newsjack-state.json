@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2119324254311239787",
-    "avgEngagement": 48.2705432497273,
+    "lastSeenId": "2119339056630771718",
+    "avgEngagement": 42.48938027480911,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -31,8 +31,8 @@
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2119258532377940256",
-    "avgEngagement": 168.5351773086177,
+    "lastSeenId": "2119336699725492287",
+    "avgEngagement": 151.87462411603238,
     "lastAlertUnix": 1793214442
   },
   "bitcoinmagazine": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794121660
+    "lastCheckUnix": 1794125266
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -320,8 +320,8 @@
   },
   "flashiftapp": {
     "initialized": true,
-    "lastSeenId": "2114258964938396004",
-    "avgEngagement": 4.951527924091298
+    "lastSeenId": "2119327071537176782",
+    "avgEngagement": 3.4660695468639084
   },
   "exodus": {
     "initialized": true,
