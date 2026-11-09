@@ -1898,9 +1898,17 @@
       "0x7b25a60fb8ad949440d43b47b5370167cdf0e33cde29eafe5964b1ea509755a9",
       "0x1284c0ea76d57c16e61d880bf31808a1c93f0fb9d478fa013daf468be974cb13",
       "0xaedd4d3b30b0639507951ab5338c08b072ca52db0d97a0d26db44a926232b75e",
-      "0xe31cf46859ab376d265149982fb8f97ba80647fe7819758a4dd224925b3d537f"
+      "0xe31cf46859ab376d265149982fb8f97ba80647fe7819758a4dd224925b3d537f",
+      "0x2016ec5ef9e0860e7176e64bb64511c0b66ae21a4895db48df575993a88ec861"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 10894.3068586495,
+        "tokenAmount": 117827294607.356,
+        "txHash": "0x2016ec5ef9e0860e7176e64bb64511c0b66ae21a4895db48df575993a88ec861",
+        "timestamp": "2026-11-09T01:39:47Z"
+      }
+    ]
   },
   "ADI": {
     "initialized": true,
