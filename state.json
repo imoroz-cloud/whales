@@ -1241,14 +1241,7 @@
       "0xf5c80b266ff37dd8c2f711228c5898b2b0be350a1b8b86159b60458088304adf",
       "0xb4d94e839cb4ab7026d091708535bb692abf1516e4a761536ffb90e19d979f4a"
     ],
-    "pending": [
-      {
-        "usd": 5692.577239433,
-        "tokenAmount": 18900902046208.5,
-        "txHash": "0xb4d94e839cb4ab7026d091708535bb692abf1516e4a761536ffb90e19d979f4a",
-        "timestamp": "2026-11-09T16:01:17Z"
-      }
-    ]
+    "pending": []
   },
   "ZBCN": {
     "initialized": true,
