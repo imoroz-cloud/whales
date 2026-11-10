@@ -7,26 +7,26 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2120063176511513083",
-    "avgEngagement": 49.16391843241928,
+    "lastSeenId": "2120074475794554960",
+    "avgEngagement": 65.91474290269349,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2120064087715385795",
-    "avgEngagement": 78.6925871614038,
+    "lastSeenId": "2120079710352707993",
+    "avgEngagement": 64.98481101298266,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2120057419783139602",
-    "avgEngagement": 23.97456499552974,
+    "lastSeenId": "2120074601724314058",
+    "avgEngagement": 20.14753684780957,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2120054107058626860",
-    "avgEngagement": 97.97228873118269,
+    "lastSeenId": "2120079046356725907",
+    "avgEngagement": 88.68060211182787,
     "lastAlertUnix": 1793174843
   },
   "coingecko": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794298093
+    "lastCheckUnix": 1794301676
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2120064968532086873",
-    "avgEngagement": 183.3093928303062,
+    "lastSeenId": "2120078259316748318",
+    "avgEngagement": 200.64160248685002,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
@@ -393,8 +393,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2120048815168262311",
-    "avgEngagement": 1.734012960113097,
+    "lastSeenId": "2120073612971716881",
+    "avgEngagement": 3.3138090720791675,
     "lastAlertUnix": 1792829254
   },
   "bitexly": {
@@ -487,8 +487,8 @@
   },
   "floki": {
     "initialized": true,
-    "lastSeenId": "2119831404510920863",
-    "avgEngagement": 97.78130589421352,
+    "lastSeenId": "2120074411768270867",
+    "avgEngagement": 87.64691412594946,
     "lastAlertUnix": 1793174889
   },
   "runonflux": {
