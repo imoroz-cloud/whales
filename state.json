@@ -1491,11 +1491,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xa9a28ea0760c435c36024f4cf36400d152d8f128ab8328f77f2da0116020ef27",
-      "0x75d349a0bcf7875d58aecaeb2b8358cdb5995cd25f66a4546fcc354c0fc26ec9",
-      "0x08aaebd5a596e71a204d0e29245baf78ff5d995682df0f425951952cf3138e1c",
-      "0xcde7cafb57d3e063a61cc5454cbfe6b8fae0c759ebb26a154ef7f20e61f87da1",
-      "0xd0b13ad1a5b29b4b1866b3a0a3a873cd26037ef35a68443d71efb4070583a6e5",
       "0x7ede38e3fa0c567bbbff6c3a82a1168175f42b99047e31097c449503a3076875",
       "0x3168fda0f373a3fe995b92c888a97e8d0e71ac7cce0f287fa4db8bf4b0a539c8",
       "0xbc1a02485602086d0dfca262575db684aec7aa3e19f427628c156ad49703c45f",
@@ -1790,28 +1785,14 @@
       "0x6ab4954f05d7cafb849b6507eb584fbd9785185b1255cbf3dc8f84da5e5b20e6",
       "0x38ceb7aaa3ca8ce77670d0f79784bd1bff3b9dfec874df20f810fa7111aa3122",
       "0xcad102bd583d624103371acc0aaa1440dcd164cf161ba50d8be0389caede48f0",
-      "0x7981b5e223e5220eb0fe5161447d098430aeb8c95daaedf5df9387e310beb93d"
+      "0x7981b5e223e5220eb0fe5161447d098430aeb8c95daaedf5df9387e310beb93d",
+      "0x1f49c0894eb6674d0f63c8ae479fd2a90949f7269ea5e82260f32c21b77f9990",
+      "0x3eebb9a32c4ebcb24d8cdd47625fd2408c557cfe686bc4ab33191f6d0e740bcc",
+      "0xd7c57061c7378629143e75f311786d249a5eaa678e2795e6a5db505b7027188a",
+      "0x718b8be51694e66ae050fe67a66a654c40db7da9c6d465378068da1a7f5e2b7e",
+      "0x44ce61e9d71716700bb8172d8a1faf8f37754626ee4173eb23647dfe35ac813a"
     ],
-    "pending": [
-      {
-        "usd": 7144.00195745317,
-        "tokenAmount": 1297898290.57824,
-        "txHash": "0x6fd43053a1a08f0c82bce17900f6813c7e83fc97b645be7be734e443e10e7dfa",
-        "timestamp": "2026-11-10T14:52:23Z"
-      },
-      {
-        "usd": 10074.1454101991,
-        "tokenAmount": 1824014875.25308,
-        "txHash": "0x4bc17d943b8a48eff96e78ad42c2a0dd5fd152c45cc779f950052238de879ad3",
-        "timestamp": "2026-11-10T14:54:23Z"
-      },
-      {
-        "usd": 7603.4981442139,
-        "tokenAmount": 1366040576.28393,
-        "txHash": "0x61ee6d99fd803fd826e3feca8a4ae737ad64d7bdf4c3567459598d06544d87ee",
-        "timestamp": "2026-11-10T14:59:47Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
