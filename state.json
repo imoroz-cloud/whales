@@ -1472,10 +1472,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x2400c4286887389b4c2504a0c9490144187e25a615574086921632ac7920fd24",
-      "0x9db5c248265bc6522c5b3ca3c7a28c6b3f9860ac860e60448474bdfa7b92fe9d",
-      "0xac2f80a90a854df9869f3d5810e6ced6529bcd71aa26e512f514ca1599244066",
-      "0x70e47ab7a55a38f30d2734facf9ae107b04fd52b99a0b9f8a91142038b94bd3c",
       "0x2f26d5ef624a8777b39798109c9b13ba03c743a1a07a9bf642220b908cee0301",
       "0x9e67af6ca7faecdcf51bac21f4da6f231a84fa377a0984c3c036da2a2a24fcf3",
       "0xcd00af03cbf9aa59f961c6131a79b6b6d8bd385fd9c56d3ff139533c7eb91755",
@@ -1771,28 +1767,13 @@
       "0x2f7e93dbfb707184b3f3fa196cc9b6e2fe51274b14e2e8630ed285b979dbe2b4",
       "0x9c938e5c8ea2dba4cb39cb49a1729c1f597e82ecdaf169c04450ce914f9a3fee",
       "0xee0a866240e076f378caf15812868961aae5e2e57526162726e7348f6cb11301",
-      "0x55b75df12df7edb7a3466668fd11abb067cb8f5d2e157cb31057763f19b22362"
+      "0x55b75df12df7edb7a3466668fd11abb067cb8f5d2e157cb31057763f19b22362",
+      "0x3b60476b8795375fb777ff0fdb41805ec2f7da0fa0091804c1eeab58c0fc87d1",
+      "0xe183cca3d0ac7757e9d1c4867aeee2737cfa04824b31ed1de9846f808f2e41bc",
+      "0x0286f0579cea639943b966ed5ee5e22e320446c1c6eb77903476f4477a45e256",
+      "0x5cd53f7fd93eff9d05484e12e6245469bca2693590f2c3073797848acc0baf60"
     ],
-    "pending": [
-      {
-        "usd": 7415.15659779392,
-        "tokenAmount": 1424801073.57315,
-        "txHash": "0x9c938e5c8ea2dba4cb39cb49a1729c1f597e82ecdaf169c04450ce914f9a3fee",
-        "timestamp": "2026-11-10T04:14:23Z"
-      },
-      {
-        "usd": 12056.5710390165,
-        "tokenAmount": 2313760612.17266,
-        "txHash": "0xee0a866240e076f378caf15812868961aae5e2e57526162726e7348f6cb11301",
-        "timestamp": "2026-11-10T04:14:35Z"
-      },
-      {
-        "usd": 8900.48617116698,
-        "tokenAmount": 1698371341.41816,
-        "txHash": "0x55b75df12df7edb7a3466668fd11abb067cb8f5d2e157cb31057763f19b22362",
-        "timestamp": "2026-11-10T04:21:23Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
