@@ -1966,14 +1966,7 @@
       "ac0f5aee84e539dc8907456db8eee19c2771d9c39d8eb04f3ad6dd6ef1333340",
       "dbc6ab44360b69e9e666bd4fb34d10e8dac8f929f96b7948c2544332a9641b83"
     ],
-    "pending": [
-      {
-        "usd": 51021.4366069782,
-        "tokenAmount": 49650.426359,
-        "txHash": "ac0f5aee84e539dc8907456db8eee19c2771d9c39d8eb04f3ad6dd6ef1333340",
-        "timestamp": "2026-11-10T19:25:58Z"
-      }
-    ]
+    "pending": []
   },
   "MON": {
     "initialized": true,
