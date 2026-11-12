@@ -1487,7 +1487,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x6d45e33232ba120b156768db32d056f601b0fc6cff864e44fa85a21f84633d3b",
       "0x2e86553d2ad2fef68d1d50497a21218e9db14b1ce09533d8d403ec542e71b7d8",
       "0xa93d717dd36fc8fc287a82f8a948b64c9b05447890f96774cbddfb95b1097917",
       "0x0955b54f4a56b4b397518e2e483e45a1f3ed4a215067dfcf5bbd7d9e24df2517",
@@ -1786,22 +1785,10 @@
       "0x1f9a237404b396776780a01a59c6b9874a5fd83773b5fc09dbea50ef31f6ba04",
       "0x9ea176a1c601626d629b707dabeb82aa7e5c9f97b5a00445077f30c648b0e007",
       "0xaec0ce218311e8ed4e54951674ea41a7f18a984e535158ab61fe26f6fc4396de",
-      "0xd4206f3474996f94b8d0049f9cc4e039bd23e9167e182ce77aa41fe86d5c6c88"
+      "0xd4206f3474996f94b8d0049f9cc4e039bd23e9167e182ce77aa41fe86d5c6c88",
+      "0x6838be5c951ad1ec3d0b101781e5d618b4788f49bed4a5fac2756b3d9c4e940c"
     ],
-    "pending": [
-      {
-        "usd": 15360.0639199555,
-        "tokenAmount": 3475422366.00065,
-        "txHash": "0x9ea176a1c601626d629b707dabeb82aa7e5c9f97b5a00445077f30c648b0e007",
-        "timestamp": "2026-11-12T19:11:59Z"
-      },
-      {
-        "usd": 14030.4292519189,
-        "tokenAmount": 3167362015.71888,
-        "txHash": "0xaec0ce218311e8ed4e54951674ea41a7f18a984e535158ab61fe26f6fc4396de",
-        "timestamp": "2026-11-12T19:16:23Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
