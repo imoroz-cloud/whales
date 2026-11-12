@@ -1478,9 +1478,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xdd734a83513dace99af2f08a3a621b72bb9d70173fbf79e5786f1f2305ff886e",
-      "0x26c9f00c36b5be9c6852130b899fd2a1137d4fcbcf84cd11aec106f0b357fde1",
-      "0x3e52fa373deb5ea865d5416226dad0018c609b74e0d0509b745c49e2df0864a6",
       "0x0e0194fd8754c4e787f9dfd593da49d6f9ed7edafd1742a12e77d479cf5cfefc",
       "0xc06f9b0d576a645d2c54df679371734c47a1fbd2e1962048bed3880077fc39ce",
       "0x2554f2f987e2c3a1340b5a68773048bab20ac4ce60175f4beb66d55038f750a3",
@@ -1777,34 +1774,12 @@
       "0x31710b3d01e1e3df0179a7cf63630c39e98567773ebd3860695634d807a6222a",
       "0x51141cf388bcbaa8e1a6fca41a2d16610700ac746e9020bfef937a13e96daeef",
       "0xd641c159568eeead398b6c785288c31a7c79f10c3c858a80dd8298b2531537a9",
-      "0x42a5c012fb248e2609a44cfb0a7f158ed92dde6120e8cd0afd00c828fc2e6fa7"
+      "0x42a5c012fb248e2609a44cfb0a7f158ed92dde6120e8cd0afd00c828fc2e6fa7",
+      "0xd8966c68c4ba7f2223f84f2299203dac2b427b4bc92cf3ffe5fbb2284d46aaa0",
+      "0xa0f7639fb2ba1bd3eada393b919c1420cea4a5f913cb7ad1597addb71fdb5ac2",
+      "0x610fcad006ce7389fe5ee6a763ba53833b845e9dff2c4794eb0c8077dcfd04ad"
     ],
-    "pending": [
-      {
-        "usd": 6276.86410382592,
-        "tokenAmount": 1364761987.58609,
-        "txHash": "0x439b317e8870eeaa68d1442ae6e47b9948871b9439556d8fd7ea6ad6cbbf48ae",
-        "timestamp": "2026-11-12T02:48:11Z"
-      },
-      {
-        "usd": 7822.69243390686,
-        "tokenAmount": 1698400609.02767,
-        "txHash": "0x41d3d58be1f1274348f92da6ccaf555d3afbe6f78c5dcc0079f1e47ee96094ee",
-        "timestamp": "2026-11-12T02:48:59Z"
-      },
-      {
-        "usd": 6696.04217362419,
-        "tokenAmount": 1499609812.41554,
-        "txHash": "0x2984c61c5ad95270e3bee17bbdb38f02c9a53d1d2f0bb1b2ba2fbf4b33fe2a9d",
-        "timestamp": "2026-11-12T07:02:23Z"
-      },
-      {
-        "usd": 6480.07435257151,
-        "tokenAmount": 1447562691.33753,
-        "txHash": "0x31710b3d01e1e3df0179a7cf63630c39e98567773ebd3860695634d807a6222a",
-        "timestamp": "2026-11-12T07:27:47Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
