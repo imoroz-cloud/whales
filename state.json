@@ -1981,9 +1981,17 @@
       "f5cd6dc6b05e26bbd175430ee69c750f5f21b9b1308b89c6fe329dee905e60a6",
       "5c3aa1357dec8364e40b35ac24634cf35194b8d1439a2b4b337c92a36edd3d62",
       "ac0f5aee84e539dc8907456db8eee19c2771d9c39d8eb04f3ad6dd6ef1333340",
-      "dbc6ab44360b69e9e666bd4fb34d10e8dac8f929f96b7948c2544332a9641b83"
+      "dbc6ab44360b69e9e666bd4fb34d10e8dac8f929f96b7948c2544332a9641b83",
+      "4608eadbd0a90ea1c5b5b10addcc836df58fcd75d22ed3fb3adbccbb50e7e2b2"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 37152.544,
+        "tokenAmount": 36542.152878,
+        "txHash": "4608eadbd0a90ea1c5b5b10addcc836df58fcd75d22ed3fb3adbccbb50e7e2b2",
+        "timestamp": "2026-11-13T10:11:27Z"
+      }
+    ]
   },
   "MON": {
     "initialized": true,
