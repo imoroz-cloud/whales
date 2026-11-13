@@ -1388,9 +1388,17 @@
       "0x42834ccd8dff1229e0abbe327c7cb48d77794abf10f89da757540419bbde7dd7",
       "0x8174808f3d1360702eefd835e68dd0059d3789d1ffc2c05009827a61c60d0ffa",
       "0x9bb63ae9b1620a0289799a9637884fae580dbad3b3357a3261070ec1b26a6488",
-      "0xaf787773cbb815f109ca8ddc52fff83389df5aaccc1b0472596c7e5d18b9b5a1"
+      "0xaf787773cbb815f109ca8ddc52fff83389df5aaccc1b0472596c7e5d18b9b5a1",
+      "0x2f94766dc449144a296cfee2dbcd91077f4925b88196bf9e075d348717f202cc"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 4369.80765380173,
+        "tokenAmount": 217819058.026304,
+        "txHash": "0x2f94766dc449144a296cfee2dbcd91077f4925b88196bf9e075d348717f202cc",
+        "timestamp": "2026-11-13T14:52:39Z"
+      }
+    ]
   },
   "BRETT": {
     "initialized": true,
@@ -1494,7 +1502,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x1e3cc10ca5854c7124f1acd3ef652e72ec67a7877408d20cc615c7d2b59fb4f3",
       "0x7542f1aa3d90b02397d72d33658679df7b7e5af7148418df28b38fdbe136cb1a",
       "0xe4977176c443ea3ae237b2ae0c877f156e872580bf2cc7bd1a6a3b850a140301",
       "0x7c073eec37839b5d69b0e2c0ac6be8335f46b8ce930d5c2f36c6246352f049f8",
@@ -1793,7 +1800,8 @@
       "0x466dc8345bdefaa2d9070aaf5555c32715dbd76b5ae6050713c8b977845bc876",
       "0xfe44c8849ea0d9374360c3215299d69f45f4e7e0fd694c5c4e62efb5a0b97d0d",
       "0xfd8628ee471f5f665b86e015a3ac7ac8d87cd79a9b7f9c1c99223d6cec6121ea",
-      "0x5ad5d5d0a3960a239a9aee89b6fa2a41984c3c3367aa2434e7a3dee932e89d7a"
+      "0x5ad5d5d0a3960a239a9aee89b6fa2a41984c3c3367aa2434e7a3dee932e89d7a",
+      "0xa3c03488d86683c17bb8231c215c319c9e5031c895a0a9ec778dd9b6fac6c754"
     ],
     "pending": [
       {
@@ -1813,6 +1821,12 @@
         "tokenAmount": 1561967863.0888,
         "txHash": "0x5ad5d5d0a3960a239a9aee89b6fa2a41984c3c3367aa2434e7a3dee932e89d7a",
         "timestamp": "2026-11-13T14:52:23Z"
+      },
+      {
+        "usd": 7065.24807953789,
+        "tokenAmount": 1568867693.43692,
+        "txHash": "0xa3c03488d86683c17bb8231c215c319c9e5031c895a0a9ec778dd9b6fac6c754",
+        "timestamp": "2026-11-13T14:53:11Z"
       }
     ]
   },
