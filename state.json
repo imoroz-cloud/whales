@@ -1944,16 +1944,12 @@
       "0xf70000668c318606c50a90120f2a50dbaf8862b0fbfa2de2dbe82d81639374cc",
       "0xf8bc84b32ded92c12ff3b5ffa2fa4810a8732d72bb1a91a3275ffb4c309ce69a",
       "0x751f3bc457ba7b5557910b73bc51d50bf79573d0ea745d29d283c87fbcd1be77",
-      "0x8fa7bc748e34c2a51bd623db9bab09c29ac88ff43eb90637c6f4332ca6ed92e3"
+      "0x8fa7bc748e34c2a51bd623db9bab09c29ac88ff43eb90637c6f4332ca6ed92e3",
+      "0x62edd654dd561cecef2a7015d9ec916037fa78069f1b29b8dccc3806b4c3fb4a",
+      "0xd8ebbbc37813f03efc2709263fb845e9f219bf28e4a537dde7782669c39553ab",
+      "0xde0dec96a14cc85feee5aac391ab1d544e3b9eeb2350cdf3c149a4fc08a27634"
     ],
-    "pending": [
-      {
-        "usd": 21281.5670309883,
-        "tokenAmount": 2657.1432816695,
-        "txHash": "0x751f3bc457ba7b5557910b73bc51d50bf79573d0ea745d29d283c87fbcd1be77",
-        "timestamp": "2026-11-13T00:15:23Z"
-      }
-    ]
+    "pending": []
   },
   "TON": {
     "initialized": true,
