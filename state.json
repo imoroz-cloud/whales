@@ -1497,7 +1497,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x3c7582c14a87a8f5d734727532fad403a0fa08b5fb635544b76e3847ae8b2f4f",
       "0xdbdbf9e117f12905b4e72cdc82b34fa5da9f37010dc77f8e9d3de0203fba267e",
       "0xdb171f31a29f4f9fd4efacf6e336fe7a83055aaed63c8e20b6781bd71e5a93e9",
       "0xebb22035da756328b7ab86dc3af8a667c3db9650a6da2478d83baadfdb27ad72",
@@ -1796,7 +1795,8 @@
       "0x63e9081105c080a5542b33d2bbcdddccbfc51f93a7bde68ce047dd2d16dbfad7",
       "0x46b53c05c725fcedc258f6eb5dfb2c364a90367392d4030675cb8c366069c7e2",
       "0x91ae407c417b193969ef36c0f9b85d749ddf4691a03de5896a30f1093ca18b10",
-      "0x1b771ce9fc9b38e3a87efe84057c573b6cd331410e615e9d1789e35aaa56b9c6"
+      "0x1b771ce9fc9b38e3a87efe84057c573b6cd331410e615e9d1789e35aaa56b9c6",
+      "0x2542bfa3c482f228c6101f24db800b393e21068a9615e5104e1160a3895079bf"
     ],
     "pending": [
       {
@@ -1810,6 +1810,12 @@
         "tokenAmount": 2774949859.24866,
         "txHash": "0x1b771ce9fc9b38e3a87efe84057c573b6cd331410e615e9d1789e35aaa56b9c6",
         "timestamp": "2026-11-14T23:08:23Z"
+      },
+      {
+        "usd": 6184.77395218242,
+        "tokenAmount": 1635995690.05827,
+        "txHash": "0x2542bfa3c482f228c6101f24db800b393e21068a9615e5104e1160a3895079bf",
+        "timestamp": "2026-11-14T23:18:47Z"
       }
     ]
   },
@@ -2622,9 +2628,17 @@
       "0xaf95c1d3521e7fc25b7c5bb2364d12fb3a47493832c032ac6aee54806b9044c9",
       "0xbeae3ac96cf6d28babf0bdccc946baff0e5fd1f81905f3dd66956872a7536b86",
       "0x1681fd85ff595692177198045b7f84c0e633f7328ede601eb5944c885a1511b0",
-      "0xca94ad3fd18803c4ecac72ddc74589e06e353cc6d5fed3ef338445e71604b788"
+      "0xca94ad3fd18803c4ecac72ddc74589e06e353cc6d5fed3ef338445e71604b788",
+      "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 4444.78594203885,
+        "tokenAmount": 1371649.58807532,
+        "txHash": "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9",
+        "timestamp": "2026-11-14T23:23:59Z"
+      }
+    ]
   },
   "LUMIA": {
     "initialized": true,
