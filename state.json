@@ -1488,7 +1488,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x05c98ecb7e58b9f6880a2bd620ee532cee160d0c3d81fba9dbacaa183625c80d",
       "0x21faaea4e97d2566462e863d349426424df22ed4123ec360e8ba747e03330eaa",
       "0x3c8250edf74e63536a1eecfcdc57fcb38d624707648d82c6df65e896485b98e2",
       "0xca1f024309205a04863d3dabda5cc87a7e8a4b33f9310f08ced44b32b6522360",
@@ -1787,9 +1786,17 @@
       "0xd419858bb8858a26449ba89aada75e9980278a38ddcf9b5e2b22820bb549d7af",
       "0xf52b5070fa08242f03061b23fdc8f45ea0c16877177ef4714cf06782646ef623",
       "0x0e8198d2a9dccbf4ac5079332b5854f36fc0bc2ea873b25a5c64bd07dba87cff",
-      "0x7763cf1eaf255ece6ceaeef866aa33107d40425e05cff82e952d2febaed257d0"
+      "0x7763cf1eaf255ece6ceaeef866aa33107d40425e05cff82e952d2febaed257d0",
+      "0x473dc4b37d484be94d61cf072f76ecce8a64caf91325f118fcd88934cfaf928f"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 25487.6775831924,
+        "tokenAmount": 6692558422.26364,
+        "txHash": "0x473dc4b37d484be94d61cf072f76ecce8a64caf91325f118fcd88934cfaf928f",
+        "timestamp": "2026-11-14T20:55:47Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
@@ -1985,9 +1992,18 @@
       "0x54e75afa47a572f3db6dfcf52e61fa6570f54811c9655e7b1e85f9c5bb214084",
       "0x1623c9960ce6846c381d2ab04dfedfe60dd540ea80d6adf90d954757c5e6b44f",
       "0x1b1a664b008fbbb22d61c5a25889ed390a3dc8208669437333a72efd4e17e4de",
-      "0x3f226a52957be08cd55c418a7d5101060eb586063da5e541eaa7d018143eb3fb"
+      "0x3f226a52957be08cd55c418a7d5101060eb586063da5e541eaa7d018143eb3fb",
+      "0x065d38ec9f8e77e433ed90488a12056bb447d7722bdcbd85810f71147dc18cae",
+      "0xe8dc5e240cb24827219d1c4616e07f2c2240cae7bc101209b019397a6ddee390"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 37956.1936799253,
+        "tokenAmount": 4972.88537558769,
+        "txHash": "0xe8dc5e240cb24827219d1c4616e07f2c2240cae7bc101209b019397a6ddee390",
+        "timestamp": "2026-11-14T20:56:47Z"
+      }
+    ]
   },
   "TON": {
     "initialized": true,
