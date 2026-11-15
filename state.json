@@ -2609,9 +2609,17 @@
       "0xbeae3ac96cf6d28babf0bdccc946baff0e5fd1f81905f3dd66956872a7536b86",
       "0x1681fd85ff595692177198045b7f84c0e633f7328ede601eb5944c885a1511b0",
       "0xca94ad3fd18803c4ecac72ddc74589e06e353cc6d5fed3ef338445e71604b788",
-      "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9"
+      "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9",
+      "0x875aa869f71cafdc67c1f7be2b8f2090c2c1e755fdc3654857685ea66860768c"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5833.40237695084,
+        "tokenAmount": 1629259.12334543,
+        "txHash": "0x875aa869f71cafdc67c1f7be2b8f2090c2c1e755fdc3654857685ea66860768c",
+        "timestamp": "2026-11-15T20:40:59Z"
+      }
+    ]
   },
   "LUMIA": {
     "initialized": true,
