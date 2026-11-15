@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2121974145588379665",
-    "avgEngagement": 64.51972917973671,
+    "lastSeenId": "2122026852932092186",
+    "avgEngagement": 60.74466729807098,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2122009904785269026",
-    "avgEngagement": 164.74403973389792,
+    "lastSeenId": "2122025404034638322",
+    "avgEngagement": 156.5769439401089,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -161,8 +161,8 @@
   },
   "solana": {
     "initialized": true,
-    "lastSeenId": "2122002486777217090",
-    "avgEngagement": 418.9832783079773,
+    "lastSeenId": "2122027056838082911",
+    "avgEngagement": 328.9882948155841,
     "lastAlertUnix": 1793185658
   },
   "dogecoin": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794762465
+    "lastCheckUnix": 1794766066
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -222,14 +222,14 @@
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2121710286029877594",
-    "avgEngagement": 39.32123546195202,
+    "lastSeenId": "2122021907381821679",
+    "avgEngagement": 36.524864823366414,
     "lastAlertUnix": 1793059658
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2122013005714161761",
-    "avgEngagement": 314.4612772299406,
+    "lastSeenId": "2122024329995288883",
+    "avgEngagement": 305.6228940609584,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
@@ -337,8 +337,8 @@
   },
   "moonpay": {
     "initialized": true,
-    "lastSeenId": "2121964176088195392",
-    "avgEngagement": 378.68259203283026,
+    "lastSeenId": "2122020331561070895",
+    "avgEngagement": 396.47781442298117,
     "lastAlertUnix": 1793131670
   },
   "houdiniswap": {
@@ -475,8 +475,8 @@
   },
   "mogcoin": {
     "initialized": true,
-    "lastSeenId": "2121741560442495486",
-    "avgEngagement": 54.37195089087456,
+    "lastSeenId": "2122013878766768376",
+    "avgEngagement": 92.06036562361219,
     "lastAlertUnix": 1793034464
   },
   "zano_project": {
