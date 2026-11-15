@@ -1484,8 +1484,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x70b8dc8aae6c1891b2930f57d7097df9f06272685a29c1cb2aba1a120c453ce0",
-      "0x99230e9583e219d2d955c22c669f3b3ca43952447fdcfdae6da662d3397ac33d",
       "0x9032759d65dbc394705fa8cff294a070dab935dd1cd234aca77d89dcf852a40c",
       "0xea410329dda05e586d865b5d9c635f2fa65e41d3da75296437b93cb6b660c4aa",
       "0x10b42f41b7c3bff9f75b4651e0be800a8deeb887d3ef25cc3947574a9d1a9682",
@@ -1783,9 +1781,24 @@
       "0x1e406ae320b307d9d978f85e602617e0843945934278f4fea775436c9ce9a033",
       "0x9acd34ecc47f43f353aff0b6d54440bc45ad9e2fd3a4d494aafe0e67599ead4e",
       "0x3bf534f53240609b28326ed0230c66dd9c672a5edab3a371bafdd571cd21196d",
-      "0x47ff2cdb9d1b82e6f8fd723ae67ca34fc1909a03292843785ced46a65f1e821c"
+      "0x47ff2cdb9d1b82e6f8fd723ae67ca34fc1909a03292843785ced46a65f1e821c",
+      "0x998cf2ac6308ee6cad4c8f15d29d0fced2b18c3c19ce45082b939cbf73b4c7b2",
+      "0xe72282cd04dc2a1d0ae37dde1599cfae55ef92fdd4673e775a92ef782c8b1b6a"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 6515.03993773801,
+        "tokenAmount": 1649913288.79632,
+        "txHash": "0x998cf2ac6308ee6cad4c8f15d29d0fced2b18c3c19ce45082b939cbf73b4c7b2",
+        "timestamp": "2026-11-15T05:21:11Z"
+      },
+      {
+        "usd": 7963.01590904441,
+        "tokenAmount": 2015920846.59551,
+        "txHash": "0xe72282cd04dc2a1d0ae37dde1599cfae55ef92fdd4673e775a92ef782c8b1b6a",
+        "timestamp": "2026-11-15T05:22:11Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
@@ -2607,14 +2620,7 @@
       "0xca94ad3fd18803c4ecac72ddc74589e06e353cc6d5fed3ef338445e71604b788",
       "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9"
     ],
-    "pending": [
-      {
-        "usd": 4444.78594203885,
-        "tokenAmount": 1371649.58807532,
-        "txHash": "0x521d559eae387f1321ee1230d64d31633edc448206542a8b0b50252cf4a6fef9",
-        "timestamp": "2026-11-14T23:23:59Z"
-      }
-    ]
+    "pending": []
   },
   "LUMIA": {
     "initialized": true,
