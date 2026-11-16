@@ -7,20 +7,20 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2122177843719258234",
-    "avgEngagement": 44.65832623278678,
+    "lastSeenId": "2122187475271729264",
+    "avgEngagement": 50.46082836295074,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2122178036434878547",
-    "avgEngagement": 89.01361385040275,
+    "lastSeenId": "2122193120414617785",
+    "avgEngagement": 99.47667078669733,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2122161593006051335",
-    "avgEngagement": 14.606348867100984,
+    "lastSeenId": "2122190874411217208",
+    "avgEngagement": 13.524444206970688,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
@@ -79,8 +79,8 @@
   },
   "vitalikbuterin": {
     "initialized": true,
-    "lastSeenId": "2119401255919604064",
-    "avgEngagement": 528.884987528909,
+    "lastSeenId": "2122192027274321946",
+    "avgEngagement": 457.8194912702363,
     "lastAlertUnix": 1790028447
   },
   "apompliano": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794802071
+    "lastCheckUnix": 1794805681
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -210,8 +210,8 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2122047118231970187",
-    "avgEngagement": 790.5677105004738,
+    "lastSeenId": "2122180606981492903",
+    "avgEngagement": 758.8973973503316,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
@@ -393,8 +393,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2122177847213334918",
-    "avgEngagement": 1.9317200724654828,
+    "lastSeenId": "2122192949706383448",
+    "avgEngagement": 1.352204050725838,
     "lastAlertUnix": 1792829254
   },
   "bitexly": {
@@ -493,8 +493,8 @@
   },
   "runonflux": {
     "initialized": true,
-    "lastSeenId": "2119583691022463049",
-    "avgEngagement": 16.498165651828426,
+    "lastSeenId": "2122182234107257219",
+    "avgEngagement": 13.348715956279896,
     "lastAlertUnix": 1793200083
   },
   "vechainofficial": {
