@@ -13,8 +13,8 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2122462437630685313",
-    "avgEngagement": 94.03097434221536,
+    "lastSeenId": "2122480140416413800",
+    "avgEngagement": 89.04562419937986,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -73,8 +73,8 @@
   },
   "glassnode": {
     "initialized": true,
-    "lastSeenId": "2122366972998635918",
-    "avgEngagement": 180.73027466613942,
+    "lastSeenId": "2122466744543359235",
+    "avgEngagement": 185.31119226629758,
     "lastAlertUnix": 1793110045
   },
   "vitalikbuterin": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2122464256482521122",
-    "avgEngagement": 27.799150042830387,
+    "lastSeenId": "2122480889880068360",
+    "avgEngagement": 28.174975925283565,
     "lastAlertUnix": 1793153250
   },
   "thecryptodog": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794870474
+    "lastCheckUnix": 1794874073
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,14 +192,14 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2122449256846078275",
-    "avgEngagement": 25.389240104009126,
+    "lastSeenId": "2122480903070871955",
+    "avgEngagement": 18.672468072806385,
     "lastAlertUnix": 1793192882
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2122427749013107074",
-    "avgEngagement": 78.37284834296071,
+    "lastSeenId": "2122475758035874282",
+    "avgEngagement": 68.66099384007249,
     "lastAlertUnix": 1793135250
   },
   "babydoge": {
@@ -216,14 +216,14 @@
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2122449640431681925",
-    "avgEngagement": 100.4765527470489,
+    "lastSeenId": "2122475049860911546",
+    "avgEngagement": 79.33358692293423,
     "lastAlertUnix": 1793200062
   },
   "cryptotea": {
     "initialized": true,
-    "lastSeenId": "2122149268534546692",
-    "avgEngagement": 27.36740537635649,
+    "lastSeenId": "2122473700096405606",
+    "avgEngagement": 36.557183763449544,
     "lastAlertUnix": 1793059658
   },
   "cryptorover": {
