@@ -176,12 +176,12 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1794956867
+    "lastCheckUnix": 1794960778
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2122827816500920587",
-    "avgEngagement": 40.183427807266156,
+    "lastSeenId": "2122841638586491023",
+    "avgEngagement": 52.65987962556042,
     "lastAlertUnix": 1793146049
   },
   "zelcore_io": {
@@ -192,14 +192,14 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2122818355698565185",
-    "avgEngagement": 77.516169310884,
+    "lastSeenId": "2122833670281023607",
+    "avgEngagement": 91.7613185176188,
     "lastAlertUnix": 1793192882
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2122775082145628416",
-    "avgEngagement": 70.12388698163552,
+    "lastSeenId": "2122840709065847195",
+    "avgEngagement": 57.78672088714487,
     "lastAlertUnix": 1793135250
   },
   "babydoge": {
