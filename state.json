@@ -560,9 +560,6 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "3iTT2dCvZuLhCmrdKLGgTqnXuMcJ62oGjzHGwNgwebEqbKKHLpoEbnt5oXcsokCtAj9yHGpNdA2ffpgbLDpc9buj",
-      "3rWErvH3D1DR6WDu9yTXGG6Rfo13rhzZZnPy4tpo6pnnTdvQYSVQDwxFhioeRv3S6hdXea6Y1LcNEkNYtY8rdrg6",
-      "xVWYTD8JSLKm9LYGbkNUDf3zZT91cMcY6dKeU8FkrLAca152N9t3UYJpUkYtjKubSmmsYxE4sy1Uu4y9fV8V16P",
       "3s5SZKnXnGi4KhPw8jwQFWcdcW27qytvatKx8MpmfDnTKxHKh6g3npE3NBbMec5RjTGpE9Kds4vw6TXCSgKCkegR",
       "5kUKu9Fjjjyxbmw9fE8zJ8Wka7yENafzzy7z87ESPi2KbrqqcjLY6TkRdFKCQ6ejbAQ8RNcxTi2PrnKWqTdyuY1B",
       "63V2PKFxEYXNPB1XcCEsHnvBQTaS1Fiuc4GbpmRCeiUfJVGERf4tKCA7JJWGUWHkLig2RsSKTkSqQpUG3eViByri",
@@ -859,9 +856,25 @@
       "5hapDqQ9kqtTzJETFMUVaHGLAforX3obbKSo4mCgBaxpTbsw7otqC9qndy8JaXF2DCcBxhSNGbWMhbUtfZEi4dHv",
       "3aMsrZAorRCWq141PWGfKYkjN78SEEnwSJYmL19LGZPApBg1TinqNoqvefYpHw1XQo7whz7G94XLjbVqaqocGNZF",
       "3MPQLr8xuK3hPpZoNgVbVoM5BgRMAN3xUs6xzsK8gZQq7t5aXVMv5XWuikjwwedgAY5wfQshCjej1eBiptmxdhMC",
-      "3whPi2U5F2EqSbbzwze7ZopgB337mtC9kKxkAusd6P2cEoawbL15E9c5ABCMMa76qV9xY2ExMnT3ACj48sWW6MVo"
+      "3whPi2U5F2EqSbbzwze7ZopgB337mtC9kKxkAusd6P2cEoawbL15E9c5ABCMMa76qV9xY2ExMnT3ACj48sWW6MVo",
+      "4wE94iUrAbRCrvwCUvcR3qmGzVLDu1Wvc3192Beu176SHaNfEJGUHpoqd9msy646a8YfsSPdCbXRSfrx2dxSWd9v",
+      "5NWkW39jrEwicpHpaHMNYjXmvXd5pEVSETieMXH6xn3oJjjwhW2HUabhqqFKEmdy2yDitkpC6zDzt6iCt8zUBiKA",
+      "3CGc5ZxPQqDz5abrp2MPhAbz7SZnjqpz1H9V3v78PbKPW6KYYTj6YJyapsSg2U6FAeXjUGo4Tt9fyt1aJ1z6uxf"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 7168.279440392866,
+        "tokenAmount": 1513847.257784,
+        "txHash": "5NWkW39jrEwicpHpaHMNYjXmvXd5pEVSETieMXH6xn3oJjjwhW2HUabhqqFKEmdy2yDitkpC6zDzt6iCt8zUBiKA",
+        "timestamp": "2026-11-18T02:44:15Z"
+      },
+      {
+        "usd": 7462.240876650197,
+        "tokenAmount": 1574520.122444,
+        "txHash": "3CGc5ZxPQqDz5abrp2MPhAbz7SZnjqpz1H9V3v78PbKPW6KYYTj6YJyapsSg2U6FAeXjUGo4Tt9fyt1aJ1z6uxf",
+        "timestamp": "2026-11-18T02:44:15Z"
+      }
+    ]
   },
   "APU": {
     "initialized": true,
