@@ -1,26 +1,26 @@
 {
   "watcherguru": {
     "initialized": true,
-    "lastSeenId": "2123211276180431268",
-    "avgEngagement": 2442.3956368630998,
+    "lastSeenId": "2123222286593323179",
+    "avgEngagement": 2492.9769458041696,
     "lastAlertUnix": 1793196445
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2123141470974787911",
-    "avgEngagement": 30.055875392848513,
+    "lastSeenId": "2123226890433700331",
+    "avgEngagement": 41.43911277499396,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2123219831092617329",
-    "avgEngagement": 85.3831332061045,
+    "lastSeenId": "2123234928066252809",
+    "avgEngagement": 89.05139028278568,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2123190011399143680",
-    "avgEngagement": 8.988997231531394,
+    "lastSeenId": "2123233329126547720",
+    "avgEngagement": 11.874608643450383,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
@@ -31,8 +31,8 @@
   },
   "coingecko": {
     "initialized": true,
-    "lastSeenId": "2123083610362195979",
-    "avgEngagement": 218.37168778304044,
+    "lastSeenId": "2123232953127817491",
+    "avgEngagement": 215.2601814481283,
     "lastAlertUnix": 1793214442
   },
   "bitcoinmagazine": {
@@ -49,8 +49,8 @@
   },
   "lookonchain": {
     "initialized": true,
-    "lastSeenId": "2123069422525092327",
-    "avgEngagement": 85.66190080588707,
+    "lastSeenId": "2123233529429692514",
+    "avgEngagement": 105.14672238349347,
     "lastAlertUnix": 1793185645
   },
   "hupzy_agent": {
@@ -85,8 +85,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2123172979508924417",
-    "avgEngagement": 222.43508134689938,
+    "lastSeenId": "2123232195695325271",
+    "avgEngagement": 174.00455694282957,
     "lastAlertUnix": 1793066844
   },
   "saylor": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795050461
+    "lastCheckUnix": 1795054059
   },
   "bitcoinarchive": {
     "initialized": true,
