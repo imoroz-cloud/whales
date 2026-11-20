@@ -1257,12 +1257,6 @@
     ],
     "pending": [
       {
-        "usd": 5545.91308647136,
-        "tokenAmount": 22262920799205.1,
-        "txHash": "0x56eaf6a7a51d73aa72e71ae932f92b38ceae00f7861f1938c43bddf7c44a2183",
-        "timestamp": "2026-11-20T09:58:24Z"
-      },
-      {
         "usd": 4854.45588623048,
         "tokenAmount": 20439803040664.4,
         "txHash": "0xfccb31bb6d2608a9f38b9ca4c6813eeb2150202e8c28b042d04a12c929c63624",
@@ -1517,8 +1511,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xe0de25332fd8c7bd06ffd3d37194ef47297784ed072a6606125c229369a9a0bb",
-      "0xc9728b9ddae2f1b450b2db0603257ae428055e1f65523b394490b22827c5e976",
       "0x8846c83b709ab24469828500f144ee5e7e5016d10465621e484051b6e16a2a37",
       "0x2342a78239d132cc7923de897c24b69bdac0b81bbd74c8eae058b0a9a3394f40",
       "0xb8c85905a524fe239343bc6368803bfedaebff32c80a651ba61f889926fdd6c4",
@@ -1816,9 +1808,24 @@
       "0x2908b91bc017abd28b771b77fc8c11f1bfa09ee958e8c9dab928aab5806b2db4",
       "0x64686deddc7f7df7a596129a8a77eeadd519a212f42cf21f465c533f0de61548",
       "0x94bd01f2be3fc38744b1142e8c69f3655dd2efd71a3830020ec679371e6e13dc",
-      "0x350218eabda5eb6a96789df8460b63a7abc7de252102b50f2d79ccac10cf47a3"
+      "0x350218eabda5eb6a96789df8460b63a7abc7de252102b50f2d79ccac10cf47a3",
+      "0x598b06b288832c8d09dc0006e418c7f5ad9728d2502bc69df73212f55d39a1e4",
+      "0x93cb4697e0804d8aa940aa1cddb4ff7fdbc4bd304aab00811376ecd9e3b1054d"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 10493.1774746487,
+        "tokenAmount": 3072941603.90797,
+        "txHash": "0x598b06b288832c8d09dc0006e418c7f5ad9728d2502bc69df73212f55d39a1e4",
+        "timestamp": "2026-11-20T16:02:35Z"
+      },
+      {
+        "usd": 9100.14393088898,
+        "tokenAmount": 2663196711.21646,
+        "txHash": "0x93cb4697e0804d8aa940aa1cddb4ff7fdbc4bd304aab00811376ecd9e3b1054d",
+        "timestamp": "2026-11-20T16:02:47Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
@@ -1842,7 +1849,8 @@
       "0xd5d9e7b53137cb06706f94b3e2fb4e8e0828d3c83e3bc0dc339e9096cf2b95f6",
       "0xf9ad7f7d3b75c2e1627fbadd64739f724e61a506848a5930f4e18b4f0abe1121",
       "0xd94d43396a0e7dc64722beecb4daf405bc58193111cb92d19ac1fd756d198931",
-      "0x86394ed0ac77f35c19a640db925145dbbf31f3b7c47e74e05e4b03fae87f6d74"
+      "0x86394ed0ac77f35c19a640db925145dbbf31f3b7c47e74e05e4b03fae87f6d74",
+      "0xb3f5f587d3e5df14ceaeace650b8b77d670c9c1aa866ed292f8112baa4bd886e"
     ],
     "pending": []
   },
