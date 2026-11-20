@@ -1511,8 +1511,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0x8846c83b709ab24469828500f144ee5e7e5016d10465621e484051b6e16a2a37",
-      "0x2342a78239d132cc7923de897c24b69bdac0b81bbd74c8eae058b0a9a3394f40",
       "0xb8c85905a524fe239343bc6368803bfedaebff32c80a651ba61f889926fdd6c4",
       "0xb6336ec9fff7ad258514a5b6be04bb9090fb8eb3703bb0c995159613c5d24fe8",
       "0x03a4e739b6c488bb8a85741f5789070409109b548ab8d2520035f0753543efdb",
@@ -1810,22 +1808,11 @@
       "0x94bd01f2be3fc38744b1142e8c69f3655dd2efd71a3830020ec679371e6e13dc",
       "0x350218eabda5eb6a96789df8460b63a7abc7de252102b50f2d79ccac10cf47a3",
       "0x598b06b288832c8d09dc0006e418c7f5ad9728d2502bc69df73212f55d39a1e4",
-      "0x93cb4697e0804d8aa940aa1cddb4ff7fdbc4bd304aab00811376ecd9e3b1054d"
+      "0x93cb4697e0804d8aa940aa1cddb4ff7fdbc4bd304aab00811376ecd9e3b1054d",
+      "0xcb025b06c44c3377d8cfd614216be5c6172dfdaa802b8d4ec0e0e175b61244fe",
+      "0xd08dbc5ff8c129b72070f3bc714b57df79d37a0a1b10569e27e597a4762a84ee"
     ],
-    "pending": [
-      {
-        "usd": 10493.1774746487,
-        "tokenAmount": 3072941603.90797,
-        "txHash": "0x598b06b288832c8d09dc0006e418c7f5ad9728d2502bc69df73212f55d39a1e4",
-        "timestamp": "2026-11-20T16:02:35Z"
-      },
-      {
-        "usd": 9100.14393088898,
-        "tokenAmount": 2663196711.21646,
-        "txHash": "0x93cb4697e0804d8aa940aa1cddb4ff7fdbc4bd304aab00811376ecd9e3b1054d",
-        "timestamp": "2026-11-20T16:02:47Z"
-      }
-    ]
+    "pending": []
   },
   "ELON": {
     "initialized": true,
@@ -1850,7 +1837,8 @@
       "0xf9ad7f7d3b75c2e1627fbadd64739f724e61a506848a5930f4e18b4f0abe1121",
       "0xd94d43396a0e7dc64722beecb4daf405bc58193111cb92d19ac1fd756d198931",
       "0x86394ed0ac77f35c19a640db925145dbbf31f3b7c47e74e05e4b03fae87f6d74",
-      "0xb3f5f587d3e5df14ceaeace650b8b77d670c9c1aa866ed292f8112baa4bd886e"
+      "0xb3f5f587d3e5df14ceaeace650b8b77d670c9c1aa866ed292f8112baa4bd886e",
+      "0x310ff7e3990c810eb7d20ac0cabca3ff570969d7cb636a88e0d835c8c187e1dc"
     ],
     "pending": []
   },
