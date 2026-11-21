@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795230468
+    "lastCheckUnix": 1795234225
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -210,14 +210,14 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2123908998424604815",
-    "avgEngagement": 660.4173650981437,
+    "lastSeenId": "2123984888726794352",
+    "avgEngagement": 743.6921555687005,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2123962128411537612",
-    "avgEngagement": 126.76320429460912,
+    "lastSeenId": "2123978204511691006",
+    "avgEngagement": 157.13424300622637,
     "lastAlertUnix": 1793200062
   },
   "cryptotea": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2123972384487362839",
-    "avgEngagement": 330.6982497845037,
+    "lastSeenId": "2123991872540672425",
+    "avgEngagement": 308.1721423944068,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
