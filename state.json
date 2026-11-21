@@ -560,7 +560,6 @@
   "PENGU": {
     "initialized": true,
     "seenHashes": [
-      "4jD6aBRmCn5RtkT3sGUWuku18cmBXo883hK5cexMFFi2wBdgpibt3MbnMzNR2BBDyBdBxY14fy7S9176VxvJDNw7",
       "pGHYksFyWdJV8KATBmJP6QVZuJqczXSqVPcKFQGjAvo33qRKy9dN4eNGNKgWAdWZpXbNJzXKUjdnN12maYdXbHJ",
       "525o7Vx3hkbFEub3JMy54fbYqiZDvPG4LJfAziULEWEqPCpNnZUjo5M3sxcvGu9ygN6Ph3dwQ62p7JS6DYGZVhDi",
       "yZokguCkCwAERZF3HwMdXpmEfPuUNncNTioiw9fTrYx3vZoSC11cQ7cHhKt9W7o6nPMdhGeVSZ1y8E1VvF2n8E9",
@@ -859,7 +858,8 @@
       "5euDtt9vzDEKonNTy9eYJ8KFuFVbPyFdqgsqVmVw53jp8sLeDfSNxgY22gRJmRX5LBR8kXqsm2fkP5fMHCuDuEh3",
       "2xN3eA5jky4tov8Ae8pUPAhKje1EzjHtB3FgWrxwwSUcZHrX3PD9JVEwd5kUJg1MsqGDYD6TUKGdmTuLivJPwcgQ",
       "4AQ1FPtimNNvLY2D3kGijmcLQCnb4UoV2SyvW7HPSUWMD7LX8QaPp2xFvCSVF35S3eaJbpQP1GiwrBjA7R9GApzr",
-      "453A9HhBnTdLrWsKFfWhViqwmj69FHp3tBSt54iLhe4RpLZHPsa91p2JqH5EeCWLQ1wxTzLThVZQGsvzYbJLjPGe"
+      "453A9HhBnTdLrWsKFfWhViqwmj69FHp3tBSt54iLhe4RpLZHPsa91p2JqH5EeCWLQ1wxTzLThVZQGsvzYbJLjPGe",
+      "3uVRpnSwuXjZp3uscm1XwnsJhZfQk5hCj4akYDUvdGCep989AsPp1k9SbkCw7kHPwBkW2SCgprD8rJ2nWjLxKcmC"
     ],
     "pending": [
       {
@@ -867,6 +867,12 @@
         "tokenAmount": 1531847.502593,
         "txHash": "4AQ1FPtimNNvLY2D3kGijmcLQCnb4UoV2SyvW7HPSUWMD7LX8QaPp2xFvCSVF35S3eaJbpQP1GiwrBjA7R9GApzr",
         "timestamp": "2026-11-21T03:31:43Z"
+      },
+      {
+        "usd": 7503.239900309868,
+        "tokenAmount": 1834807.456171,
+        "txHash": "3uVRpnSwuXjZp3uscm1XwnsJhZfQk5hCj4akYDUvdGCep989AsPp1k9SbkCw7kHPwBkW2SCgprD8rJ2nWjLxKcmC",
+        "timestamp": "2026-11-21T04:07:18Z"
       }
     ]
   },
@@ -1816,12 +1822,6 @@
       "0xab06850c81ef0e5e034524f9fa1da28ad3ae8470b7cc1251de2d6ddfa5bb70b1"
     ],
     "pending": [
-      {
-        "usd": 6730.56331129286,
-        "tokenAmount": 1945933547.68947,
-        "txHash": "0xeec7d93370252de9ab4a48a3a47b3cf5f235319d4eb6247c0491d1c1c3f72a6d",
-        "timestamp": "2026-11-20T22:11:47Z"
-      },
       {
         "usd": 8115.61367493171,
         "tokenAmount": 2344026903.08746,
