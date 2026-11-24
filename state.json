@@ -1996,14 +1996,7 @@
       "0x4be345c3187c4aae1a5472ced4fcb5788d15176925d539e4de3efc0b6055aff9",
       "0xdcaae10e96230af66b0135a8e1c35e1fe289e7fedb1c4d6e0f7c80ae50143052"
     ],
-    "pending": [
-      {
-        "usd": 9995.72376358982,
-        "tokenAmount": 124149623613.581,
-        "txHash": "0x4be345c3187c4aae1a5472ced4fcb5788d15176925d539e4de3efc0b6055aff9",
-        "timestamp": "2026-11-24T07:43:47Z"
-      }
-    ]
+    "pending": []
   },
   "ADI": {
     "initialized": true,
