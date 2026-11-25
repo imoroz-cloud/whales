@@ -7,14 +7,14 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2125292646751154614",
-    "avgEngagement": 50.712434144820406,
+    "lastSeenId": "2125369842358452236",
+    "avgEngagement": 48.998703901374284,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2125364489088283081",
-    "avgEngagement": 90.37053300387318,
+    "lastSeenId": "2125379358986506483",
+    "avgEngagement": 101.3320928203285,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2125364756630401321",
-    "avgEngagement": 39.996184958774435,
+    "lastSeenId": "2125372835426169121",
+    "avgEngagement": 47.10813062979947,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
@@ -85,8 +85,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2125294805479571878",
-    "avgEngagement": 233.09921440125868,
+    "lastSeenId": "2125369471955030306",
+    "avgEngagement": 177.56945008088107,
     "lastAlertUnix": 1793066844
   },
   "saylor": {
@@ -143,8 +143,8 @@
   },
   "inversebrah": {
     "initialized": true,
-    "lastSeenId": "2125351778200043748",
-    "avgEngagement": 58.47716347121131,
+    "lastSeenId": "2125376552234058008",
+    "avgEngagement": 27.95977686460648,
     "lastAlertUnix": 1793153250
   },
   "thecryptodog": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795561726
+    "lastCheckUnix": 1795565277
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2125346201289490594",
-    "avgEngagement": 85.58975727910779,
+    "lastSeenId": "2125380378395570613",
+    "avgEngagement": 62.91283009537545,
     "lastAlertUnix": 1793146049
   },
   "zelcore_io": {
@@ -192,14 +192,14 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2125344960870264863",
-    "avgEngagement": 59.8482055201421,
+    "lastSeenId": "2125376669255156147",
+    "avgEngagement": 57.19374386409947,
     "lastAlertUnix": 1793192882
   },
   "litecoin": {
     "initialized": true,
-    "lastSeenId": "2125233211890639306",
-    "avgEngagement": 84.75402137649853,
+    "lastSeenId": "2125377119811260682",
+    "avgEngagement": 71.32781496354897,
     "lastAlertUnix": 1793135250
   },
   "babydoge": {
