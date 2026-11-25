@@ -1515,11 +1515,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xbde559fb021a80f77b466bca02cca10503204571f666d37168561daf47dc9ba1",
-      "0x97f824a802e01b0ae1addf6d983bd2334022f69c1014e4e1d35b460ecf3426b7",
-      "0x11d0b172eb7afbb4666d50dd0bca8617fc58e0954fec2cb1c1461ebf807f7d30",
-      "0x4157e2867555353532ef8673ea216ecd1c12610be167ffa2a8b67c385fd5e290",
-      "0x3161f2630e329e7ac4390d5ed274a3d9ff05797de44cdfb7e34404d22aeafb2c",
       "0x1fbfc4fc7790e91b65cbf9696a9b8fd107bfa31e485f4dd154da3cb01e072edc",
       "0x0718ad2559024558fc45f11cad43139b429f691133b5bafe07b8a8b84b9b025a",
       "0x36191e0aebfe3d734487c6be1d08a4c07f8982c9abdea2356ccbe15f2b7a19db",
@@ -1814,9 +1809,39 @@
       "0xab0e17c0f04c554bc93276cd86f41c144e66f7a32b158b71a736a4a24f492ef7",
       "0x7a82bb1ac22ce0083ffdfe2427d5086a96d64807f9585aa1f33a5b2c99e87285",
       "0xecbc2c97bfdd11e0b7a491f156445f4c6dfe0e0ec324ddf00f3a94e8ea58e5bd",
-      "0x22d5ee134133b5aef9461241944e72c79e69c80445dead563cfb9e427027aad2"
+      "0x22d5ee134133b5aef9461241944e72c79e69c80445dead563cfb9e427027aad2",
+      "0xaf53fd3ddbc5ebf9f1edeea9b25bc32d7650f9c87921004c18856e0232eadac9",
+      "0x610cc5bb5a05e675393d526d54acf8c4ef57997c93105ed36581052d95119476",
+      "0x266db860fc8cc2b0c2994c904e70047fad20f91ff7b93830545f64a1b3a7f38d",
+      "0x8a79297edda97667eee0bd34b92c4b24040265808bd9625504dd87e0a21c4d8e",
+      "0x4dcc1b470f9e5ebd3ce357a5e536edd87d6889604607ffb2407aea6e6f1e5d9d"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 6380.26866445177,
+        "tokenAmount": 1942530324.1719,
+        "txHash": "0xaf53fd3ddbc5ebf9f1edeea9b25bc32d7650f9c87921004c18856e0232eadac9",
+        "timestamp": "2026-11-25T16:12:47Z"
+      },
+      {
+        "usd": 6337.17843870848,
+        "tokenAmount": 1928817786.72781,
+        "txHash": "0x610cc5bb5a05e675393d526d54acf8c4ef57997c93105ed36581052d95119476",
+        "timestamp": "2026-11-25T16:13:11Z"
+      },
+      {
+        "usd": 9907.92409728967,
+        "tokenAmount": 3010622150.74679,
+        "txHash": "0x266db860fc8cc2b0c2994c904e70047fad20f91ff7b93830545f64a1b3a7f38d",
+        "timestamp": "2026-11-25T16:13:59Z"
+      },
+      {
+        "usd": 6410.04062086312,
+        "tokenAmount": 1945585584.82158,
+        "txHash": "0x8a79297edda97667eee0bd34b92c4b24040265808bd9625504dd87e0a21c4d8e",
+        "timestamp": "2026-11-25T16:14:47Z"
+      }
+    ]
   },
   "ELON": {
     "initialized": true,
