@@ -13,20 +13,20 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2125560464385933723",
-    "avgEngagement": 84.98278468393282,
+    "lastSeenId": "2125575659632173318",
+    "avgEngagement": 67.80709514658895,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2125560873116975183",
-    "avgEngagement": 12.63263004670016,
+    "lastSeenId": "2125575485992124437",
+    "avgEngagement": 12.168992106018154,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2125560204540444780",
-    "avgEngagement": 65.71241993985204,
+    "lastSeenId": "2125570837319430494",
+    "avgEngagement": 72.8190857705275,
     "lastAlertUnix": 1793174843
   },
   "coingecko": {
@@ -37,14 +37,14 @@
   },
   "bitcoinmagazine": {
     "initialized": true,
-    "lastSeenId": "2125354977845449048",
-    "avgEngagement": 204.06713178597846,
+    "lastSeenId": "2125574099930059210",
+    "avgEngagement": 180.9469922501849,
     "lastAlertUnix": 1793192853
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2125372835426169121",
-    "avgEngagement": 47.10813062979947,
+    "lastSeenId": "2125570601318301924",
+    "avgEngagement": 42.41108880602121,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
@@ -73,8 +73,8 @@
   },
   "glassnode": {
     "initialized": true,
-    "lastSeenId": "2125520978575048823",
-    "avgEngagement": 143.36944227264857,
+    "lastSeenId": "2125564919097786668",
+    "avgEngagement": 111.15860959085398,
     "lastAlertUnix": 1793110045
   },
   "vitalikbuterin": {
@@ -91,8 +91,8 @@
   },
   "saylor": {
     "initialized": true,
-    "lastSeenId": "2125390580305846369",
-    "avgEngagement": 1475.6435687826263,
+    "lastSeenId": "2125574561735520444",
+    "avgEngagement": 1255.5504981478382,
     "lastAlertUnix": 1793106458
   },
   "willywoo": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795608495
+    "lastCheckUnix": 1795612079
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -192,8 +192,8 @@
   },
   "coindesk": {
     "initialized": true,
-    "lastSeenId": "2125547959039513082",
-    "avgEngagement": 63.07245414538611,
+    "lastSeenId": "2125568683066167470",
+    "avgEngagement": 70.25071790177027,
     "lastAlertUnix": 1793192882
   },
   "litecoin": {
@@ -210,14 +210,14 @@
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2125542823416267004",
-    "avgEngagement": 409.1103964766892,
+    "lastSeenId": "2125565407398691076",
+    "avgEngagement": 477.47727753368235,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
     "initialized": true,
-    "lastSeenId": "2125432789315285007",
-    "avgEngagement": 94.24524013162738,
+    "lastSeenId": "2125575242605310412",
+    "avgEngagement": 73.17166809213917,
     "lastAlertUnix": 1793200062
   },
   "cryptotea": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2125558869976059997",
-    "avgEngagement": 230.64658864505822,
+    "lastSeenId": "2125576486417797527",
+    "avgEngagement": 222.99682843607852,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
@@ -262,8 +262,8 @@
   },
   "swapspaceco": {
     "initialized": true,
-    "lastSeenId": "2125508807258464283",
-    "avgEngagement": 1.979068146252318,
+    "lastSeenId": "2125570647778644251",
+    "avgEngagement": 17.585347702376623,
     "lastAlertUnix": 1790010460
   },
   "coolwallet": {
@@ -343,8 +343,8 @@
   },
   "houdiniswap": {
     "initialized": true,
-    "lastSeenId": "2125358260819767333",
-    "avgEngagement": 9.11125300604361,
+    "lastSeenId": "2125564614100304024",
+    "avgEngagement": 12.077877104230527,
     "lastAlertUnix": 1793113683
   },
   "onekeyhq": {
@@ -421,8 +421,8 @@
   },
   "magnofinance": {
     "initialized": true,
-    "lastSeenId": "2125351609156747362",
-    "avgEngagement": 23.20572230105334
+    "lastSeenId": "2125563978101498165",
+    "avgEngagement": 26.144005610737338
   },
   "eidex_official": {
     "initialized": true,
