@@ -1410,9 +1410,18 @@
       "0xe2765c7d560a955a2a4223f984e6922c31eff4a3d355a99c7a3fcecd79f30781",
       "0xc31ef3e491dfb1ac3c79078fdfbdb3daef2652577df4e46623df96f297c961dc",
       "0x6a06c0abbd8a391d96b4b67c7bf936f5d3291ab31e8b39137dff03916cd3063c",
-      "0x72ba4e8f67938461fe03e825551cab10f922d499bb874cc31196cc45314da9c6"
+      "0x72ba4e8f67938461fe03e825551cab10f922d499bb874cc31196cc45314da9c6",
+      "0xdda396120d5833ae4f02d5c3f528c17fecc2167d0adf1e7970220bde1a8ebfad",
+      "0x80e814744e9b99dc3bfcd4d7ba701be9258ee9cfbc47daae4d60c3dd872bc065"
     ],
-    "pending": []
+    "pending": [
+      {
+        "usd": 5636.76040178051,
+        "tokenAmount": 339681782.255321,
+        "txHash": "0x80e814744e9b99dc3bfcd4d7ba701be9258ee9cfbc47daae4d60c3dd872bc065",
+        "timestamp": "2026-11-26T14:53:40Z"
+      }
+    ]
   },
   "BRETT": {
     "initialized": true,
@@ -1525,9 +1534,6 @@
   "PEPE": {
     "initialized": true,
     "seenHashes": [
-      "0xcb025b06c44c3377d8cfd614216be5c6172dfdaa802b8d4ec0e0e175b61244fe",
-      "0xd08dbc5ff8c129b72070f3bc714b57df79d37a0a1b10569e27e597a4762a84ee",
-      "0xf545bb4d43fdf38d13a01a23ae7f036f76abd6439814df1dc00d20751e9507fa",
       "0x8313de1ecb8a88d0260a5bfb3ee744f9ca4e8a55466544913fa146e900880ae3",
       "0x877b289d52b055673e1fea7ac0fd5d37b0d00ffdb8aee4f5c98ca939b5b39264",
       "0x2282a4fc2fee225e5eeb34fa6e04a490ad215e63b99d55739abe33fd8c9878ef",
@@ -1824,7 +1830,10 @@
       "0x7b10ed0780223bc8fec9cc5c07022dd40aba7ba4f06cbd1e09da3df80df4cb7a",
       "0xfce740a2423aea22bf6490be9f37b869737d5710ba71c26a1542db4fb7e848fc",
       "0x7c443775cda4c1abdc27357172c5175da6e6a819dc60944eb2386982daa030d6",
-      "0xdd2aac8b3ea623451412f3c85a009c04c9ca60b429a6914a4f7bf5da61aeb835"
+      "0xdd2aac8b3ea623451412f3c85a009c04c9ca60b429a6914a4f7bf5da61aeb835",
+      "0x1fc3f48743a99d2e6bc07ee50094b51a011cc1cd5196e2768ba0142fc6e254db",
+      "0x1d553997dcab9160add8f746deaf3d0156411483348cff03bab0ef9ee4c7c855",
+      "0x8a535278bd5e414392fec40d7ce95ce8050f831bd2621a9f48adfd68846efe9b"
     ],
     "pending": []
   },
