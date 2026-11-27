@@ -1417,14 +1417,7 @@
       "0x86976be6b01dac629783fc0ed5df2bacddfb42723d2a632dff5f8036008bdf99",
       "0xcbf85b1021c84b941e283701737cdc5fadca01c644dac08d2e710c1a4c2545e7"
     ],
-    "pending": [
-      {
-        "usd": 14619.99209257,
-        "tokenAmount": 872081705.1702,
-        "txHash": "0x86976be6b01dac629783fc0ed5df2bacddfb42723d2a632dff5f8036008bdf99",
-        "timestamp": "2026-11-27T00:39:15Z"
-      }
-    ]
+    "pending": []
   },
   "BRETT": {
     "initialized": true,
