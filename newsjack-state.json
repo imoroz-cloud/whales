@@ -13,14 +13,14 @@
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2126103785592205682",
-    "avgEngagement": 118.23761588369358,
+    "lastSeenId": "2126118875536203863",
+    "avgEngagement": 87.60643178300984,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2125987568827195735",
-    "avgEngagement": 17.99444858069672,
+    "lastSeenId": "2126120153092141113",
+    "avgEngagement": 12.661095863178973,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
@@ -43,8 +43,8 @@
   },
   "whale_alert": {
     "initialized": true,
-    "lastSeenId": "2125938642006770114",
-    "avgEngagement": 25.582968728294937,
+    "lastSeenId": "2126106791356268785",
+    "avgEngagement": 38.90807810980645,
     "lastAlertUnix": 1793203643
   },
   "lookonchain": {
@@ -85,8 +85,8 @@
   },
   "apompliano": {
     "initialized": true,
-    "lastSeenId": "2126017191728566618",
-    "avgEngagement": 83.13905498762709,
+    "lastSeenId": "2126120395795517619",
+    "avgEngagement": 58.49733849133896,
     "lastAlertUnix": 1793066844
   },
   "saylor": {
@@ -125,8 +125,8 @@
   },
   "crediblecrypto": {
     "initialized": true,
-    "lastSeenId": "2126067629895102498",
-    "avgEngagement": 141.0940840100988,
+    "lastSeenId": "2126110795008487651",
+    "avgEngagement": 216.36585880706917,
     "lastAlertUnix": 1793160471
   },
   "altcoindaily": {
@@ -176,12 +176,12 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795738075
+    "lastCheckUnix": 1795741660
   },
   "bitcoinarchive": {
     "initialized": true,
-    "lastSeenId": "2126101829478150249",
-    "avgEngagement": 64.40556275892561,
+    "lastSeenId": "2126105756650877149",
+    "avgEngagement": 92.18389393124792,
     "lastAlertUnix": 1793146049
   },
   "zelcore_io": {
@@ -393,8 +393,8 @@
   },
   "coinstoreexc": {
     "initialized": true,
-    "lastSeenId": "2125907435093434645",
-    "avgEngagement": 0.6730310068848672,
+    "lastSeenId": "2126118818607140937",
+    "avgEngagement": 1.3711217048194069,
     "lastAlertUnix": 1792829254
   },
   "bitexly": {
