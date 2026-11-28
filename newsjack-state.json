@@ -7,26 +7,26 @@
   },
   "wublockchain": {
     "initialized": true,
-    "lastSeenId": "2126574967928262908",
-    "avgEngagement": 73.75918360355806,
+    "lastSeenId": "2126633015753506907",
+    "avgEngagement": 56.13142852249064,
     "lastAlertUnix": 1793099244
   },
   "cointelegraph": {
     "initialized": true,
-    "lastSeenId": "2126586705352282478",
-    "avgEngagement": 70.2508724169523,
+    "lastSeenId": "2126632507953050051",
+    "avgEngagement": 63.57561069186661,
     "lastAlertUnix": 1793221644
   },
   "theblockco": {
     "initialized": true,
-    "lastSeenId": "2126585419785724010",
-    "avgEngagement": 6.952050201066812,
+    "lastSeenId": "2126631760771567860",
+    "avgEngagement": 9.166504598522737,
     "lastAlertUnix": 1793196454
   },
   "coinmarketcap": {
     "initialized": true,
-    "lastSeenId": "2126587128008106422",
-    "avgEngagement": 64.58011184362441,
+    "lastSeenId": "2126624400111784292",
+    "avgEngagement": 81.20607829053708,
     "lastAlertUnix": 1793174843
   },
   "coingecko": {
@@ -176,7 +176,7 @@
     "avgEngagement": 1123.9099999999999
   },
   "__meta": {
-    "lastCheckUnix": 1795860463
+    "lastCheckUnix": 1795864058
   },
   "bitcoinarchive": {
     "initialized": true,
@@ -204,14 +204,14 @@
   },
   "babydoge": {
     "initialized": true,
-    "lastSeenId": "2126606445391011859",
-    "avgEngagement": 57.22343486278619,
+    "lastSeenId": "2126633791833727003",
+    "avgEngagement": 43.84948308276523,
     "lastAlertUnix": 1792490849
   },
   "ashcrypto": {
     "initialized": true,
-    "lastSeenId": "2126588076248219972",
-    "avgEngagement": 299.131043129862,
+    "lastSeenId": "2126626554822508734",
+    "avgEngagement": 302.6917301909034,
     "lastAlertUnix": 1793189249
   },
   "cryptowendyo": {
@@ -228,8 +228,8 @@
   },
   "cryptorover": {
     "initialized": true,
-    "lastSeenId": "2126617926807719945",
-    "avgEngagement": 206.5297001194855,
+    "lastSeenId": "2126631465656181151",
+    "avgEngagement": 186.27079008363984,
     "lastAlertUnix": 1793200052
   },
   "bscgemsalert": {
